@@ -44,7 +44,7 @@
 ### Location
 **Definition** : A spatial region or named place. dcterms:Location class fully represents the ISA Programme Location Core Vocabulary class of Location.
 
-|     property    |     range          |     definition                                                                                  |     usage   note    |     cardinality    |
+|     property    |     datatype       |     definition                                                                                  |     usage   note    |     cardinality    |
 |-----------------|--------------------|-------------------------------------------------------------------------------------------------|---------------------|--------------------|
 |     address     |     Other class    |     The address property relationship   associates any resource with the locn:Address class.    |     /               |     [1..1]         |
 
