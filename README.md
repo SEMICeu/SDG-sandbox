@@ -26,7 +26,10 @@ Concerning the medium-term, the steps are:
 * Agreement on action points before starting the next phase and outputs to be handled into the next phase;
 * Delivery of the methodology to define data model
 
-More information can be found on the [SDG Confluence space](https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?pageId=221481401). If you do not have access, 
+More information can be found on the [SDG Confluence space](https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?pageId=221481401). 
+
+### Access to the SDG OOP collaborative space
+To have access to the SDG Once-Only collaborative space, you need to be a member of one of the groups that has permission to view/edit this space. The Single Digital Gateway Coordination Group members have been already subject to a formal nomination procedure and are responsible for indicating any changes to the access rights of their own experts: addition, remove etc. Please contact your SDG country representative if you wish to be granted access. 
 
 ## Types of evidence
 For the first round,  the WP4 will tasked to develop common data models for the following evidences; 
