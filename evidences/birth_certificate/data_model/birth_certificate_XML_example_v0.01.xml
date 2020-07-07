@@ -4,15 +4,15 @@
 	
 		<identifierBirthCertificate>
 			<Identifier>
-				<identifier>
+				<identifierIdentifier>
 					2732.2.I
-				</identifier>
+				</identifierIdentifier>
 				<identifierType>
 					Estratto-riassunto dell'atto di nascita
 				</identifierType>
-				<issuingAuthority>
+				<issuingAuthorityIdentifier>
 					Ufficio di Stato Civile del Comune di Roma
-				</issuingAuthority>
+				</issuingAuthorityIdentifier>
 			</Identifier>
 		</identifierBirthCertificate>
 		
@@ -20,21 +20,21 @@
 			<Birth>
 				<child>
 					<Person>
-						<identifier>
+						<identifierPerson>
 							<Identifiers>
 								<Identifier>
-									<identifier>
+									<identifierIdentifier>
 										MRRENN10S28H501A
-									</identifier>
+									</identifierIdentifier>
 									<identifierType>
 										Codice Fiscale
 									</identifierType>
-									<issuingAuthority>
+									<issuingAuthorityIdentifier>
 										Agenzia delle Entrate
-									</issuingAuthority>
+									</issuingAuthorityIdentifier>
 								</Identifier>
 							</Identifiers>
-						</identifier>
+						</identifierPerson>
 						<givenName>
 							Ennio
 						</givenName>
@@ -70,21 +70,21 @@
 				</child>
 				<parentOne>
 					<Person>
-						<identifier>
+						<identifierPerson>
 							<Identifiers>
 								<Identifier>
-									<identifier>
+									<identifierIdentifier>
 										MRRMRA03A03H501B
-									</identifier>
+									</identifierIdentifier>
 									<identifierType>
 										Codice Fiscale
 									</identifierType>
-									<issuingAuthority>
+									<issuingAuthorityIdentifier>
 										Agenzia delle Entrate
-									</issuingAuthority>
+									</issuingAuthorityIdentifier>
 								</Identifier>
 							</Identifiers>
-						</identifier>
+						</identifierPerson>
 						<givenName>
 							Mario
 						</givenName>
@@ -120,21 +120,21 @@
 				</parentOne>
 				<parentTwo>
 					<Person>
-						<identifier>
+						<identifierPerson>
 							<Identifiers>
 								<Identifier>
-									<identifier>
+									<identifierIdentifier>
 										RDLLBR05M65H501C
-									</identifier>
+									</identifierIdentifier>
 									<identifierType>
 										Codice Fiscale
 									</identifierType>
-									<issuingAuthority>
+									<issuingAuthorityIdentifier>
 										Agenzia delle Entrate
-									</issuingAuthority>
+									</issuingAuthorityIdentifier>
 								</Identifier>
 							</Identifiers>
-						</identifier>
+						</identifierPerson>
 						<givenName>
 							Libera
 						</givenName>
@@ -171,7 +171,7 @@
 			</Birth>
 		</certifies>
 		
-		<issuingAuthority>
+		<issuingAuthorityBirthCertificate>
 			<PublicOrganisation>
 				<prefLabels>
 					<prefLabel xml:lang="it">
@@ -180,23 +180,23 @@
 					<prefLabel xml:lang="en">
 						Registry Office of the Municipality of Rome
 					</prefLabel>
-				<identifier>
+				<identifierPublicOrganisation>
 					<Identifiers>
 						<Identifier>
-							<identifier>
+							<identifierIdentifier>
 								123.ABC.456
-							</identifier>
+							</identifierIdentifier>
 							<identifierType>
 								Italian Public Organisations
 							</identifierType>
-							<issuingAuthority>
+							<issuingAuthorityIdentifier>
 								Publications Office
-							</issuingAuthority>
+							</issuingAuthorityIdentifier>
 						</Identifier>
 					</Identifiers>
-				</identifier>
+				</identifierPublicOrganisation>
 			</PublicOrganisation>
-		</issuingAuthority>
+		</issuingAuthorityBirthCertificate>
 		
 		<issuingDate type="xs:date">
 			1928-11-12
