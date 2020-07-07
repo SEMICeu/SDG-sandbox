@@ -2,7 +2,7 @@
 
 	<BirthCertificate>
 	
-		<identifier>
+		<identifierBirthCertificate>
 			<Identifier>
 				<identifier>
 					2732.2.I
@@ -14,24 +14,26 @@
 					Ufficio di Stato Civile del Comune di Roma
 				</issuingAuthority>
 			</Identifier>
-		</identifier>
+		</identifierBirthCertificate>
 		
 		<certifies>
 			<Birth>
 				<child>
 					<Person>
 						<identifier>
-							<Identifier>
-								<identifier>
-									MRRENN10S28H501A
-								</identifier>
-								<identifierType>
-									Codice Fiscale
-								</identifierType>
-								<issuingAuthority>
-									Agenzia delle Entrate
-								</issuingAuthority>
-							</Identifier>
+							<Identifiers>
+								<Identifier>
+									<identifier>
+										MRRENN10S28H501A
+									</identifier>
+									<identifierType>
+										Codice Fiscale
+									</identifierType>
+									<issuingAuthority>
+										Agenzia delle Entrate
+									</issuingAuthority>
+								</Identifier>
+							</Identifiers>
 						</identifier>
 						<givenName>
 							Ennio
@@ -39,22 +41,17 @@
 						<familyName>
 							Morricone
 						</familyName>
-						<dateOfBirth>
+						<dateOfBirth type="xs:date">
 							1928-11-10
 						</dateOfBirth>
-						<gender>
-							<Code>
-								<Content>Male</Content>
-								<List>http://publications.europa.eu/resource/authority/human-sex</List>
-								<ListAgency>Publications Office</ListAgency>
-								<ListVersion>20170920-0</ListVersion>
-							</Code>
-						</gender>
-						<citizenship>
-							<Jurisdiction>
-								TO DO
-							</Jurisdiction>
-						</citizenship>
+						<gender id="http://publications.europa.eu/resource/authority/human-sex/MALE"/>
+						<citizenships>
+							<citizenship>
+								<Jurisdiction>
+									<place id="http://publications.europa.eu/resource/authority/country/ITA"/>
+								</Jurisdiction>
+							</citizenship>
+						</citizenships>
 						<placeOfBirth>
 							<Location>
 								<address>
@@ -74,17 +71,19 @@
 				<parentOne>
 					<Person>
 						<identifier>
-							<Identifier>
-								<identifier>
-									MRRMRA03A03H501B
-								</identifier>
-								<identifierType>
-									Codice Fiscale
-								</identifierType>
-								<issuingAuthority>
-									Agenzia delle Entrate
-								</issuingAuthority>
-							</Identifier>
+							<Identifiers>
+								<Identifier>
+									<identifier>
+										MRRMRA03A03H501B
+									</identifier>
+									<identifierType>
+										Codice Fiscale
+									</identifierType>
+									<issuingAuthority>
+										Agenzia delle Entrate
+									</issuingAuthority>
+								</Identifier>
+							</Identifiers>
 						</identifier>
 						<givenName>
 							Mario
@@ -92,22 +91,17 @@
 						<familyName>
 							Morricone
 						</familyName>
-						<dateOfBirth>
+						<dateOfBirth type="xs:date">
 							1903-01-03
 						</dateOfBirth>
-						<gender>
-							<Code>
-								<Content>Male</Content>
-								<List>http://publications.europa.eu/resource/authority/human-sex</List>
-								<ListAgency>Publications Office</ListAgency>
-								<ListVersion>20170920-0</ListVersion>
-							</Code>
-						</gender>
-						<citizenship>
-							<Jurisdiction>
-								TO DO
-							</Jurisdiction>
-						</citizenship>
+						<gender id="http://publications.europa.eu/resource/authority/human-sex/MALE"/>
+						<citizenships>
+							<citizenship>
+								<Jurisdiction>
+									<place id="http://publications.europa.eu/resource/authority/country/ITA"/>
+								</Jurisdiction>
+							</citizenship>
+						</citizenships>
 						<placeOfBirth>
 							<Location>
 								<address>
@@ -127,17 +121,19 @@
 				<parentTwo>
 					<Person>
 						<identifier>
-							<Identifier>
-								<identifier>
-									RDLLBR05M65H501C
-								</identifier>
-								<identifierType>
-									Codice Fiscale
-								</identifierType>
-								<issuingAuthority>
-									Agenzia delle Entrate
-								</issuingAuthority>
-							</Identifier>
+							<Identifiers>
+								<Identifier>
+									<identifier>
+										RDLLBR05M65H501C
+									</identifier>
+									<identifierType>
+										Codice Fiscale
+									</identifierType>
+									<issuingAuthority>
+										Agenzia delle Entrate
+									</issuingAuthority>
+								</Identifier>
+							</Identifiers>
 						</identifier>
 						<givenName>
 							Libera
@@ -145,22 +141,17 @@
 						<familyName>
 							Ridolfi
 						</familyName>
-						<dateOfBirth>
+						<dateOfBirth type="xs:date">
 							1905-08-25
 						</dateOfBirth>
-						<gender>
-							<Code>
-								<Content>Female</Content>
-								<List>http://publications.europa.eu/resource/authority/human-sex</List>
-								<ListAgency>Publications Office</ListAgency>
-								<ListVersion>20170920-0</ListVersion>
-							</Code>
-						</gender>
-						<citizenship>
-							<Jurisdiction>
-								TO DO
-							</Jurisdiction>
-						</citizenship>
+						<gender id="http://publications.europa.eu/resource/authority/human-sex/FEMALE"/>
+						<citizenships>
+							<citizenship>
+								<Jurisdiction>
+									<place id="http://publications.europa.eu/resource/authority/country/ITA"/>
+								</Jurisdiction>
+							</citizenship>
+						</citizenships>
 						<placeOfBirth>
 							<Location>
 								<address>
@@ -182,26 +173,32 @@
 		
 		<issuingAuthority>
 			<PublicOrganisation>
-				<prefLabel>
-					"Ufficio di Stato Civile del Comune di Roma"@it
-				</prefLabel>
+				<prefLabels>
+					<prefLabel xml:lang="it">
+						Ufficio di Stato Civile del Comune di Roma
+					</prefLabel>
+					<prefLabel xml:lang="en">
+						Registry Office of the Municipality of Rome
+					</prefLabel>
 				<identifier>
-					<Identifier>
-						<identifier>
-							123.ABC.456
-						</identifier>
-						<identifierType>
-							Italian Public Organisations
-						</identifierType>
-						<issuingAuthority>
-							Publications Office
-						</issuingAuthority>
-					</Identifier>
+					<Identifiers>
+						<Identifier>
+							<identifier>
+								123.ABC.456
+							</identifier>
+							<identifierType>
+								Italian Public Organisations
+							</identifierType>
+							<issuingAuthority>
+								Publications Office
+							</issuingAuthority>
+						</Identifier>
+					</Identifiers>
 				</identifier>
 			</PublicOrganisation>
 		</issuingAuthority>
 		
-		<issuingDate>
+		<issuingDate type="xs:date">
 			1928-11-12
 		</issuingDate>
 		
@@ -221,3 +218,5 @@
 		</issuingPlace>
 		
 	</BirthCertificate>
+	
+</xs:schema>
