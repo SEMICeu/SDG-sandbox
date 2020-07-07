@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<BirthCertificate>
+	
+		<identifier>
+			<Identifier>
+				<identifier>
+					2732.2.I
+				</identifier>
+				<identifierType>
+					Estratto-riassunto dell'atto di nascita
+				</identifierType>
+				<issuingAuthority>
+					Ufficio di Stato Civile del Comune di Roma
+				</issuingAuthority>
+			</Identifier>
+		</identifier>
+		
+		<certifies>
+			<Birth>
+				<child>
+					<Person>
+						<identifier>
+							<Identifier>
+								<identifier>
+									MRRENN10S28H501A
+								</identifier>
+								<identifierType>
+									Codice Fiscale
+								</identifierType>
+								<issuingAuthority>
+									Agenzia delle Entrate
+								</issuingAuthority>
+							</Identifier>
+						</identifier>
+						<givenName>
+							Ennio
+						</givenName>
+						<familyName>
+							Morricone
+						</familyName>
+						<dateOfBirth>
+							1928-11-10
+						</dateOfBirth>
+						<gender>
+							<Code>
+								<Content>Male</Content>
+								<List>http://publications.europa.eu/resource/authority/human-sex</List>
+								<ListAgency>Publications Office</ListAgency>
+								<ListVersion>20170920-0</ListVersion>
+							<Code>
+						</gender>
+						<citizenship>
+							<Jurisdiction>
+								TO DO
+							</Jurisdiction>
+						</citizenship>
+						<placeOfBirth>
+							<Location>
+								<address>
+									<Address>
+										<adminUnitL1>
+											IT
+										</adminUnitL1>
+										<postName>
+											Roma
+										</postName>
+									</Address>
+								</address>
+							</Location>
+						</placeOfBirth>
+					</Person>
+				</child>
+				<parentOne>
+					<Person>
+						<identifier>
+							<Identifier>
+								<identifier>
+									MRRMRA03A03H501B
+								</identifier>
+								<identifierType>
+									Codice Fiscale
+								</identifierType>
+								<issuingAuthority>
+									Agenzia delle Entrate
+								</issuingAuthority>
+							</Identifier>
+						</identifier>
+						<givenName>
+							Mario
+						</givenName>
+						<familyName>
+							Morricone
+						</familyName>
+						<dateOfBirth>
+							1903-01-03
+						</dateOfBirth>
+						<gender>
+							<Code>
+								<Content>Male</Content>
+								<List>http://publications.europa.eu/resource/authority/human-sex</List>
+								<ListAgency>Publications Office</ListAgency>
+								<ListVersion>20170920-0</ListVersion>
+							<Code>
+						</gender>
+						<citizenship>
+							<Jurisdiction>
+								TO DO
+							</Jurisdiction>
+						</citizenship>
+						<placeOfBirth>
+							<Location>
+								<address>
+									<Address>
+										<adminUnitL1>
+											IT
+										</adminUnitL1>
+										<postName>
+											Roma
+										</postName>
+									</Address>
+								</address>
+							</Location>
+						</placeOfBirth>
+					</Person>
+				</parentOne>
+				<parentTwo>
+					<Person>
+						<identifier>
+							<Identifier>
+								<identifier>
+									RDLLBR05M65H501C
+								</identifier>
+								<identifierType>
+									Codice Fiscale
+								</identifierType>
+								<issuingAuthority>
+									Agenzia delle Entrate
+								</issuingAuthority>
+							</Identifier>
+						</identifier>
+						<givenName>
+							Libera
+						</givenName>
+						<familyName>
+							Ridolfi
+						</familyName>
+						<dateOfBirth>
+							1905-08-25
+						</dateOfBirth>
+						<gender>
+							<Code>
+								<Content>Female</Content>
+								<List>http://publications.europa.eu/resource/authority/human-sex</List>
+								<ListAgency>Publications Office</ListAgency>
+								<ListVersion>20170920-0</ListVersion>
+							<Code>
+						</gender>
+						<citizenship>
+							<Jurisdiction>
+								TO DO
+							</Jurisdiction>
+						</citizenship>
+						<placeOfBirth>
+							<Location>
+								<address>
+									<Address>
+										<adminUnitL1>
+											IT
+										</adminUnitL1>
+										<postName>
+											Roma
+										</postName>
+									</Address>
+								</address>
+							</Location>
+						</placeOfBirth>
+					</Person>
+				</parentTwo>
+			</Birth>
+		</certifies>
+		
+		<issuingAuthority>
+			<PublicOrganisation>
+				<prefLabel>
+					"Ufficio di Stato Civile del Comune di Roma"@it
+				</prefLabel>
+				<identifier>
+					<Identifier>
+						<identifier>
+							123.ABC.456
+						</identifier>
+						<identifierType>
+							Italian Public Organisations
+						</identifierType>
+						<issuingAuthority>
+							Publications Office
+						</issuingAuthority>
+					</Identifier>
+				</identifier>
+			</PublicOrganisation>
+		</issuingAuthority>
+		
+		<issuingDate>
+			1928-11-12
+		</issuingDate>
+		
+		<issuingPlace>
+			<Location>
+				<address>
+					<Address>
+						<adminUnitL1>
+							IT
+						</adminUnitL1>
+						<postName>
+							Roma
+						</postName>
+					</Address>
+				</address>
+			</Location>
+		</issuingPlace>
+		
+	</BirthCertificate>
+	
+</xs:schema>
