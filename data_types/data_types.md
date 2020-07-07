@@ -250,13 +250,13 @@ In an XML representation, the following snippet illustrates the use of the legal
 
 Taking the RDF Schema for ADMS [ADMSRDF] as a guide, the Identifier data type should be used as follows:
 
-|   QName               |   adms: Identifier                                                                                                                                              |
-|   URI                 |   http://www.w3.org/ns/adms#Identifier                                                                                                                          |
-|   identifier          |   use skos:notation to provide the actual identifier (the Identifier class is effectively meaningless without this property and conceptually it is mandatory);  |
-|   identifier type     |   use dcterms:type to provide an identifier for the type of identifier issued (the identifier scheme);                                                          |
-|   date of issue       |   use dcterms:created                                                                                                                                           |
-|   issuing authority   |   use adms:schemeAgency                                                                                                                                         |
-|   issuing authority   |   use dcterms:creator                                                                                                                                           |
+- QName: adms: Identifier
+- URI: http://www.w3.org/ns/adms#Identifier
+- identifier: use skos:notation to provide the actual identifier (the Identifier class is effectively meaningless without this property and conceptually it is mandatory)
+- identifier type: use dcterms:type to provide an identifier for the type of identifier issued (the identifier scheme)
+- date of issue: use dcterms:created
+- issuing authority: use adms:schemeAgency
+- issuing authority: use dcterms:creator
 
 If required, adms:schemeVersion can be used to identify the version of the identifier scheme.
 
