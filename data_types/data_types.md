@@ -2,7 +2,26 @@
 
 Source: *This page is based on the [Core Vocabularies Business, Location and Person Specification v1.00](https://github.com/SEMICeu/Core-Person-Vocabulary/blob/master/releases/1.00/Core_Vocabularies-Business_Location_Person-Specification-v1.00.pdf).*
 
-## DateTime
+
+## Primitive data types
+
+For a full explanation on primitive datatypes, we refer to the [W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes](https://www.w3.org/TR/xmlschema11-2/#built-in-primitive-datatypes). Here we just give a quick overview of the relevant primitive datatypes and their definition.
+
+|   primitive datatype   |   definition
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   string               |   The string datatype represents character strings in XML.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   boolean              |   The boolean datatype represents the values of two-valued logic.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|   decimal              |   The decimal datatype represents a subset of the real numbers, which can be represented by decimal numerals. The ·value space· of decimal is the set of numbers that can be obtained by dividing an integer by a non-negative power of ten, i.e., expressible as i / 10n where i and n are integers and n ≥ 0. Precision is not reflected in this value space; the number 2.0 is not distinct from the number 2.00. The order relation on decimal is the order relation on real numbers, restricted to this subset.                                                                                                                                                                                                                 |
+|   float                |   The float datatype is patterned after the IEEE single-precision 32-bit floating point datatype [IEEE 754-2008]. Its value space is a subset of the rational numbers. Floating point numbers are often used to approximate arbitrary real numbers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   double               |   The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008]. Each floating point datatype has a value space that is a subset of the rational numbers. Floating point numbers are often used to approximate arbitrary real numbers.																																																																                                                                                                                                                                                |							
+|   duration             |   The duration datatype is a datatype that represents durations of time. The concept of duration being captured is drawn from those of [ISO 8601], specifically durations without fixed endpoints. For example, "15 days" (whose most common lexical representation in duration is "'P15D'") is a duration value; "15 days beginning 12 July 1995" and "15 days ending 12 July 1995" are not duration values. Duration can provide addition and subtraction operations between duration values and between duration/dateTime value pairs, and can be the result of subtracting dateTime values. However, only addition to dateTime is required for XML Schema processing and is defined in the function ·dateTimePlusDuration·.      |
+|   dateTime             |   The dateTime datatype represents instants of time, optionally marked with a particular time zone offset.  Values representing the same instant but having different time zone offsets are equal but not identical.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|   time                 |   The time datatype represents instants of time that recur at the same point in each calendar day, or that occur in some arbitrary calendar day.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   date                 |   The date datatype represents top-open intervals of exactly one day in length on the timelines of dateTime, beginning on the beginning moment of each day, up to but not including the beginning moment of the next day).  For non-timezoned values, the top-open intervals disjointly cover the non-timezoned timeline, one per day.  For timezoned values, the intervals begin at every minute and therefore overlap.                                                                                                                                                                                                                                                                                                             |
+|   anyURI               |   The anyURI datatype represents an Internationalized Resource Identifier Reference (IRI). An anyURI value can be absolute or relative, and may have an optional fragment identifier (i.e., it may be an IRI Reference). This type should be used when the value fulfills the role of an IRI, as defined in [RFC 3987] or its successor(s) in the IETF Standards Track.                                                                                                                                                                                                                                                                                                                                                              |
+
+
+### Date(Time)
 
 Dates recorded within public sector data sets exist in many different formats.
 In order to make those dates interoperable, it is important that they should be represented in a regular manner wherever possible.
@@ -85,7 +104,7 @@ For example, the following encodes the company type of "C18.01.02 - Other printi
   <Content>C18.01.02 - Other printing</Content>
   <List>NACE</List>
   <ListAgency>European Commission</ListAgency>
-  <ListVersion> Rev 2</ListVersion>
+  <ListVersion>Rev 2</ListVersion>
 <CompanyTypeCvbusinessCode>
 ```
 
@@ -223,7 +242,7 @@ In an XML representation, the following snippet illustrates the use of the legal
   <cbc:IssueDate>1967-08-13</cbc:IssueDate>
   <IssuingAuthority>String</IssuingAuthority>
   <IssuingAuthorityID>normalizedString</IssuingAuthorityID>
-  </LegalIdentifierCvidentifier>
+</LegalIdentifierCvidentifier>
 ```
 
 
@@ -240,19 +259,6 @@ Taking the RDF Schema for ADMS [ADMSRDF] as a guide, the Identifier data type sh
 |   issuing authority   |   use dcterms:creator                                                                                                                                           |
 
 If required, adms:schemeVersion can be used to identify the version of the identifier scheme.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
