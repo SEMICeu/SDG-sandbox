@@ -1,4 +1,4 @@
-# Birth certificate
+# Vehicle registration certificate
 
 ## Entities
 
@@ -44,37 +44,38 @@
 **Definition**: Any entity that is able to carry out actions.
 
 |     attribute                         |     expected type |     definition                                                                                                                                                                                                                                                                                                                                                                                                                               |     cardinality   |
-|---------------------------------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-|     identifier                        |     Identifier    |     The identifier relation is used to link a person to any formally issued Identifier for that person.                                                                                                                                                                                                                                                                                                                                      |     [1..*]        |
-|     given name                        |     string        |     A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names are ordered in one field so that, for example, the given name for Johan Sebastian Bach is “Johan Sebastian”.                                                               |     [1..1]        |
-|     family name                       |     string        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".     |     [1..1]        |
-|     registered location               |     Location      |     The registered Location of the Agent.                                                                                                                                                                                                                                                                                                                                                                                                    |     [1..1]        |                          
+|---------------------------------------|-------------------|----------------------------------------------------------------------------------------------------------------------|-------------------|
+|     identifier                        |     Identifier    |     The identifier relation is used to link an Agent to any formally issued Identifier for that Agent.               |     [1..*]        |
+|     registered location               |     Location      |     The registered Location of the Agent.                                                                            |     [1..1]        |                          
 
 
 ### Person
 **Definition**: An individual person who may be dead or alive, but not imaginary.
 
+**Subclass of**: Agent
+
 |     attribute           |     expected type |     definition                                                                                                                                                                                                                                                                                                                                                                                                                               |     cardinality   |
 |-------------------------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-|     identifier          |     Identifier    |     The identifier relation is used to link a person to any formally issued Identifier for that person.                                                                                                                                                                                                                                                                                                                                      |     [1..*]        |
 |     given name          |     string        |     A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names are ordered in one field so that, for example, the given name for Johan Sebastian Bach is “Johan Sebastian”.                                                               |     [1..1]        |
 |     family name         |     string        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".     |     [1..1]        |
 
 
 ### Public Organisation
 **Definition**: Any Organization that is defined as being part of the public sector by a legal framework at any level.
+
 **Subclass of**: Organisation
 
-*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.
+*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
 
 
 ### Organisation
 **Definition**: Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.
 
+**Subclass of**: Agent
+
 |     attribute        |     expected type  |     definition                                                                                                                                                                                                                                                                                                                                                                                |    cardinality     |
 |----------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
 |     preferred label  |     string         |     As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organization. An organization may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.                                                                            |    [1..*]          |
-|     identifier       |     Identifier     |     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.        |    [1..*]          |
 
 
 ### Location

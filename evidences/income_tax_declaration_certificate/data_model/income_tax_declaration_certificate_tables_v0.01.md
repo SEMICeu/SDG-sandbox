@@ -1,4 +1,4 @@
-# Birth certificate
+# Income tax declaration certificate
 
 ## Entities
 
@@ -27,6 +27,7 @@
 
 ### Tax Payer
 **Definition**: The start of life when a child emerges from the body of its parent.
+
 **Subclass of**: Person
 
 |     attribute              |     expected type |     definition                                                          |     cardinality    |
