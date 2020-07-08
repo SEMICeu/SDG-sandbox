@@ -10,7 +10,7 @@
 |     identifier           |     Identifier             |     An unambiguous reference to the Marriage Certificate.                             |     [1..1]         |
 |     issuing date         |     date                   |     The date on which the Marriage Certificate was issued.                            |     [1..1]         |
 |     certifies            |     Marriage               |     Attesting in a formal way that the Marriage is true.                              |     [1..1]         |
-|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Birth Certificate.              |     [1..1]         |
+|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Marriage Certificate.              |     [1..1]         |
 |     issuing place        |     Location               |     The Location where the Marriage Certificate was issued.                           |     [1..1]         |
 
 
@@ -19,7 +19,7 @@
 
 |     attribute       |     expected type |     definition                                            |     cardinality    |
 |------------------   |-------------------|-----------------------------------------------------------|--------------------|
-|     marriage date    |     Date        |     The date on which the marriage took place              |     [1..1]         |
+|     marriage date    |     date        |     The date on which the marriage took place              |     [1..1]         |
 
 ### Person
 **Definition**: An individual person who may be dead or alive, but not imaginary.
