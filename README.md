@@ -1,5 +1,5 @@
 # SDG-sandbox
-Welcome to the GiHub repository of Work Package 4 - Data Semantics, Formats & Quality 
+Welcome to the GitHub repository of Work Package 4 - Data Semantics, Formats & Quality. This space allows domain experts across EU member states to review data models to be used in the context of cross-border exchange of evidences. 
 
 ## SDG OOP
 The OOP Technical System is an eco-system involving a wide variety of systems distributed across and operated by the EU Member States, supported by the EC. To function effectively, and to allow Member States to integrate their existing systems, the system needs detailed semantics & formats agreement for these systems to interact and exchange data (evidences) in the context of the OOP system.
