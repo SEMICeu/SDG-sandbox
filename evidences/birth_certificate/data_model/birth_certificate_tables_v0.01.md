@@ -19,8 +19,8 @@
 
 |     attribute    |     expected type |     definition                                            |     cardinality    |
 |------------------|-------------------|-----------------------------------------------------------|--------------------|
-|     parentOne    |     Person        |     The first parent of the child.                        |     [1..1]         |
-|     parentTwo    |     Person        |     The second parent of the child.                       |     [1..1]         |
+|     parent one    |     Person        |     The first parent of the child.                        |     [1..1]         |
+|     parent two    |     Person        |     The second parent of the child.                       |     [1..1]         |
 |     child        |     Person        |     The Person who is born at the Birth.                  |     [1..1]         |
 
 
@@ -61,5 +61,5 @@
 |     attribute      |     expected type |     definition                                                                                                                                                                                                                    |     cardinality    |
 |--------------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
 |     post name      |     string        |     The key postal division of the address, usually the city. (INSPIRE's definition is "One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.").        |                                                                                                                                                                                                                                                                                            [1..1]         |
-|     adminUnitL1    |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.       |     [1..1]         |
+|     admin unit level 1    |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.       |     [1..1]         |
 
