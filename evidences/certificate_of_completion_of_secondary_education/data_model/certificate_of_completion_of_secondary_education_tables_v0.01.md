@@ -7,8 +7,8 @@
 
 |     attribute            |     expected type          |     definition                                                                                								|     cardinality    |
 |--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     studentIDNumber           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                             	|     [1..1]         |
-|     overall Grade        |     float                  |     A mark indicating a degree of accomplishment in school for the whole year.        								      	                |     [1..1]         |
+|     student ID number           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                             	|     [1..1]         |
+|     overall grade        |     float                  |     A mark indicating a degree of accomplishment in school for the whole year.        								      	                |     [1..1]         |
 |     issuing authority    |     Public Organisation    |     An Organization with official authority in charge of issuing Secondary Education Completion Certificate was issued.       |     [1..1]         |
 |     contains	           |     Course Result          |     The Course Results which the Seconduary Education Completion Certificate contains.             							              |     [1..*]         |
 |     belongs to           |     Student			          |     The Student to which the certificate belongs.          															     	                                |     [1..1]         |
@@ -19,7 +19,7 @@
 
 |     attribute    	|     expected type				   |     definition                                          			 											                                    |     cardinality    |
 |-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|
-|     ObtainedAt   	|     Education Institution        |     A place where Person goes to be educated.               													                            |     [1..1]         |
+|     obtained at   	|     Education Institution        |     A place where Person goes to be educated.               													                            |     [1..1]         |
 |     course name   |     String       				         |     Name given to a number of lectures or other matter dealing with a subject.              					            |     [1..1]         |
 |     course grade  |     String        			         |     A mark indicating a degree of accomplishment in school for a particular course.                 			        |     [1..1]         |
 
@@ -63,4 +63,4 @@
 |     attribute      |     expected type |     definition                                                                                                                                                  																	   |     cardinality    |
 |--------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
 |     post name      |     string        |     The key postal division of the address, usually the city. (INSPIRE's definition is "One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.").          |     [1..1]         |
-|     adminUnitL1    |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.         |     [1..1]         |
+|     admin unit level 1    |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.         |     [1..1]         |
