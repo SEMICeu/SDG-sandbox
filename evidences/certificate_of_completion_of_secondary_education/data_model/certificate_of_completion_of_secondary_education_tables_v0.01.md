@@ -7,7 +7,7 @@
 
 |     attribute            |     expected type          |     definition                                                                                								|     cardinality    |
 |--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                             	|     [1..1]         |
+|     studentIDNumber           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                             	|     [1..1]         |
 |     overall Grade        |     float                  |     A mark indicating a degree of accomplishment in school for the whole year.        								      	                |     [1..1]         |
 |     issuing authority    |     Public Organisation    |     An Organization with official authority in charge of issuing Secondary Education Completion Certificate was issued.       |     [1..1]         |
 |     contains	           |     Course Result          |     The Course Results which the Seconduary Education Completion Certificate contains.             							              |     [1..*]         |
@@ -15,7 +15,7 @@
  
 
 ### Course Result 
-**Definition**: Grade obtained after passing an exam as part of a course. 
+**Definition**: Grade obtained after after finishing/completing a course. 
 
 |     attribute    	|     expected type				   |     definition                                          			 											                                    |     cardinality    |
 |-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|
@@ -33,7 +33,7 @@
 |    name 					      |     String        		  |    a word or symbol used in logic to designate an entity.         		|     [1..1]         |
 
 ### Student
-**Definition**: A Person who attend school.
+**Definition**: A Person who attended school.
 
 |     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    |
 |--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|
