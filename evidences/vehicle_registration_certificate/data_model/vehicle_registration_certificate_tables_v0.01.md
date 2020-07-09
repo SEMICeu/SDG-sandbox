@@ -7,7 +7,7 @@
 
 |     attribute            |     expected type          |     definition                                                                                |     cardinality    |
 |--------------------------|----------------------------|-----------------------------------------------------------------------------------------------|--------------------|
-|     registrationNumber   |     Identifier             |     An unambiguous reference to the Birth Certificate.                                        |     [1..1]         |
+|     registration number  |     Identifier             |     An unambiguous reference to the Birth Certificate.                                        |     [1..1]         |
 |     certifies            |     Vehicle                |     The Vehicle that is the subject of the Certificate.                                       |     [1..1]         |
 |     validity date        |     Period                 |     The date on which the Birth Certificate was issued.                                       |     [1..1]         |
 |     registrationDate     |     date                   |     The date on which the Vehicle was registered.                                             |     [1..1]         |
