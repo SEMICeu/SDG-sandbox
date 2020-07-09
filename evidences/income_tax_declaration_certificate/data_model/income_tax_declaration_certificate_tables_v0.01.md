@@ -32,7 +32,7 @@
 
 |     attribute              |     expected type |     definition                                                          |     cardinality    |
 |----------------------------|-------------------|-------------------------------------------------------------------------|--------------------|
-|     nationalFiscalNumber   |     Identifier    |     An unambiguous reference to the Tax Payer.                          |     [1..1]         |
+|     national fiscal number |     Identifier    |     An unambiguous reference to the Tax Payer.                          |     [1..1]         |
 |     domicile               |     Location      |     A Person's fixed, permanent and principal home for legal purposes.  |     [0..1]         |
 
 
