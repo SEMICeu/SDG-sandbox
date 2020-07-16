@@ -2,9 +2,9 @@
 
 ## General approach
 
-Multilingual aspects related to the evidence descriptions concern all attributes whose contents are expressed as strings with human-readable text. Wherever such properties are used, the string values are of one of two types:
-•	The string is free text. Examples are descriptions and labels. Such text may be translated into several languages.
-•	The string is an appellation of a ‘named entity’. Examples are names of organisations or persons. These names may have parallel versions in other languages but those versions don’t need to be literal translations.
+Multilingual aspects related to the evidence descriptions concern all attributes whose contents are expressed as strings with human-readable text. Wherever such attributes are used, the string values are of one of two types:
+* The string is free text. Examples are descriptions and labels. Such text may be translated into several languages.
+* The string is an appellation of a ‘named entity’. Examples are names of organisations or persons. These names may have parallel versions in other languages but those versions don’t need to be literal translations.
 
 Wherever values of attributes are expressed with either type of string, the attribute can be repeated with translations in the case of free text and with parallel versions in case of named entities. 
 For free text, e.g. in the cases of titles, descriptions and keywords, the language tag is mandatory. For named entities, the language tag is optional and should only be provided if the parallel version of the name is strictly associated with a particular language. For example, the name ‘European Union’ has parallel versions in all official languages of the union, while a name like ‘W3C’ is not associated with a particular language and has no parallel versions.
