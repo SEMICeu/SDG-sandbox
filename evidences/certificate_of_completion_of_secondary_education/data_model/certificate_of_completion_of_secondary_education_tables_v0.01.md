@@ -3,7 +3,7 @@
 ## Entities
 
 ### Secondary Education Completion Certificate
-**Definition**: Official document proving the Secondary Education Completion of a Person. 
+**Definition**: Official document proving the Secondary Education Completion of a Student. 
 
 |     attribute            |     expected type          |     definition                                                                                								|     cardinality    |
 |--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|
