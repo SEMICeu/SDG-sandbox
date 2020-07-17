@@ -5,16 +5,16 @@
 ### Vehicle Registration Certificate
 **Definition**: Official document proving the registration of a Vehicle. 
 
-|     attribute            |     expected type          |     definition                                                                                |     cardinality    |
-|--------------------------|----------------------------|-----------------------------------------------------------------------------------------------|--------------------|
-|     registration number  |     Identifier             |     An unambiguous reference to the Birth Certificate.                                        |     [1..1]         |
-|     certifies            |     Vehicle                |     The Vehicle that is the subject of the Certificate.                                       |     [1..1]         |
-|     validity date        |     Period                 |     The date on which the Birth Certificate was issued.                                       |     [1..1]         |
-|     registrationDate     |     date                   |     The date on which the Vehicle was registered.                                             |     [1..1]         |
-|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Birth Certificate. |     [1..1]         |
-|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                 |     [1..1]         |
-|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                            |     [1..*]         |
-|     holder               |     Agent                  |     The holder of the Vehicle Registration Certificate.                                       |     [1..1]         |
+|     attribute            |     expected type          |     definition                                                                                                 |     cardinality    |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------|--------------------|
+|     registration number  |     Identifier             |     An unambiguous reference to the Vehicle Registration Certificate.                                          |     [1..1]         |
+|     certifies            |     Vehicle                |     The Vehicle that is the subject of the Certificate.                                                        |     [1..1]         |
+|     validity date        |     Period                 |     The date on which the Vehicle Registration Certificate was issued.                                         |     [1..1]         |
+|     registration date    |     date                   |     The date on which the Vehicle was registered.                                                              |     [1..1]         |
+|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Vehicle Registration Certificate.   |     [1..1]         |
+|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                                  |     [1..1]         |
+|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                                             |     [1..*]         |
+|     holder               |     Agent                  |     The holder of the Vehicle Registration Certificate.                                                        |     [1..1]         |
 
 
 ### Vehicle
