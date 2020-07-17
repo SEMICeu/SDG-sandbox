@@ -26,7 +26,7 @@
 
 
 ### Tax Payer
-**Definition**: The start of life when a child emerges from the body of its parent.
+**Definition**: A Person subject to pay an income tax.
 
 **Subclass of**: Person
 
