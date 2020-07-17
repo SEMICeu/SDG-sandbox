@@ -33,7 +33,7 @@
 
 
 ### Education Institution
-**Definition**: An Orgnanisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.
+**Definition**: An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.
 
 **Subclass of**: Organisation
 
