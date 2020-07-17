@@ -11,15 +11,18 @@
 |     issuing date         |     date                   |     The date on which the Marriage Certificate was issued.                                            |     [1..1]         |
 |     certifies            |     Marriage               |     Attesting in a formal way that the Marriage is true.                                              |     [1..1]         |
 |     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Marriage Certificate.      |     [1..1]         |
-|     issuing place        |     Location               |     The Location where the Marriage Certificate was issued.                                           |     [1..1]         |
+|     issuing place        |     Location               |     The Location where the Marriage Certificate was issued.                                           |     [0..1]         |
 
 
 ### Marriage
 **Definition**: A legally accepted relationship between two people in which they live together.
 
-|     attribute       |     expected type |     definition                                            |     cardinality    |
-|---------------------|-------------------|-----------------------------------------------------------|--------------------|
-|     marriage date   |     date          |     The date on which the marriage took place             |     [1..1]         |
+|     attribute          |     expected type |     definition                                            |     cardinality    |
+|------------------------|-------------------|-----------------------------------------------------------|--------------------|
+|     marriage date      |     date          |     The date on which the marriage took place.            |     [1..1]         |
+|     place of marriage  |     Location      |     The Location where the marriage took place.           |     [1..1]         |
+|     spouse one         |     Person        |     One of the two Persons that got married.              |     [1..1]         |
+|     spouse two         |     Person        |     The other of the two Persons that got married.        |     [1..1]         |
 
 ### Person
 **Definition**: An individual person who may be dead or alive, but not imaginary.

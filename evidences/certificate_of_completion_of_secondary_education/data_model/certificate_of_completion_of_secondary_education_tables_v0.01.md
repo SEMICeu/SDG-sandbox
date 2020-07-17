@@ -7,21 +7,37 @@
 
 |     attribute            |     expected type          |     definition                                                                                								|     cardinality    |
 |--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                             	|     [1..1]         |
-|     overall grade        |     float                  |     A mark indicating a degree of accomplishment in school for the whole year.        								      	                |     [1..1]         |
-|     issuing authority    |     Public Organisation    |     An Organization with official authority in charge of issuing Secondary Education Completion Certificate was issued.       |     [1..1]         |
-|     contains	           |     Course Result          |     The Course Results which the Seconduary Education Completion Certificate contains.             							              |     [1..*]         |
-|     belongs to           |     Student			    |     The Student to which the certificate belongs.          															     	                                |     [1..1]         |
+|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                |     [1..1]         |
+|     overall grade        |     float                  |     A mark indicating a degree of accomplishment for the whole year.        								      	            |     [1..1]         |
+|     issuing authority    |     Public Organisation    |     The Organisation that issued the Secondary Education Completion Certificate.                                              |     [1..1]         |
+|     contains	           |     Course Result          |     The Course Results which the Seconduary Education Completion Certificate contains.             							|     [0..*]         |
+|     belongs to           |     Student			    |     The Student to which the certificate belongs.          															     	|     [1..1]         |
  
 
 ### Course Result 
 **Definition**: Grade obtained after after finishing/completing a course. 
 
-|     attribute    	|     expected type				   |     definition                                          			 											                                    |     cardinality    |
+|     attribute    	|     expected type				   |     definition                                          			 											  |     cardinality    |
 |-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|
-|     obtained at   |     Education Institution        |     A place where Person goes to be educated.               													                            |     [1..1]         |
-|     course name   |     string       			       |     Name given to a number of lectures or other matter dealing with a subject.              					            |     [1..1]         |
-|     course grade  |     float          		       |     A mark indicating a degree of accomplishment in school for a particular course.                 			        |     [1..1]         |
+|     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [1..1]         |
+|     course name   |     string       			       |     Name given to a number of lectures or other matter dealing with a subject.              					  |     [1..1]         |
+|     course grade  |     float          		       |     A mark indicating a degree of accomplishment for a particular course.                            			  |     [1..1]         |
+
+
+### Education Institution 
+**Definition**: An Organisation with official authority in charge of issuing Secondary Education Completion Certificates.
+
+**Subclass of**: Organisation
+
+*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
+
+
+### Education Institution
+**Definition**: An Orgnanisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.
+
+**Subclass of**: Organisation
+
+*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
 
 
 ### Organization
@@ -29,8 +45,8 @@
 
 |     attribute   		  |     expected type  		|     definition                                                                                  																																																																									  |     cardinality    |
 |-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|    identifier           |     Identifier     		|     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.                      |    [1..*]          |
-|    name 			      |     string        		|    a word or symbol used in logic to designate an entity.         		|     [1..1]         |
+|    identifier           |     Identifier     		|     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.              |    [1..*]          |
+|    name 			      |     string        		|     A word or combination of words by which the Organisation is designated, called or known.         		                                                                                                                                                                                                                                                                                          |     [1..1]         |
 
 ### Student
 **Definition**: A Person who attended school.
@@ -48,7 +64,7 @@
 |     given name          |     string        |     A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names are ordered in one field so that, for example, the given name for Johan Sebastian Bach is “Johan Sebastian”.                                                                  |     [1..1]        |
 |     family name         |     string        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".        |     [1..1]        |
 |     date of birth       |     date          |     A date that specifies the birth date of a person.                                                                                                                                                                                                                                                                                                                                                                                           |     [1..1]        |
-|     place of birth      |     Location      |     The Location where a Person was born.                                                                                                                                                                                                                                                                                                                                                                                           |     [1..1]        |
+|     place of birth      |     Location      |     The Location where a Person was born.                                                                                                                                                                                                                                                                                                                                                                                                       |     [0..1]        |
 
 ### Location
 **Definition**: A spatial region or named place.
