@@ -6,3 +6,6 @@ This folder contains the various steps that together make up the methodology use
 
 - [Step 1: lorem ipsum](step1.md)
 - [Step 2: dolor sit amet](step2.md)
+
+## Process
+
