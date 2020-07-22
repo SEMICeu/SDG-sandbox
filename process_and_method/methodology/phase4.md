@@ -9,8 +9,8 @@
 - [Step 17. Harmonise, entities, attributes and descriptions across the data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
 - [Step 18. Update draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-18-update-draft-data-model)
 
-[:arrow_left: Previous phase]()
-[Next phase :arrow_right:]()
+[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase3.md)
+[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase5.md)
 
 ## Step 13. Review draft data model
 ![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
