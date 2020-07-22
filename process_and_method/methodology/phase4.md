@@ -10,6 +10,7 @@ The editors process the comments received and propose solutions.
 
 ![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Description**
 
+
 Each published draft of the Data Model is reviewed by the Review Group. 
 The Working Group and the editors agree on a tool to collaborate and capture the feedback.
 The reviewers create issues in the tool. When comments are received outside of the collaborative tool, the editor creates an issue in the issue tracker for each comment. 
@@ -17,13 +18,68 @@ The reviewers create issues in the tool. When comments are received outside of t
 The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed the comment. The editors propose a solution to the issue and seek for additional contribution from the reviewers when needed in collaboration with the moderator and rapporteur.
 
 The moderators make sure that the agreement process is transparent for all reviewers.
+The Review Group must resolve each comment in one of three ways:
+* Accepted: This usually means that changes will be made that will be reflected in the next draft.
+*	Rejected: No changes will be made to the draft.
+*	Partially accepted: Some of the comment is accepted but other parts are rejected.
+
+After consideration of the comment, the editor records the resolution and sends a response to
+the reviewer. To a semantic issue, the response usually includes a summary of the context of the issue, the resolution agreed by the Review Group and the justification for the resolution, particularly in case the issue is rejected.
+
+The issues can be categorised in different ways. For example:
+*	**Editorial issues**
+  Bug-fixes such as spaces, typos or small errors within the data models can directly be corrected by the editorial team who presents a summary of all editorial issues in the     next meeting following the correction.
+  
+*	**Semantic issues**
+  Issues concerning for instance the definitions used, the data type, the name of the entity or the namespace referred. The editors propose a resolution to the issue through the   collaborative tool, asking for further information to the Review Group when necessary. The proposed resolutions are discussed with the Working Group in the next meeting         following the issue creation  or directly via the collaborative tool.
+
+Semantic issues include the proposition of enhancements to the data model published or the proposition of additional attributes or entities that are not present in the model. For further details about these two types of contribution, please check the dedicated steps.
+
+![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Rules and guidelines**
+- [ ] Creation of issues: to the maximal extent, contributors should be encouraged to directly create their issues on the collaborative tool.
+- [ ] Use labelling and tagging for increasing searchability and responsiveness of contributors.
+- [ ] Consider your audience for deciding how to present and discuss issues:
+    - Presentation: technical vs business oriented
+    - Voting mechanism: see consensus
+- [ ] Give some structure or agree on issue naming for increasing comprehension of the issues. For example: 
 
 
-|- Tools|test|
-|---|---|
-| - Issue tracker and collaborative tool|test|
-### - Tools
+```diff
++ Name of the data model or sub-part (e.g. relevant entity): | short statement of the issue
+- VehicleRegistrationCertificate evidence should contain registration status
+```
+![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Tool**
+Key aspects to consider:
+*	Proprietary vs open access: 
+```diff
++ Are there licences or other requirements for accessing the tool? 
+! GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address. Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
 
+```
+*	Archiving and persistence: 
+```diff
++ Who is owning and maintaining the tool? 
+! GitHub: GitHub, Inc. owned by Microsoft is the organisation owning GitHub.
++ Has the owner engaged to store the content for a certain period? 
+! GitHub intends to keep public repositories available except if specific conditions are met (such as violation of Terms of Service).
+```
+*	User-friendliness and adoption
+```diff
++ What is the current level of adoption of the tool?
+! GitHub: most of the Working Group members are familiar with GitHub.
++ How easily can someone learn the basics?
+! GitHub: Accessing and creating issues in GitHub is straightforward and well-documented. Additional features can be learnt along the way.
+```
+*	Security
+```diff
++ Is the content restricted?
+! GitHub: There are no access restrictions for public repositories. 
+```
+*	Licensing
+```diff
++ What are the licensing conditions?
+! GitHub: For public repositories, the administrator can decide which licence applies. GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
+```
 
 ```diff
 - text in red
@@ -32,36 +88,3 @@ The moderators make sure that the agreement process is transparent for all revie
 # text in gray
 @@ text in purple (and bold)@@
 ```
-
-Key aspects to consider:
-•	Proprietary vs open access: 
-o	Are there licences or other requirements for accessing the tool? 
-•	Archiving and persistence: 
-o	Who is owning and maintaining the tool? 
-o	Has the owner engaged to store the content for a certain period? 
-•	User-friendliness and adoption
-o	What is the current level of adoption of the tool?
-o	How easily can someone learn the basics?
-•	Security
-o	Is the content restricted?
-•	Licensing
-o	What are the licensing conditions?
-
-GitHub
-•	Proprietary vs open access: 
-o	For contributing to a public repository, GitHub asks to create an account with a valid email address. 
-o	Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free.
-•	Archiving and persistence: 
-o	GitHub, Inc. owned by Microsoft is the organisation owning GitHub.
-o	GitHub intends to keep public repositories available except if specific conditions are met (such as violation of Terms of Service).
-•	User-friendliness and adoption
-o	Most of the Working Group members are familiar with GitHub.
-o	Accessing and creating issues in GitHub is straightforward and well-documented. Additional features can be learnt along the way.
-•	Security
-o	There are no access restrictions for public repositories. 
-•	Licensing
-o	For public repositories, the administrator can decide which licence applies. GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
-
-Atlassian Jira
-```
-
