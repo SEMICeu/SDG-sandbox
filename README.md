@@ -36,7 +36,7 @@ For the first round,  the WP4 will tasked to develop common data models for the 
 
 * [Birth certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
 * [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
-* [Vehicule registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
+* [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
 * [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
 * [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
 
