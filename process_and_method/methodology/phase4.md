@@ -22,27 +22,27 @@ The editors process the comments received and propose solutions.
 
 ![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
 
-Each published draft of the Data Model is reviewed by the Review Group. 
+Each published draft of the Data Model is reviewed by the Working Group and domain experts when relevant. 
 The Working Group and the editors agree on a tool to collaborate and capture the feedback.
 The reviewers create issues in the tool. When comments are received outside of the collaborative tool, the editor creates an issue in the issue tracker for each comment. 
 
 The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed the comment. The editors propose a solution to the issue and seek for additional contribution from the reviewers when needed in collaboration with the moderator and rapporteur.
 
 The moderators make sure that the agreement process is transparent for all reviewers.
-The Review Group must resolve each comment in one of three ways:
+The Working Group must resolve each comment in one of three ways:
 * Accepted: This usually means that changes will be made that will be reflected in the next draft.
 *	Rejected: No changes will be made to the draft.
 *	Partially accepted: Some of the comment is accepted but other parts are rejected.
 
 After consideration of the comment, the editor records the resolution and sends a response to
-the reviewer. To a semantic issue, the response usually includes a summary of the context of the issue, the resolution agreed by the Review Group and the justification for the resolution, particularly in case the issue is rejected.
+the reviewer. To a semantic issue, the response usually includes a summary of the context of the issue, the resolution agreed by the Working Group and the justification for the resolution, particularly in case the issue is rejected.
 
 The issues can be categorised in different ways. For example:
 *	**Editorial issues**
   Bug-fixes such as spaces, typos or small errors within the data models can directly be corrected by the editorial team who presents a summary of all editorial issues in the     next meeting following the correction.
   
 *	**Semantic issues**
-  Issues concerning for instance the definitions used, the data type, the name of the entity or the namespace referred. The editors propose a resolution to the issue through the   collaborative tool, asking for further information to the Review Group when necessary. The proposed resolutions are discussed with the Working Group in the next meeting         following the issue creation  or directly via the collaborative tool.
+  Issues concerning for instance the definitions used, the data type, the name of the entity or the namespace referred. The editors propose a resolution to the issue through the   collaborative tool, asking for further information to the Working Group when necessary. The proposed resolutions are discussed with the Working Group in the next meeting         following the issue creation  or directly via the collaborative tool.
 
 Semantic issues include the proposition of enhancements to the data model published or the proposition of additional attributes or entities that are not present in the model. For further details about these two types of contribution, please check the dedicated steps.
 
