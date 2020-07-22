@@ -3,13 +3,14 @@
 
 **Quick links:**
 - [Step 13. Review draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-13-review-draft-data-model)
-- [Step 14. Proposition enhancements]()
-- [Step 15. Propose additional attributes]()
-- [Step 16. Perform semantic mapping of attributes]()
-- [Step 17. Harmonise, entities, attributes and descriptions across the data model]()
-- [Step 18. Update draft data model]()
+- [Step 14. Proposition enhancements](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
+- [Step 15. Propose additional attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes)
+- [Step 16. Perform semantic mapping of attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-16-perform-semantic-mapping-of-attributes)
+- [Step 17. Harmonise, entities, attributes and descriptions across the data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
+- [Step 18. Update draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-18-update-draft-data-model)
 
-:arrow_left:Previous phase                                         Next phase :arrow_right:
+[:arrow_left: Previous phase]()
+[Next phase :arrow_right:]()
 
 ## Step 13. Review draft data model
 ![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
