@@ -1,27 +1,29 @@
 # Phase 4 of the methodology
 ## Step 13. Review draft data model
 
+![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
 ```
-**Step 13**
 The Working Group members directly review the proposed model and/or contact domain experts for reviewing it.
 
 The editors process the comments received and propose solutions.
 ```
 
-![#0175DB](https://via.placeholder.com/100x50/0175DB/000000?text=Step+13)
+![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Description**
 
-|```diff
-- Tools|test|
-|---|---|
-| - Issue tracker and collaborative tool|test|
+Each published draft of the Data Model is reviewed by the Review Group. 
+The Working Group and the editors agree on a tool to collaborate and capture the feedback.
+The reviewers create issues in the tool. When comments are received outside of the collaborative tool, the editor creates an issue in the issue tracker for each comment. 
 
-```diff
+The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed the comment. The editors propose a solution to the issue and seek for additional contribution from the reviewers when needed in collaboration with the moderator and rapporteur.
+
+The moderators make sure that the agreement process is transparent for all reviewers.
+
 
 |- Tools|test|
 |---|---|
 | - Issue tracker and collaborative tool|test|
 ### - Tools
-```
+
 
 ```diff
 - text in red
