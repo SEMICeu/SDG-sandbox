@@ -8,8 +8,7 @@ The Working Group members directly review the proposed model and/or contact doma
 The editors process the comments received and propose solutions.
 ```
 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Description**
-
+![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
 
 Each published draft of the Data Model is reviewed by the Review Group. 
 The Working Group and the editors agree on a tool to collaborate and capture the feedback.
@@ -35,7 +34,8 @@ The issues can be categorised in different ways. For example:
 
 Semantic issues include the proposition of enhancements to the data model published or the proposition of additional attributes or entities that are not present in the model. For further details about these two types of contribution, please check the dedicated steps.
 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Rules and guidelines**
+![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+
 - [ ] Creation of issues: to the maximal extent, contributors should be encouraged to directly create their issues on the collaborative tool.
 - [ ] Use labelling and tagging for increasing searchability and responsiveness of contributors.
 - [ ] Consider your audience for deciding how to present and discuss issues:
@@ -46,40 +46,50 @@ Semantic issues include the proposition of enhancements to the data model publis
 
 ```diff
 + Name of the data model or sub-part (e.g. relevant entity): | short statement of the issue
-- VehicleRegistrationCertificate evidence should contain registration status
+! VehicleRegistrationCertificate evidence should contain registration status
 ```
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Tool**
+![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
+
 Key aspects to consider:
-*	Proprietary vs open access: 
+*	**Proprietary vs open access:** 
 ```diff
 + Are there licences or other requirements for accessing the tool? 
-! GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address. Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
+! GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address. 
+Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
 
 ```
-*	Archiving and persistence: 
+*	**Archiving and persistence:** 
 ```diff
 + Who is owning and maintaining the tool? 
 ! GitHub: GitHub, Inc. owned by Microsoft is the organisation owning GitHub.
 + Has the owner engaged to store the content for a certain period? 
 ! GitHub intends to keep public repositories available except if specific conditions are met (such as violation of Terms of Service).
 ```
-*	User-friendliness and adoption
+*	**User-friendliness and adoption**
 ```diff
 + What is the current level of adoption of the tool?
 ! GitHub: most of the Working Group members are familiar with GitHub.
 + How easily can someone learn the basics?
 ! GitHub: Accessing and creating issues in GitHub is straightforward and well-documented. Additional features can be learnt along the way.
 ```
-*	Security
+*	**Security**
 ```diff
 + Is the content restricted?
 ! GitHub: There are no access restrictions for public repositories. 
 ```
-*	Licensing
+*	**Licensing**
 ```diff
 + What are the licensing conditions?
-! GitHub: For public repositories, the administrator can decide which licence applies. GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
+! GitHub: For public repositories, the administrator can decide which licence applies. 
+GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
 ```
+
+![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+
+```
+TBD
+```
+
 
 ```diff
 - text in red
