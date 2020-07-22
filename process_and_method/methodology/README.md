@@ -4,7 +4,10 @@ This folder contains the various steps that together make up the methodology use
 
 ## Process
 
+Key phaess of the process
 ![Key phases](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_Phasesv0.03.jpg)
+
+Detailed process
 ![Overview of the process](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_v0.03.jpg)
 
 ## Phases
