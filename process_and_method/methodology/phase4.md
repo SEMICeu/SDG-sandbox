@@ -2,7 +2,7 @@
 ## Step 13. Review draft data model
 
 ```
-Step 13
+**Step 13**
 The Working Group members directly review the proposed model and/or contact domain experts for reviewing it.
 
 The editors process the comments received and propose solutions.
