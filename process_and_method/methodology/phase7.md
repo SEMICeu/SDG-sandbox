@@ -1,5 +1,5 @@
 # Phase 7: Create distributions and publish documentation
-![Process_Phase 7](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_Phase5_v0.03.jpg)
+![Process_Phase 7]()
 
 **Quick links:**
 - [Step 26. ]()
