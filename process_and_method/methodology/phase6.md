@@ -5,8 +5,8 @@
 - [Step 24. ]()
 - [Step 25. ]()
 
-[:arrow_left: Previous phase]()
-[Next phase :arrow_right:]()
+[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase5.md)
+[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase7.md)
 
 ## Step 24. 
 ![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
