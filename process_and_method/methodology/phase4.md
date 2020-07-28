@@ -26,7 +26,11 @@ Each published draft of the Data Model is reviewed by the Working Group and doma
 The Working Group and the editors agree on a tool to collaborate and capture the feedback.
 The reviewers create issues in the tool. When comments are received outside of the collaborative tool, the editor creates an issue in the issue tracker for each comment. 
 
-The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed the comment. The editors propose a solution to the issue and seek for additional contribution from the reviewers when needed in collaboration with the moderator and rapporteur.
+The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed the comment.
+
+The reviewers are encouraged to propose a solution to their own issue. The editors consolidate the proposed solutions and explain the pros and cons of the different solutions to the Working Group. If needed, the editors seek for additional contribution from the reviewers in collaboration with the moderator and rapporteur.
+
+The editors classify the issues and tag major issues which should be commented in priority by the reviewers.
 
 The moderators make sure that the agreement process is transparent for all reviewers.
 The Working Group must resolve each comment in one of three ways:
