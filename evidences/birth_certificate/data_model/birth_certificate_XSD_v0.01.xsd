@@ -6,9 +6,9 @@
 	<xs:complexType name="BirthCertificateType">
 		<xs:sequence>
 			<xs:element name="identifierBirthCertificate" type="IdentifierType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="issuingDate" type="xs:date" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="certifies" type="BirthType" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="issuingAuthorityBirthCertificate" type="PublicOrganisationType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="issuingDate" type="xs:date" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="issuingPlace" type="LocationType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
@@ -17,8 +17,8 @@
 	<xs:complexType name="BirthType">
 		<xs:sequence>
 			<xs:element name="child" type="PersonType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="parentOne" type="PersonType" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="parentTwo" type="PersonType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="parentOne" type="PersonType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="parentTwo" type="PersonType" minOccurs="0" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
 	
@@ -30,7 +30,7 @@
 			<xs:element name="familyName" type="xs:string" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="dateOfBirth" type="xs:date" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="gender" type="Code" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="citizenship" type="JurisdictionType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="citizenship" type="JurisdictionType" minOccurs="0" maxOccurs="unbounded"/>
 			<xs:element name="placeOfBirth" type="LocationType" minOccurs="1" maxOccurs="1"/>
 		</xs:sequence>
 	</xs:complexType>
