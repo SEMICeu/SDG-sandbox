@@ -14,11 +14,11 @@
 
 ## Step 13. Review draft data model
 ![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-The Working Group members directly review the proposed model and/or contact domain experts for reviewing it.
+<pre>
+The <b>Working Group members</b> directly review the proposed model and/or contact domain experts for reviewing it.
 
-The editors process the comments received and propose solutions.
-```
+The <b>editors</b> process the comments received and propose solutions.
+</pre>
 
 ![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
 
@@ -63,12 +63,14 @@ Semantic issues include the proposition of enhancements to the data model publis
 ![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
 
 Key aspects to consider:
-*	**Proprietary vs open access:** 
+*	**Proprietary vs open access and licensing:** 
 ```diff
 + Are there licences or other requirements for accessing the tool? 
-! GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address. 
-Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
-
+! GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address.
++ What are the licensing conditions?
+! GitHub: For public repositories, the administrator can decide which licence applies. GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
++ What are the limits of the free version?
+! Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
 ```
 *	**Archiving and persistence:** 
 ```diff
@@ -88,12 +90,6 @@ Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for f
 ```diff
 + Is the content restricted?
 ! GitHub: There are no access restrictions for public repositories. 
-```
-*	**Licensing**
-```diff
-+ What are the licensing conditions?
-! GitHub: For public repositories, the administrator can decide which licence applies. 
-GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
 ```
 
 ![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
