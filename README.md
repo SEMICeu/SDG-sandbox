@@ -1,5 +1,5 @@
 # SDG-sandbox
-Welcome to the GiHub repository of Work Package 4 - Data Semantics, Formats & Quality 
+Welcome to the GitHub repository of Work Package 4 - Data Semantics, Formats & Quality. This space allows domain experts across EU member states to review data models to be used in the context of cross-border exchange of evidences. 
 
 ## SDG OOP
 The OOP Technical System is an eco-system involving a wide variety of systems distributed across and operated by the EU Member States, supported by the EC. To function effectively, and to allow Member States to integrate their existing systems, the system needs detailed semantics & formats agreement for these systems to interact and exchange data (evidences) in the context of the OOP system.
@@ -35,10 +35,10 @@ To have access to the SDG Once-Only collaborative space, you need to be a member
 For the first round,  the WP4 will tasked to develop common data models for the following evidences; 
 
 * [Birth certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
-* [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
-* [Vehicule registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model) 
-* [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
-* [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model)
+* [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
+* [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
+* [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
+* [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
 
 ## Issue log
 Issues in this repository should address substantive and semantic issues related to the different common data models. 
