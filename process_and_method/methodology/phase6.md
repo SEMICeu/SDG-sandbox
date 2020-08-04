@@ -9,53 +9,53 @@
 [Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase7.md)
 
 ## Step 24. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>
 
 ## Step 25. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>
