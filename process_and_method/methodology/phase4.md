@@ -203,7 +203,8 @@
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  <i>There are no specific rules nor guidelines for this step.</i>
+  
+  * [SKOS Simple Knowledge Organization System - Mapping](https://www.w3.org/TR/skos-reference/#mapping) - How to map attributes 
 </details>
 
 <details>
@@ -213,8 +214,8 @@
 
 <details>
   <summary><b>Example(s)</b></summary>
-
-```
+  
+ ```
   TBD
   ```
 </details>
