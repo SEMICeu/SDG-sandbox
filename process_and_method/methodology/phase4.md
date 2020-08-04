@@ -6,7 +6,7 @@
 
 **Quick links:**
 - [`Step 13`. Review draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-13-review-draft-data-model)
-- [`Step 14`. Proposition enhancements](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
+- [`Step 14`. Propose enhancements](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
 - [`Step 15`. Propose additional attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes)
 - [`Step 16`. Perform semantic mapping of attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-16-perform-semantic-mapping-of-attributes)
 - [`Step 17`. Harmonise, entities, attributes and descriptions across the data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
@@ -142,7 +142,7 @@ Name of the data model or sub-part (e.g. relevant entity) and a short statement 
 
 </details>
 
-## `Step 14` . Proposition enhancements
+## `Step 14` . Propose enhancements
 
 **Key activities**
 > * [<b>Working Group members</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#working-group) propose enhancements after [reviewing the data model](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#-step-13--review-draft-data-model)
