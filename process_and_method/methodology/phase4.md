@@ -189,18 +189,16 @@ After consideration of the propositions, the editors record the resolutions and 
 
 **Key activities**
 > * [<b>Working Group members</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#working-group) propose additional attributes after [reviewing the data model](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#-step-13--review-draft-data-model)
-> * The [<b>editors</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#editors) consolidate the proposed additions and explain the pros and cons of the different additions to the Working Group members. If needed, the editors seek for additional contribution from the reviewers in collaboration with the [<b>moderator</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#moderator) and [<b>rapporteur</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#rapporteur).
+> * The [<b>editors</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#editors) consolidate the propositions and explain the pros and cons of the different propositions to the Working Group members. If needed, the editors seek for additional contribution from the reviewers in collaboration with the [<b>moderator</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#moderator) and [<b>rapporteur</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#rapporteur).
 
 <details>
   <summary><b>Description</b></summary>
 
-Working Group members create issues which deal with `attributes (and entities)` that could or should be included to the draft data models published.
+Working Group members create issues which deal with `attributes (and entities)` that could or should be included to the draft data models published. It might be that in certain cases Working Group members request the deletion of an attribute and/or entity.
 
 As outlined in `Step 13`, the editors invite opinions and feedback to the issue and medorate the ensuing discussion.  
   
-After consideration of the proposed attribute(s), the editors record the resolution and sends a response to the reviewers. The response usually includes the resolution agreed by the Working Group and the justification for the resolution, particularly in case the proposed attribute(s) is (are) rejected. 
-
-It might be that in certain cases Working Group members request the deletion of an attribute and/or entity. In this context, the process is the same as described above. 
+After consideration of the proposition, the editors record the resolution and sends a response to the reviewers. The response usually includes the resolution agreed by the Working Group and the justification for the resolution, particularly in case the proposed attribute(s) is (are) rejected. 
 
 </details>
 
@@ -289,7 +287,7 @@ It might be that in certain cases Working Group members request the deletion of 
 ## `Step 18` . Update draft data model
 
 **Key activities**
-> The [<b>editors</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#editors) update the draft data model based on information collected in `step 14`, `step 15` and `step 16`. 
+> The [<b>editors</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#editors) update the draft data model based on information collected in `step 14`, `step 15`, `step 16` and `step 17`. 
 
 <details>
   <summary><b>Description</b></summary>
