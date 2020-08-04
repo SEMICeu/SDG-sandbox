@@ -1,3 +1,6 @@
+![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
+
+
 # Phase 4: Review data model and incorporate comments
 ![Process_Phase 4](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_Phase4_v0.03.jpg)
 
@@ -163,19 +166,23 @@
 ## ` Step 16` . Perform semantic mapping of attributes
 
 **Key activities**
->
->
+> * Upon receiving additional attributes from the [<b>Working Group members</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#working-group), [<b>the editors</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#editors) will perform a semantic clustering of attributes. Afterward, editors will map the ‘semantic clusters’ to existing attributes, if any. Should there not be an attribute to map a ‘semantic cluster’ to, the editors will propose a new attribute (or entity). 
+> * the [<b>Working Group members</b>](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/stakeholders#working-group) discuss the ‘semantic clusters’ - and potentially the new attribute(s) - and work towards consensus. 
 
 <details>
   <summary><b>Description</b></summary>
+  Wherever attributes do not convey exactly the same information, ‘semantic clusters’ of similar attributes should be constructed to find a common, higher-level, and more general attribute to which the more specific attributes can be mapped. 
+  
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  <i>There are no specific rules nor guidelines for this step.</i>
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
 </details>
 
 <details>
@@ -232,7 +239,6 @@
 
 <details>
   <summary><b>Example(s)</b></summary>
- 
  ```
   TBD
   ```
