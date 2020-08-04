@@ -106,6 +106,32 @@
 </details>
 <details>
   <summary><b>Example(s)</b></summary>
+  The following example describes the review of a draft data model followed by the creation of an issue and its processing by the editors and Working Group members.
+  
+  The process is the following:
+  
+  1. The editors publish on GitHub under the correct folder the diagram and tables describing the [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model).
+  1. While reviewing the model, a semantic expert or a domain expert will try to answer the following questions:
+     * Are all elements necessary for this evidence described in the model?
+     * Are there conflicts between the elements of the model and the elements used in your country?
+     * Do you agree with the definition of the elements?
+     * Is the element mandatory or optional in your country (cardinality)?
+     * Do you have specific codes or expected type (e.g. format of date, address etc.) for attributes?
+  1. The reviewers document their issues on GitHUB. For example, concerning the vehicle registration certificate, the following issue was created [#45](https://github.com/SEMICeu/SDG-sandbox/issues/45)
+
+  You may notice that the issue describes in practice several comments related to the vehicle registration certificate as well as an image of the data model used within the country. 
+  
+  To simplify the contribution of other reviewers to this issue, the editors will analyse the proposition, categorise it with labels, verify whether the issue should be restructured and describe the pros and cons of the issue documented. In our example, each bullet point from the general comments should represent a separate issue. 
+  However, the editors should avoid as much as possible to complexify the structure of GitHub issues by creating complex hierarchies between the issues. For instance, the visual data model proposed by the issue owner does not need to be separated from the initial issue 45 since it represents a direct source of information which may be relevant for more than one issue. A good practice from here could be for other reviewers to share, as comments to this issue, their own data models.
+
+> A simple guide if you would like to know how to [create an issue](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) on GitHub.
+>
+> 1. The editors or the moderator answer, usually within one working day, to the initial issue created by ackowledging the issue or directly giving an initial answer.
+> 2. The editors give more details about the pros and cons of the issue(s) raised to trigger the discussions and comments from other Working Group members. 
+> 3. The discussion continues as comments to the issue.
+> 4. When no agreement has been reached, the editors prepare the discussions and alternatives to be tackled during the next webinar following the public review period.
+
+ 
 </details>
 
 
