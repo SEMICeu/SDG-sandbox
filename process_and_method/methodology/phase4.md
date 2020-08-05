@@ -221,9 +221,8 @@ After consideration of the proposition, the editors record the resolution and se
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+  For instance, issue [#26](https://github.com/SEMICeu/SDG-sandbox/issues/26) suggested to add the CO2 emission per KM as well as the environmental class attributes to the [vehicle class](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/vehicle_registration_certificate/data_model/vehicle_registration_certificate_diagram_v0.09.pdf). 
+
 </details>
 
 ## `Step 16` . Perform semantic mapping of attributes
