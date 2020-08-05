@@ -2,7 +2,7 @@
 
 
 # Phase 4: Review data model and incorporate comments
-![Process_Phase 4](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_Phase4_v0.03.jpg)
+![Process_Phase 4](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/img/methodology_phase4.PNG)
 
 **Quick links:**
 - [`Step 13`. Review draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-13-review-draft-data-model)
