@@ -7,7 +7,7 @@
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase5.md) **|**
-[Next phase :arrow_right:](phase6.md)
+[Next phase :arrow_right:](phase7.md)
 
 ## ` Step 24`  Review the final data model 
 
