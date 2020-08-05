@@ -6,7 +6,7 @@
 - [Step 27. ]()
 - [Step 28. ]()
 
-[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase6.md)
+[:arrow_left: Previous phase](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase6.md)
 
 ## Step 26. 
 

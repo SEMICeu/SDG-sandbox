@@ -5,16 +5,16 @@
 ![Process_Phase 4](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/img/methodology_phase4.PNG)
 
 **Quick links:**
-- [`Step 13`. Review draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-13-review-draft-data-model)
-- [`Step 14`. Propose enhancements](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
-- [`Step 15`. Propose additional attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes)
-- [`Step 16`. Perform semantic mapping of attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-16-perform-semantic-mapping-of-attributes)
-- [`Step 17`. Harmonise, entities, attributes and descriptions across the data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
-- [`Step 18`. Update draft data model](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-18-update-draft-data-model)
+- [`Step 13`. Review draft data model](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-13-review-draft-data-model)
+- [`Step 14`. Propose enhancements](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
+- [`Step 15`. Propose additional attributes](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes)
+- [`Step 16`. Perform semantic mapping of attributes](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-16-perform-semantic-mapping-of-attributes)
+- [`Step 17`. Harmonise, entities, attributes and descriptions across the data model](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
+- [`Step 18`. Update draft data model](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-18-update-draft-data-model)
 
 **Navigate to the different phases**\
-[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase3.md) **|**
-[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase5.md)
+[:arrow_left: Previous phase](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase3.md) **|**
+[Next phase :arrow_right:](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase5.md)
 
 ## `Step 13` . Review draft data model
 
@@ -34,8 +34,8 @@
   
   The issues can be in many different forms. For instance, a issue can deal with a modification to an existing entity or attribute, the addition or removal of an entity and/or attribute. For further details about these the types of issues, please check; 
   
-  * [`Step 14`. Proposition enhancements](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
-  * [`Step 15`. Propose additional attributes](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes) 
+  * [`Step 14`. Proposition enhancements](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-14-proposition-enhancements)
+  * [`Step 15`. Propose additional attributes](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md#step-15-propose-additional-attributes) 
   
   In addition to that, an issue can be qualified as `major issue` in the case it requires pecific attention from the Working Group and the reviewers for commenting the issue and the potential resolutions. Further categorization (i.e. [labels](https://github.com/SEMICeu/SDG-sandbox/labels)) is proposed when registering an issue.  
 
