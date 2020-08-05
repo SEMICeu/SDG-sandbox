@@ -1,12 +1,13 @@
 # Phase 7: Create distributions and publish documentation
-![Process_Phase 7]()
+![Process_Phase 7](img/methodology_phase7.PNG)
 
 **Quick links:**
 - [Step 26. ]()
 - [Step 27. ]()
 - [Step 28. ]()
 
-[:arrow_left: Previous phase](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase6.md)
+**Navigate to the different phases**\
+[:arrow_left: Previous phase](phase6.md) 
 
 ## Step 26. 
 

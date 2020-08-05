@@ -5,7 +5,7 @@ This folder contains the various steps that together make up the methodology use
 ## Process
 
 **Key phases of the process**\
-![Key phases](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_Phasesv0.03.jpg)
+![Key phases](img/methodology_phases.PNG)
 
 **Access each phase**
 - [`Phase 1`: Select evidence](phase1.md)

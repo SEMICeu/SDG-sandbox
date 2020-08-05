@@ -1,5 +1,5 @@
 # Phase 5: Select controlled vocabularies
-![Process_Phase 5](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/img/methodology_phase5.PNG)
+![Process_Phase 5](img/methodology_phase5.PNG)
 
 **Quick links:**
 - [`Step 19` Identify and propose controlled vocabularies across the model]()
@@ -8,8 +8,9 @@
 - [`Step 22` Document core set of attributes and recommended vocabularies]()
 - [`Step 23` Finalise data model]()
 
-[:arrow_left: Previous phase](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md)
-[Next phase :arrow_right:](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase6.md)
+**Navigate to the different phases**\
+[:arrow_left: Previous phase](phase4.md) **|**
+[Next phase :arrow_right:](phase6.md)
 
 ## `Step 19` Identify and propose controlled vocabularies across the model 
 **Key activities**

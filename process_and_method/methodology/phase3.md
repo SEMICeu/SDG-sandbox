@@ -10,183 +10,190 @@
 - [Step 11. ]()
 - [Step 12. ]()
 
-[:arrow_left: Previous phase](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase2.md)
-[Next phase :arrow_right:](https://github.com/cbahim/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md)
+**Navigate to the different phases**\
+[:arrow_left: Previous phase](phase2.md) **|**
+[Next phase :arrow_right:](phase4.md)
 
 ## Step 6. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>
 
 ## Step 7. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>
 
 ## Step 8. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
 ## Step 9. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
 ## Step 10. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
 ## Step 11. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
 ## Step 12. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>
