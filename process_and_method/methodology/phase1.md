@@ -1,140 +1,143 @@
 # Phase 1: Select evidence
-![Process_Phase 1]()
+![Process_Phase 1](img/methodology_phase1.PNG)
 
 **Quick links:**
-- [Step 1. ]()
-- [Step 1.1. ]()
-- [Step 1.2. ]()
-- [Step 1.3. ]()
-- [Step 2. ]()
+- [`Step 1` Select the evidences]()
+- [`Step 1.1` Select procedures]()
+- [`Step 1.2` List of relevant evidences]()
+- [`Step 1.3` Evidences likely to be exchanged]()
+- [`Step 2` Identify the competent authorities]()
 
-[:arrow_left: Overview](https://github.com/barthelemyf/SDG-sandbox/tree/master/process_and_method/methodology)
-[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase2.md)
+**Navigate to the different phases**\
+[:arrow_left: Overview](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/methodology) **|**
+[Next phase :arrow_right:](phase2.md)
 
-## Step 1. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+## `Step 1` Select the evidences  
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-
-## Step 1.1. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-## Step 1.2. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+## `Step 1.1` Select procedures 
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-## Step 1.3. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
+  TBD
+  ```
+</details>
+
+## `Step 1.2` List of relevant evidences 
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-## Step 2. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+  TBD
+  ```
+</details>
+
+## `Step 1.3` Evidences likely to be exchanged
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
+  TBD
+  ```
+</details>
+
+## `Step 2` Identify the competent authorities 
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
+  TBD
+  ```
+</details>

@@ -1,192 +1,199 @@
 # Phase 3: Draft data model
-![Process_Phase 3]()
+![Process_Phase 3](img/methodology_phase3.PNG)
 
 **Quick links:**
-- [Step 6. ]()
-- [Step 7. ]()
-- [Step 8. ]()
-- [Step 9. ]()
-- [Step 10. ]()
-- [Step 11. ]()
-- [Step 12. ]()
+- [`Step 6` Identify entities, attributes and descriptions used in national implementations]()
+- [`Step 7` Create UML class diagram]()
+- [`Step 8` Identify and analyse models used or standardised elsewhere]()
+- [`Step 9` Description from ISA² Core Vocabularies]()
+- [`Step 10` Description from respected dictionnary]()
+- [`Step 11` Create tables for all entities]()
+- [`Step 12` Publish draft data model]()
 
-[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase2.md)
-[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase4.md)
+**Navigate to the different phases**\
+[:arrow_left: Previous phase](phase2.md) **|**
+[Next phase :arrow_right:](phase4.md)
 
-## Step 6. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+## `Step 6` Identify entities, attributes and descriptions used in national implementations
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-
-## Step 7. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
-```
+  TBD
+  ```
+</details>
 
-## Step 8. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+## `Step 7` Create UML class diagram
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-## Step 9. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
-```
-## Step 10. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+## `Step 8` Identify and analyse models used or standardised elsewhere
 
 
+**Key activities**
+> 
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-## Step 11. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
+  TBD
+  ```
+</details>
+
+## `Step 9` Description from ISA² Core Vocabularies
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-## Step 12. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
+  TBD
+  ```
+</details>
+
+## `Step 10` Description from respected dictionnary
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
-TBD
+  TBD
+  ```
+</details>
+
+## `Step 11` Create tables for all entities
+
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
+  TBD
+  ```
+</details>
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+## `Step 12` Publish draft data model 
 
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
-```
+  TBD
+  ```
+</details>

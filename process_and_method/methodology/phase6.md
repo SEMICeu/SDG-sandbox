@@ -1,61 +1,62 @@
 # Phase 6: Finalise data model
-![Process_Phase 6]()
+![Process_Phase 6](img/methodology_phase6.PNG)
 
 **Quick links:**
-- [Step 24. ]()
-- [Step 25. ]()
+- [` Step 24`  Review the final data model]()
+- [` Step 25`  Update the final data model]()
 
-[:arrow_left: Previous phase](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase5.md)
-[Next phase :arrow_right:](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/methodology/phase7.md)
+**Navigate to the different phases**\
+[:arrow_left: Previous phase](phase5.md) **|**
+[Next phase :arrow_right:](phase7.md)
 
-## Step 24. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
+## ` Step 24`  Review the final data model 
 
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
+**Key activities**
+> 
 
+<details>
+  <summary><b>Description</b></summary>
+</details>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
 
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
-
-```
-TBD
-```
-
-## Step 25. 
-![#0175DB](https://via.placeholder.com/15/0175DB?text=+) **Key activities**
-```
-TBD
-```
-
-![#01BDDB](https://via.placeholder.com/15/01BDDB?text=+) **Description**
-
-
-
-![#E80505B](https://via.placeholder.com/15/E80505?text=+) **Rules and guidelines**
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-
-![#FEA33D](https://via.placeholder.com/15/FEA33D?text=+) **Tool**
-
-
-![#F4DE3B](https://via.placeholder.com/15/F4DE3B?text=+) **Example**
+<details>
+  <summary><b>Example(s)</b></summary>
 
 ```
-TBD
+  TBD
+  ```
+</details>
+
+## ` Step 25`  Update the final model
+
+**Key activities**
+> 
+
+<details>
+  <summary><b>Description</b></summary>
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  <i>There are no specific tools for this step.</i>
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
 ```
+  TBD
+  ```
+</details>
