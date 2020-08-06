@@ -18,4 +18,4 @@ This folder contains the various steps that together make up the methodology use
 
 
 **Detailed process**\
-![Overview of the process](https://github.com/barthelemyf/SDG-sandbox/blob/master/process_and_method/resources/20200713_WP4_methodology_v0.03.jpg)
+![Overview of the process](img/methodology_phases_detailed.PNG)
