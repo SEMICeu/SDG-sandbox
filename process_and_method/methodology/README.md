@@ -18,4 +18,4 @@ This folder contains the various steps that together make up the methodology use
 
 
 **Detailed process**\
-![Overview of the process](img/methodology_phases_detailed.PNG)
+![Overview of the process](img/methodology_phases_detailed.png)
