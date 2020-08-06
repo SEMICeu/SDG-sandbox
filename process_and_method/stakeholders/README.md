@@ -35,11 +35,4 @@ Works with the Rapporteur to ensure that the objectives, deliverables and deadli
 ### Rapporteur 
 Collects input from the Working Group, ensures that the Working Group is aligned to the deadline of each deliverable in collaboration with the Moderator. Communicates with other Work Packages to ensure alignement. The Rapporteur is drawn from the Working Group.
 
-<hr/>
 
-# Links
-* [Evidences](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences)
-* [Process and Method](https://github.com/SEMICeu/SDG-sandbox/tree/master/process_and_method)
-* [Documentation](https://github.com/SEMICeu/SDG-sandbox/tree/master/documentation) 
-* [Technical documentation](https://github.com/SEMICeu/SDG-sandbox/tree/master/technical_documentation)
-* [README](https://github.com/SEMICeu/SDG-sandbox/blob/master/README.md)
