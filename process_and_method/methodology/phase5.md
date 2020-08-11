@@ -109,11 +109,11 @@
 ## `Step 22` Document core set of attributes and recommended vocabularies
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) construct the working draft based and document the consensus (i.e. `step 20` and `step 21`)
+> The [<b>editors</b>](../stakeholders#editors) document the consensus and construct the working draft. 
 
 <details>
   <summary><b>Description</b></summary>
-  Based on the discussions, the editors will document the decisions and update the tables.  
+  On the basis of discussions in `phase 4` and `phase 5`, the editors will document the decisions and prepare to update the draft data model.   
 </details>
 
 <details>
@@ -136,7 +136,7 @@
 ## `Step 23` Finalise data model
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) finalise the  data model based on information collected in `step 19`, `step 20`, `step 21` and `step 22`. 
+> The [<b>editors</b>](../stakeholders#editors) finalise the data model based on information collected in `step 19`, `step 20`, `step 21` and `step 22`. 
 <details>
   <summary><b>Description</b></summary>
     The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities, controlled vocabularies and usage notes is finalised. The editor constructs the final version of the data model based on the changes that have been agreed upon and derived from the previous four steps. Additionaly, the model is prepared for review. 
