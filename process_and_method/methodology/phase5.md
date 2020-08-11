@@ -109,7 +109,7 @@
 ## `Step 22` Document core set of attributes and recommended vocabularies
 
 **Key activities**
-> * The [<b>editors</b>](../stakeholders#editors) construct the working draft based and document the consensus (i.e. `step 20` and `step 21`)
+> The [<b>editors</b>](../stakeholders#editors) construct the working draft based and document the consensus (i.e. `step 20` and `step 21`)
 
 <details>
   <summary><b>Description</b></summary>
