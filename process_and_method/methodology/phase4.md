@@ -299,7 +299,7 @@ After consideration of the proposition, the editors record the resolution and se
 
 <details>
   <summary><b>Description</b></summary>
-  The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, relationships, attributes is updated. The editor constructs the new version of the data model based on the changes that have been agreed upon and derived from the previous three steps. Additionaly, the model is prepared for review by the Working Group members. 
+  The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions and cardinalities is updated. The editor constructs the new version of the data model based on the changes that have been agreed upon and derived from the previous four steps.  
 </details>
 
 <details>
