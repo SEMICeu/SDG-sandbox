@@ -20,7 +20,7 @@
 <details>
   <summary><b>Description</b></summary>
   
-  Once a core set of common attributes has been agreed upon and that the [draft data model](../methodology/phase4.md#step-18--update-draft-data-model) is stable, the set of controlled vocabularies for those attributes need to analysed. The editors create a table with the common attributes along one dimension and the local implementation along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon. 
+  Once a core set of common attributes has been agreed upon and that the [draft data model](../methodology/phase4.md#step-18--update-draft-data-model) is stable, the set of controlled vocabularies for those attributes need to be analysed. The editors create a table with the common attributes along one dimension and the local implementation along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon. 
   
 </details>
 
@@ -49,15 +49,15 @@
 
 ## `Step 20` Choose recommended controlled vocabularies
 **Key activities**
-> * The [<b>editors</b>](../stakeholders#editors) put forward the different propositions for each attribute working towards a decision
-> * The [<b>Working Group</b>](../stakeholders#working-group) and domain experts discuss - through the collaborative tool - and select the controlled vocabularies to recommend 
+> * The [<b>editors</b>](../stakeholders#editors) put forward the different propositions for each attribute working towards a decision.
+> * The [<b>Working Group</b>](../stakeholders#working-group) and domain experts discuss - through the collaborative tool - and select the controlled vocabularies to recommend.
 
 <details>
   <summary><b>Description</b></summary>
   
   Based on the table of controlled vocabularies, the Working Group discusses which controlled vocabularies are the most appropriate to be recommended as well as the soundness of the proposed usage notes. This may be based on the status of particular vocabularies (e.g. if they are based on an international standard) or on their usage across multiple implementations. 
   
-  In the case of divergent views, a live discussion may be organised by the editors and moderators to agree on the most controversial proposed solutions
+  In the case of divergent views, a live discussion may be organised by the editors and moderators to agree on the most controversial proposed solutions.
 </details>
 
 <details>
@@ -80,7 +80,7 @@
 ## `Step 21` Harmonise controlled vocabularies across the data model
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) harmonise the controlled vocabularies and usage notes across the data model while ensureing the alignement between data models
+> The [<b>editors</b>](../stakeholders#editors) harmonise the controlled vocabularies and usage notes across the data model while ensuring the alignment between data models.
 
 <details>
   <summary><b>Description</b></summary>
