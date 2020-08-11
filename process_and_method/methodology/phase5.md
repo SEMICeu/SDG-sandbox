@@ -113,6 +113,7 @@
 
 <details>
   <summary><b>Description</b></summary>
+  
   On the basis of discussions in `phase 4` and `phase 5`, the editors will document the decisions and prepare to update the draft data model.   
 </details>
 
