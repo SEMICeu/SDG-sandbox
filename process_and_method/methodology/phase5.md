@@ -20,7 +20,7 @@
 <details>
   <summary><b>Description</b></summary>
   
-  Once a core set of common attributes has been agreed upon and that the [draft data model](../methodology/phase4.md#step-18--update-draft-data-model) is stable, the set of controlled vocabularies for those attributes need to be analysed. The editors create a table with the common attributes along one dimension and the local implementations along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon. 
+Once a core set of common attributes has been agreed upon and the [draft data model](../methodology/phase4.md#step-18--update-draft-data-model) is stable, the set of controlled vocabularies, for those attributes where a controlled vocabulary is needed, needs to be analysed. The editors create a table with the common attributes along one dimension and the local implementations along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon. 
   
 </details>
 
