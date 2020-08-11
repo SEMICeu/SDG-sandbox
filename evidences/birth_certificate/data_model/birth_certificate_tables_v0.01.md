@@ -58,8 +58,8 @@
 ### Address
 **Definition**: An "address representation" as conceptually defined by the INSPIRE Address Representation data type.
 
+
 |     attribute            |     expected type |     definition                                                                                                                                                                                                                    |     cardinality    |
 |--------------------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
 |     post name            |     string        |     The key postal division of the address, usually the city. (INSPIRE's definition is "One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.").        |                                                                                                                                                                                                                                                                                            [1..1]         |
 |     admin unit level 1   |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.       |     [1..1]         |
-
