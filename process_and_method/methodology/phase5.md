@@ -2,11 +2,11 @@
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
 **Quick links:**
-- [`Step 19` Identify and propose controlled vocabularies across the model]()
-- [`Step 20` Choose recommended controlled vocabularies]()
-- [`Step 21` Harmonise controlled vocabularies across the data model]()
-- [`Step 22` Document core set of attributes and recommended vocabularies]()
-- [`Step 23` Finalise data model]()
+- [`Step 19` Identify and propose controlled vocabularies across the model](phase5.md#step-19-identify-and-propose-controlled-vocabularies-across-the-model)
+- [`Step 20` Choose recommended controlled vocabularies](phase5.md#step-20-choose-recommended-controlled-vocabularies)
+- [`Step 21` Harmonise controlled vocabularies across the data model](phase5.md#step-22-document-core-set-of-attributes-and-recommended-vocabularies)
+- [`Step 22` Document core set of attributes and recommended vocabularies](phase5.md#step-22-document-core-set-of-attributes-and-recommended-vocabularies)
+- [`Step 23` Finalise data model](phase5.md#step-23-finalise-data-model)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase4.md) **|**
