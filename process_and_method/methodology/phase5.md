@@ -85,7 +85,7 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
 <details>
   <summary><b>Description</b></summary>
   
-  The editors consider all controled vocabularies and usage notes across the data model, check their consistency and identify any overlaps or gaps. Editors may propose changes to the recommendations, for example if different controlled vocabularies have been recommended for identical or similar attributes. Editors may also propose slight changes to the usage notes, for example to harmonise the writing style across the model or solve inconsistencies.
+  The editors consider all controlled vocabularies and usage notes across the data model, check their consistency and identify any overlaps or gaps. Editors may propose changes to the recommendations, for example if different controlled vocabularies have been recommended for identical or similar attributes. Editors may also propose slight changes to the usage notes, for example to harmonise the writing style across the model or solve inconsistencies.
 
 </details>
 
@@ -140,7 +140,7 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
 > The [<b>editors</b>](../stakeholders#editors) finalise the data model based on information collected in `step 19`, `step 20`, `step 21` and `step 22`. 
 <details>
   <summary><b>Description</b></summary>
-    The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities, controlled vocabularies and usage notes is finalised. The editor constructs the final version of the data model based on the changes that have been agreed upon and derived from the previous four steps. Additionaly, the model is prepared for review. 
+    The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities, controlled vocabularies and usage notes is finalised. The editors construct the final version of the data model based on the changes that have been agreed upon and derived from the previous four steps. Additionally, the model is prepared for review. 
 
 </details>
 
