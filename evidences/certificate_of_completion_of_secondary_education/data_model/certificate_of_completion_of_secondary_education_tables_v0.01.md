@@ -10,7 +10,7 @@
 |     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                |     [1..1]         |
 |     overall grade        |     float                  |     A mark indicating a degree of accomplishment for the whole year.        								      	            |     [1..1]         |
 |     issuing authority    |     Issuing Authority      |     The Organisation that issued the Secondary Education Completion Certificate.                                              |     [1..1]         |
-|     contains	           |     Course Result          |     The Course Results which the Seconduary Education Completion Certificate contains.             							|     [0..*]         |
+|     contains	           |     Course Result          |     The Course Results which the Secondary Education Completion Certificate contains.             							|     [0..*]         |
 |     belongs to           |     Student			    |     The Student to which the certificate belongs.          															     	|     [1..1]         |
  
 
