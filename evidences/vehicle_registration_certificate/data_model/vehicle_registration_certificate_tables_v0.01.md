@@ -22,8 +22,8 @@
 
 |     attribute                                    |     expected type |     definition                                             																								         |     cardinality    |
 |--------------------------------------------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     identification number                        |     Identifier    |     Registration number of the Vehicle Registration Certificate. 																									 |     [1..1]         |
-|     first registration date                      |     date          |     First registration date of the vehicle.                        															                    		         |     [1..1]         |
+|     identification number                        |     Identifier    |     Vehicle identification number (VIN). 																									 |     [1..1]         |
+|     first registration date                      |     date          |     First registration date of the Vehicle.                        															                    		         |     [1..1]         |
 |     make                                         |     string        |     The make of the Vehicle.                                      																				               		 |     [1..1]         |
 |     type                                         |     string        |     The type of the Vehicle.                                              																				             |     [1..1]         |
 |     type variant                                 |     string        |     The type variant of the Vehicle.                                        																		                 |     [0..1]         |
