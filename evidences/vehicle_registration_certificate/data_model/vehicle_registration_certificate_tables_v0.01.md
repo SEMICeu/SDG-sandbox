@@ -26,14 +26,14 @@
 |     first registration date                      |     date          |                                                           |     [1..1]         |
 |     make                                         |     string        |                                                           |     [1..1]         |
 |     type                                         |     string        |                                                           |     [1..1]         |
-|     type variant                                 |     string        |                                                           |     [1..1]         |
-|     type version                                 |     string        |                                                           |     [1..1]         |
-|     commercial description                       |     string        |                                                           |     [1..1]         |
-|     maximum technically permissable laden mass   |     number        |                                                           |     [1..1]         |
+|     type variant                                 |     string        |                                                           |     [0..1]         |
+|     type version                                 |     string        |                                                           |     [0..1]         |
+|     commercial description                       |     string        |                                                           |     [1..*]         |
+|     maximum technically permissable laden mass   |     number        |                                                           |     [0..1]         |
 |     actual mass                                  |     number        |                                                           |     [1..1]         |
-|     type approval number                         |     string        |                                                           |     [1..1]         |
+|     type approval number                         |     string        |                                                           |     [0..1]         |
 |     engine capacity                              |     number        |                                                           |     [1..1]         |
-|     maximum net power                            |     number        |                                                           |     [1..1]         |
+|     engine maximum net power                            |     number        |                                                           |     [1..1]         |
 |     fuel type or power source                    |     Code          |                                                           |     [1..1]         |
 |     power to weight ratio                        |     number        |                                                           |     [1..1]         |
 |     seats                                        |     number        |                                                           |     [1..1]         |
