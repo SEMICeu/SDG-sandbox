@@ -12,8 +12,8 @@
 |     validity date        |     Period                 |     The date on which the Vehicle Registration Certificate was issued.                                         |     [1..1]         |
 |     registration date    |     date                   |     The date on which the Vehicle was registered.                                                              |     [1..1]         |
 |     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Vehicle Registration Certificate.   |     [1..1]         |
-|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                                  |     [1..1]         |
-|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                                             |     [1..*]         |
+|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                                  |     [0..1]         |
+|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                                             |     [0..*]         |
 |     holder               |     Agent                  |     The holder of the Vehicle Registration Certificate.                                                        |     [1..1]         |
 
 
