@@ -37,7 +37,7 @@
 |     fuel type or power source                    |     Code          |                                                           |     [1..1]         |
 |     power to weight ratio                        |     number        |                                                           |     [1..1]         |
 |     seats                                        |     number        |                                                           |     [1..1]         |
-|     standing places                              |     number        |                                                           |     [1..1]         |
+|     standing places                              |     number        |                                                           |     [0..1]         |
 
 
 ### Agent
