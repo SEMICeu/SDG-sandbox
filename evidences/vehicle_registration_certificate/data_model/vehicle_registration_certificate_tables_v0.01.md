@@ -12,32 +12,32 @@
 |     validity date        |     Period                 |     The date on which the Vehicle Registration Certificate was issued.                                         |     [1..1]         |
 |     registration date    |     date                   |     The date on which the Vehicle was registered.                                                              |     [1..1]         |
 |     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Vehicle Registration Certificate.   |     [1..1]         |
-|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                                  |     [1..1]         |
-|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                                             |     [1..*]         |
+|     vehicle owner        |     Agent                  |     The owner of the Vehicle.                                                                                  |     [0..1]         |
+|     legal user           |     Agent                  |     The legal user of the Vehicle.                                                                             |     [0..*]         |
 |     holder               |     Agent                  |     The holder of the Vehicle Registration Certificate.                                                        |     [1..1]         |
 
 
 ### Vehicle
 **Definition**: A machine, usually with wheels and an engine, used for transporting people or goods on land, especially on roads.
 
-|     attribute                                    |     expected type |     definition                                            |     cardinality    |
-|--------------------------------------------------|-------------------|-----------------------------------------------------------|--------------------|
-|     identification number                        |     Identifier    |                                                           |     [1..1]         |
-|     first registration date                      |     date          |                                                           |     [1..1]         |
-|     make                                         |     string        |                                                           |     [1..1]         |
-|     type                                         |     string        |                                                           |     [1..1]         |
-|     type variant                                 |     string        |                                                           |     [1..1]         |
-|     type version                                 |     string        |                                                           |     [1..1]         |
-|     commercial description                       |     string        |                                                           |     [1..1]         |
-|     maximum technically permissable laden mass   |     number        |                                                           |     [1..1]         |
-|     actual mass                                  |     number        |                                                           |     [1..1]         |
-|     type approval number                         |     string        |                                                           |     [1..1]         |
-|     engine capacity                              |     number        |                                                           |     [1..1]         |
-|     maximum net power                            |     number        |                                                           |     [1..1]         |
-|     fuel type or power source                    |     Code          |                                                           |     [1..1]         |
-|     power to weight ratio                        |     number        |                                                           |     [1..1]         |
-|     seats                                        |     number        |                                                           |     [1..1]         |
-|     standing places                              |     number        |                                                           |     [1..1]         |
+|     attribute                                    |     expected type |     definition                                             																								         |     cardinality    |
+|--------------------------------------------------|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+|     identification number                        |     Identifier    |     Vehicle identification number (VIN). 																									 |     [1..1]         |
+|     first registration date                      |     date          |     First registration date of the Vehicle.                        															                    		         |     [1..1]         |
+|     make                                         |     string        |     The make of the Vehicle.                                      																				               		 |     [1..1]         |
+|     type                                         |     string        |     The type of the Vehicle.                                              																				             |     [1..1]         |
+|     type variant                                 |     string        |     The type variant of the Vehicle.                                        																		                 |     [0..1]         |
+|     type version                                 |     string        |     The type version of the Vehicle.                                       																		                 |     [0..1]         |
+|     commercial description                       |     string        |     The commercial description of the Vehicle.                                            																		     |     [1..*]         |
+|     maximum technically permissable laden mass   |     number        |     The maximum technically permissable laden mass of the Vehicle (in kg).                          										                         |     [0..1]         |
+|     actual mass                                  |     number        |     The mass of the vehicle in service with bodywork, and with coupling device in the case of a towing vehicle in service from any category other than M1 (in kg).  |     [1..1]         |
+|     type approval number                         |     string        |     The type-approval number.                                                  																				     |     [0..1]         |
+|     engine capacity                              |     number        |     The engine capacity (in cm3).                                            																			             |     [1..1]         |
+|     engine maximum net power                     |     number        |     The engine maximum net power (in kW).                                    																		                 |     [0..1]         |
+|     fuel type or power source                    |     Code          |     The type of fuel or power source.                                          																		             |     [1..1]         |
+|     power to weight ratio                        |     number        |     The power to weight ratio (in kW/kg). (Only for motorcycles.)             												                                         |     [1..1]         |
+|     seats                                        |     number        |     The number of seats, including the drivers seat.                          															                             |     [1..1]         |
+|     standing places                              |     number        |     The number of standing places (where appropriate).                          														                             |     [0..1]         |
 
 
 ### Agent
