@@ -28,7 +28,7 @@
   * Minor semantic changes
   * Major semantic changes - this entails a new version of the data model to be drafted and proposed for review. 
   
-  Ultimately, the Working Group members have to come to a [semantic agreement](terminology/README.md#semantic-agreement) with regards to the data models reviewed. 
+  Ultimately, the Working Group members have to come to a [semantic agreement](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/terminology) with regards to the data models reviewed. 
 </details>
 
 <details>
