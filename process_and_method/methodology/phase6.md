@@ -20,9 +20,9 @@
 <details>
   <summary><b>Description</b></summary>
   
-  Working Group members discuss and validate the model with the business and functional experts and share their questions and / or remarks with the editors via the adequate channel. 
+  Working Group members discuss and validate the model with the business and functional experts and share their questions and / or remarks, if any, with the editors via the adequate channel. 
   
-  In parallel, the editors collect and categorized the feedback. For instance,
+  In parallel, the editors collect and categorize the feedback. For instance,
   
   * Editorial changes
   * Minor semantic changes
