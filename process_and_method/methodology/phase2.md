@@ -43,7 +43,7 @@ Before sending any data, the Working Group members should bear in mind the follo
 <details>
   <summary><b>Example(s)</b></summary>
 
-Example of a data model share by Spain, [issue #37](https://github.com/SEMICeu/SDG-sandbox/issues/37#issue-664501128)
+Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/SDG-sandbox/issues/37#issue-664501128)
 </details>
 
 ## `Step 4` Analyse the models and derive necessary elements
