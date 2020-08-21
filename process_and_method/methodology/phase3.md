@@ -25,7 +25,7 @@
 <details>
   <summary><b>Description</b></summary>
   
-  Working Group members will share information they possess related to the common data models being built. The objective is to gather information in order to have a global overview of data models implemented and used across europe and leverage this insight to develop a common data model. This task is assigned to the Working Group members who will report back to the editors using the channels and collaborative tools defined. 
+  Working Group members will share information they possess related to the common data model being built. The objective is to gather information in order to have a global overview of data models implemented and used across europe and leverage this insight to develop a common data model. This task is assigned to the Working Group members who will report back to the editors using the channels and collaborative tools defined. 
 
 </details>
 
@@ -48,7 +48,7 @@ Before sending any data, the Working Group members should bear in mind the follo
 
 <details>
   <summary><b>Example(s)</b></summary>
-Example of information shared related to the data models (Issue #29); 
+Example of information shared related to the data model (Issue #29); 
 
 
 ```
@@ -64,7 +64,7 @@ Example of information shared related to the data models (Issue #29);
 <details>
   <summary><b>Description</b></summary>
   
-  The editors document any european initiatives that aim at standardizing data exchanges across member states. The output of this step will serve as a basis to draft the data models. 
+  The editors document any european initiatives that aim at standardizing data exchanges across member states. The output of this step will serve as a basis to draft the common data model. 
 
 The scope of `step 6`and `step 7` are complementary: while Working Group members are gathering information on what is nationally implemented, the editor team will focus on existing european initiatives that are used and standardise the exchange of data. `step 6` will provide baseline information while `step 7` will provide information to supplement the first draft of the common data model. 
 
@@ -272,11 +272,14 @@ Here is are examples of tables created per entity, namely:
   <summary><b>Description</b></summary>
   
   The editors will publish the draft version of the data model, if considered stable enough, based on the output of `step 8` (i.e. UML class diagram) and `step 11` (entity tables). The draft data model will be published on the collaborative tool selected. 
-
+  
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+
+Publication as a Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Comments on the model are invited. Further details on `Step 13` 
+
 </details>
 
 <details>
