@@ -19,26 +19,22 @@
 ## `Step 6` Identify entities, attributes and descriptions used in national implementations
 
 **Key activities**
-> * The [<b>Working Group</b>](../stakeholders#working-group) members identify and report features describing data models of evidence that are locally implemented.
+> * The [<b>Working Group</b>](../stakeholders#working-group) members identify and report features describing data models used in national implementations
 > * The [<b>editors</b>](../stakeholders#editors) collect information from the Working Group members.
 
 <details>
   <summary><b>Description</b></summary>
   
-  Working Group members will share information they possess related to the common data model being built. The objective is to gather information in order to have a global overview of data models implemented and used across europe and leverage this insight to develop a common data model. This task is assigned to the Working Group members who will report back to the editors using the channels and collaborative tools defined. 
-
+  Working Group members will share information on: 
+  
+  * Entities they judge paramount to the common data model being built
+  * Attributes they judge mandatory and optional to the common data model being built
+  * Descriptions of elements in their national implementations for the ultimate purpose of harmonizing elements across member states. 
+  
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  
-Before sending any data, the Working Group members should bear in mind the following; 
-
-
-* The data model has been validated and implemented by a competent authority; 
-* The data model has been issued in a final version; and 
-* The data model has been used in cross borders applications for exchange of information.
-
 </details>
 
 <details>
