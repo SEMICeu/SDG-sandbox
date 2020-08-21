@@ -29,7 +29,7 @@
   
   * Entities they judge paramount to the common data model being built
   * Attributes they judge mandatory and optional to the common data model being built
-  * Descriptions of elements in their national implementations for the ultimate purpose of harmonizing elements across member states. 
+  * Descriptions of elements in their national implementations with the ultimate purpose of harmonizing elements across member states. 
   
 </details>
 
