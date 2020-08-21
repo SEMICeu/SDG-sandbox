@@ -1,3 +1,5 @@
+![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
+
 # Phase 5: Select controlled vocabularies
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
