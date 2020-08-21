@@ -4,8 +4,8 @@
 ![Process_Phase 6](img/methodology_phase6.PNG)
 
 **Quick links:**
-- [` Step 24`  Review the final data model]()
-- [` Step 25`  Update the final data model]()
+- [` Step 24`  Review the final data model](phase6.md#-step-24--review-the-final-data-model)
+- [` Step 25`  Update the final data model](phase6.md#-step-25--update-the-final-model)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase5.md) **|**
