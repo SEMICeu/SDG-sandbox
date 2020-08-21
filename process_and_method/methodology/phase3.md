@@ -1,3 +1,5 @@
+![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
+
 # Phase 3: Draft data model
 ![Process_Phase 3](img/methodology_phase3.PNG)
 
