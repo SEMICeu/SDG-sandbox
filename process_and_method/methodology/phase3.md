@@ -3,8 +3,8 @@
 
 **Quick links:**
 - [`Step 6` Identify entities, attributes and descriptions used in national implementations](phase3.md#step-6-identify-entities-attributes-and-descriptions-used-in-national-implementations)
-- [`Step 7` Create UML class diagram](phase3.md#step-7-create-uml-class-diagram)
-- [`Step 8` Identify and analyse models used or standardised elsewhere](phase3.md#step-8-identify-and-analyse-models-used-or-standardised-elsewhere)
+- [`Step 7` Identify and analyse models used or standardised elsewhere](phase3.md#step-7-identify-and-analyse-models-used-or-standardised-elsewhere)
+- [`Step 8` Create UML class diagram](phase3.md#step-8-create-uml-class-diagram)
 - [`Step 9` Description from ISA² Core Vocabularies](phase3.md#step-9-description-from-isa-core-vocabularies)
 - [`Step 10` Description from respected dictionnary](phase3.md#step-10-description-from-respected-dictionnary)
 - [`Step 11` Create tables for all entities](phase3.md#step-11-create-tables-for-all-entities)
@@ -54,7 +54,7 @@ Example of information shared related to the data models (Issue #29);
   ```
 </details>
 
-## `Step 7` Create UML class diagram
+## `Step 7` Identify and analyse models used or standardised elsewhere
 
 **Key activities**
 > The editors analyse european initiatives to standardize exchange of information
@@ -91,7 +91,7 @@ The scope of `step 6`and `step 7` are complementary: while Working Group members
   ```
 </details>
 
-## `Step 8` Identify and analyse models used or standardised elsewhere
+## `Step 8` Create UML class diagram
 
 **Key activities**
 > The editors design an UML class diagram 
