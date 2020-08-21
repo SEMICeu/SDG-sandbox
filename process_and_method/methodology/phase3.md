@@ -199,6 +199,7 @@ In the event of information not being available, the editors propose new entitie
 
 <details>
   <summary><b>Tool(s)</b></summary>
+  
 * [Euro Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/home)
 * [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov)
 * [Oxford dictionary](https://www.oxfordlearnersdictionaries.com/us/)
