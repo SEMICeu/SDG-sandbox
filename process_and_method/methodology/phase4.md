@@ -305,7 +305,7 @@ After consideration of the proposition, the editors record the resolution and se
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-Publication as a _last call_ Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Endorsement of the model will be sought in the next `step 18`
+Publication as a _last call_ Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Endorsement of the model will be sought in the next `step 19`
 </details>
 
 <details>
