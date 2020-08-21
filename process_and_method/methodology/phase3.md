@@ -17,8 +17,8 @@
 ## `Step 6` Identify entities, attributes and descriptions used in national implementations
 
 **Key activities**
-> * Working Group members identify and report features describing data models of evidence that are locally implemented.
-> * The editors collect information from the Working Group members.
+> * The [<b>Working Group</b>](../stakeholders#working-group) members identify and report features describing data models of evidence that are locally implemented.
+> * The [<b>editors</b>](../stakeholders#editors) collect information from the Working Group members.
 
 <details>
   <summary><b>Description</b></summary>
@@ -57,7 +57,7 @@ Example of information shared related to the data models (Issue #29);
 ## `Step 7` Identify and analyse models used or standardised elsewhere
 
 **Key activities**
-> The editors analyse european initiatives to standardize exchange of information
+> The [<b>editors</b>](../stakeholders#editors) analyse european initiatives to standardize exchange of information
 
 <details>
   <summary><b>Description</b></summary>
@@ -94,7 +94,7 @@ The scope of `step 6`and `step 7` are complementary: while Working Group members
 ## `Step 8` Create UML class diagram
 
 **Key activities**
-> The editors design an UML class diagram 
+> The [<b>editors</b>](../stakeholders#editors) design an UML class diagram 
 
 <details>
   <summary><b>Description</b></summary>
@@ -139,7 +139,7 @@ Focusing only on entities, attributes and relationships will allow Working Group
 ## `Step 9` Description from ISA² Core Vocabularies
 
 **Key activities**
-> The editor team assesses whether the ISA² Core Vocabularies can be reused
+> The [<b>editors</b>](../stakeholders#editors) assess whether the ISA² Core Vocabularies can be reused
 
 
 <details>
@@ -177,7 +177,7 @@ The Core Person Vocabulary describes a class/entity Person that has an attribute
 ## `Step 10` Description from respected dictionnary
 
 **Key activities**
-> The editors fetch information elsewhere than the ISA² Core Vocabularies
+> The [<b>editors</b>](../stakeholders#editors) fetch information elsewhere than the ISA² Core Vocabularies
 
 <details>
   <summary><b>Description</b></summary>
@@ -216,7 +216,7 @@ In the event of information not being available, the editors propose new entitie
 
 
 **Key activities**
-> The editors create tables for all entities.
+> The [<b>editors</b>](../stakeholders#editors) create tables for all entities.
 
 
 <details>
@@ -264,7 +264,7 @@ Here is are examples of tables created per entity, namely:
 ## `Step 12` Publish draft data model 
 
 **Key activities**
-> Editors will publish the output of `step 8` and `step 11`, i.e. the draft data model
+> The [<b>editors</b>](../stakeholders#editors) publish the output of `step 8` and `step 11`, i.e. the draft data model
 
 <details>
   <summary><b>Description</b></summary>
