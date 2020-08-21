@@ -79,7 +79,7 @@ The scope of `step 6`and `step 7` are complementary: while Working Group members
   * [Study on Data Mapping for the crossborder application of the Once-Only technical system SDG](https://sdg.mindigital.gr/uploads/Deloitte_final_report.pdf)
   * [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov)
   * [Euro Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/home)
-  * [Public form DG Justice](https://beta.e-justice.europa.eu/35981/EN/public_documents_forms)
+  * [Public documents forms | DG Justice](https://beta.e-justice.europa.eu/35981/EN/public_documents_forms)
 
 </details>
 
@@ -123,7 +123,10 @@ Focusing only on entities, attributes and relationships will allow Working Group
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  Proprietary tools: 
+  
+  * [Entreprise Architect](https://www.sparxsystems.eu/enterprise-architect/)
+  * [Miscrosoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio)
 </details>
 
 <details>
@@ -174,7 +177,7 @@ The Core Person Vocabulary describes a class/entity Person that has an attribute
 ## `Step 10` Description from respected dictionnary
 
 **Key activities**
-> 
+> The editors fetch information elsewhere than the ISA² Core Vocabularies
 
 <details>
   <summary><b>Description</b></summary>
