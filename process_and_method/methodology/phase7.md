@@ -72,7 +72,7 @@
 ## `Step 28`. Publish all documentation
 
 **Key activities**
-> * The [<b>editors</b>](../stakeholders#editors) publish all documentation? 
+> * The [<b>editors</b>](../stakeholders#editors) publish all documentation 
 
 <details>
   <summary><b>Description</b></summary>
