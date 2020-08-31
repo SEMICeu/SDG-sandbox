@@ -1,3 +1,5 @@
+![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
+
 # Phase 5: Select controlled vocabularies
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
@@ -157,6 +159,8 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
+  Publication as a _last call_ Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Endorsement of the model will be sought in the next `step 24`
 </details>
 
 <details>
