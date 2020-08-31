@@ -69,6 +69,9 @@ The scope of `step 6`and `step 7` are complementary: while Working Group members
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
+The data model to be produced is not modeling paper documents but evidence, i.e., information required by competent authorities to prove a fact, so the grain of the data should be limited to the fact to prove when modelling evidence types.
+
 </details>
 
 <details>
@@ -235,9 +238,16 @@ Tables are a way to provide further information and context to the data model un
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
+ **Generic rules and guidelines for `step 11`**
+ 
+ * The scope of the data model should be described by the fact or event that is proven by the evidence represented by the data model. 
+
+  **Specific rules and guidelines for  the table per entity**
+ 
 * Entities names should start with an uppercase
 * Attributes names should start with a lower case
 * Entities as well as attributes and relationships should be accompanied by a definition. 
+* The regulation 2016/1191 on public documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondance between the attributes of the proposed data model to the fields of the multilingual standard forms of the regulation on public documents for evidences related to such domain. 
 
 </details>
 
