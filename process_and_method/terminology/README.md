@@ -24,6 +24,6 @@ A 'thing', such as a vessel, a geographic location, a sensor, a map or something
 
 A link between two concepts; examples are the link between an observation and the sensor that produced it, the link between a document and the organisation that published it, or the link between a map and the geographic region it depicts.
 
-### Semantic agreement 
+### Semantic agreement
 
 Consensus among the working group on the model and data entities that support common services. Apart from the typology of the data entities, the consensus also covers the characteristics of the data entities as expressed in metadata and the use of common controlled vocabularies.
