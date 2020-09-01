@@ -1,3 +1,10 @@
+# Disclaimer
+
+This page is not up to date and relates to this version of the model [marriage_certificate_diagram_v0.10.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/marriage_certificate/data_model/marriage_certificate_diagram_v0.10.pdf). Friday `04/09/2020`, this page will be updated according to this version of the model [marriage_certificate_diagram_v0.10.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/marriage_certificate/data_model/marriage_certificate_diagram_v0.11.pdf)
+
+---
+
+
 # Marriage certificate
 
 ## Entities
