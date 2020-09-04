@@ -12,14 +12,15 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 
 |     attribute            |     expected type          |     definition                                                 		|     cardinality    | code list |
 |--------------------------|----------------------------|------------------------------------------------------------------|--------------------|-----------| 
-|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  |     [1..1]        | N/A |
+|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Evidence.  |     [1..1]        | N/A |
 |     overall grade        |     Float                  |     A mark indicating a degree of accomplishment for the whole year.    |     [1..1]         | N/A |
 |     school year  |     Date                          |     The annual period of sessions of the educational institution.        								      	            | [0..1]  | N/A |
 |     final examination date    |     Date             |     The date of the final assessment designed to test the qualification or knowledge acquired. |  [0..1] | N/A |
-|     issuing date  |     Date                         |     The date on which the Secondary Education Completion Certificate was issued.    | [0..1]   | N/A |
-|     issuing authority   |     Issuing Authority       |     The Organisation that issued the Secondary Education Completion Certificate.     |     [1..1]  | N/A |
-|     contains	  |     Course Result                    |     The Course Results which the Secondary Education Completion Certificate contains.  	|   [0..*] | N/A |
-|     belongs to    |     Student			                    |     The Student to which the certificate belongs.   	|     [1..1]         | N/A |
+|     issuing date  |     Date                         |     The date on which the Secondary Education Completion Evidence was issued.    | [0..1]   | N/A |
+|     issuing authority   |     Issuing Authority       |     The Organisation that issued the Secondary Education Completion Evidence.     |     [1..1]  | N/A |
+|     contains	  |     Course Result                    |     The Course Results which the Secondary Education Completion Evidence contains.  	|   [0..*] | N/A |
+|     belongs to    |     Student			                    |     The Student to which the evidence belongs.   	|     [1..1]         | N/A |
+|     obtained at   |     Education Institution        |     The Education Institution that delivered the evidence.               				                          |     [0..1]         | N/A |
  
 
 ### Course Result 
@@ -33,7 +34,7 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 
 
 ### Issuing Authority 
-**Definition**: An Organisation with official authority in charge of issuing Secondary Education Completion Certificates.
+**Definition**: An Organisation with official authority in charge of issuing Secondary Education Completion Evidence.
 
 **Subclass of**: Public Organisation
 
