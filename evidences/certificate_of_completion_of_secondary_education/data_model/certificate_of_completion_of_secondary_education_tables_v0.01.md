@@ -35,7 +35,7 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 ### Issuing Authority 
 **Definition**: An Organisation with official authority in charge of issuing Secondary Education Completion Certificates.
 
-**Subclass of**: Organisation
+**Subclass of**: Public Organisation
 
 *No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
 
@@ -43,18 +43,18 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 ### Education Institution
 **Definition**: An Organisation that provides instructional services to individuals or education-related services to individuals and other educational institutions.
 
-**Subclass of**: Organisation
+**Subclass of**: Public Organisation
 
 *No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
 
 
-### Organization
-**Definition**: Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it.
+### Public Organisation
+**Definition**: Any organization that is defined as being part of the public sector by a legal framework at any level.
 
-|     attribute   		  |     expected type  		|     definition                                                                                  																																																																									  |     cardinality    | code list |
-|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
-|    identifier           |     Identifier     		|     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.              |    [1..*]          | N/A |
-|    name 			      |     Text        		|     A word or combination of words by which the Organisation is designated, called or known.         		                                                                                                                                                                                                                                                                                          |     [1..*]         | N/A |
+|     attribute        |     expected type  |     definition                                                                                                                                                                                                                                                                                                                                                                                |    cardinality     | code list |
+|----------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------| -------|
+|     preferred label  |     Text         |     As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organization. An organization may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.                                                                            |    [1..*]          |N/A |
+|     identifier       |     Identifier     |     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.        |    [1..*]          |N/A |
 
 ### Student
 **Definition**: A Person who attended school.
