@@ -14,11 +14,11 @@ This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandb
 
 |     attribute            |     expected type          |     definition                                                                                        |     cardinality    | code list |
 |--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------|--------------------|--------- |
-|     identifier           |     Identifier             |     An unambiguous reference to the Marriage Certificate.                                             |     [1..1]         | N/A | 
-|     issuing date         |     Date                   |     The date on which the Marriage Certificate was issued.                                            |     [1..1]         | N/A |
+|     identifier           |     Identifier             |     An unambiguous reference to the Marriage Evidence.                                             |     [1..1]         | N/A | 
+|     issuing date         |     Date                   |     The date on which the Marriage Evidence was issued.                                            |     [1..1]         | N/A |
 |     certifies            |     Marriage               |     Attesting in a formal way that the Marriage is true.                                              |     [1..1]         | N/A |
-|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Marriage Certificate.      |     [1..1]         | N/A |
-|     issuing place        |     Location               |     The Location where the Marriage Certificate was issued.                                           |     [0..1]         | N/A |
+|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Marriage Evidence.      |     [1..1]         | N/A |
+|     issuing place        |     Location               |     The Location where the Marriage Evidence was issued.                                           |     [0..1]         | N/A |
 
 
 ### Marriage
