@@ -1,3 +1,8 @@
+# Disclaimer
+
+This page is not up to date and relates to this version of the model [certificate_of_completion_of_secondary_education_diagram_v0.10.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.10.pdf). Friday `04/09/2020`, this page will be updated according to this version of the model [certificate_of_completion_of_secondary_education_diagram_v0.11.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.11.pdf)
+
+---
 # Certificate of completion of secondary education
 
 ## Entities

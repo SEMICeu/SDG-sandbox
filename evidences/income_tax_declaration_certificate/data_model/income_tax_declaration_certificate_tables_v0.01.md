@@ -1,3 +1,9 @@
+# Disclaimer
+
+This page is not up to date and relates to this version of the model [income_tax_declaration_certificate_diagram_v0.10.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/income_tax_declaration_certificate/data_model/income_tax_declaration_certificate_diagram_v0.10.pdf). Friday `04/09/2020`, this page will be updated according to this version of the model [income_tax_declaration_certificate_diagram_v0.11.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/income_tax_declaration_certificate/data_model/income_tax_declaration_certificate_diagram_v0.11.pdf)
+
+---
+
 # Income tax declaration certificate
 
 ## Entities
