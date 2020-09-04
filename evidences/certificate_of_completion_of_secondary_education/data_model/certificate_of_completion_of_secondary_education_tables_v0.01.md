@@ -37,7 +37,7 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 
 **Subclass of**: Public Organisation
 
-*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
+*No additional attributes are defined for this entity. It does inherit, however, all the attributes from Public Organisation listed here below.* 
 
 
 ### Education Institution
@@ -45,7 +45,7 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 
 **Subclass of**: Public Organisation
 
-*No additional attributes are defined for this entity. It does inherit, however, all the attributes from its superclass, Organisation.*
+*No additional attributes are defined for this entity. It does inherit, however, all the attributes from Public Organisation listed here below*
 
 
 ### Public Organisation
