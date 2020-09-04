@@ -64,9 +64,9 @@ This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandb
 ### Location
 **Definition**: A spatial region or named place.
 
-|     attribute   |     expected type  |     definition                                                                                  |     cardinality    |
-|-----------------|--------------------|-------------------------------------------------------------------------------------------------|--------------------|
-|     address     |     Address        |     The address property relationship associates a Location with the Address entity.            |     [1..1]         |
+|     attribute   |     expected type  |     definition                                                                                  |     cardinality    | code list |
+|-----------------|--------------------|-------------------------------------------------------------------------------------------------|--------------------|-----------|
+|     address     |     Address        |     The address property relationship associates a Location with the Address entity.            |     [1..1]         | N/A   |
 
 
 ### Address
