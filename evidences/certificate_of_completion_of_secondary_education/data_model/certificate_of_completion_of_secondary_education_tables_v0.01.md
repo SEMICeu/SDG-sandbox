@@ -1,32 +1,35 @@
 # Disclaimer
 
-This page is not up to date and relates to this version of the model [certificate_of_completion_of_secondary_education_diagram_v0.10.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.10.pdf). Friday `04/09/2020`, this page will be updated according to this version of the model [certificate_of_completion_of_secondary_education_diagram_v0.11.pdf](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.11.pdf)
+This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.11.pdf) of the model
 
 ---
-# Certificate of completion of secondary education
+# Secondary Education Completion Evidence
 
 ## Entities
 
-### Secondary Education Completion Certificate
+### Secondary Education Completion Evidence
 **Definition**: Official document proving the Secondary Education Completion of a Student. 
 
-|     attribute            |     expected type          |     definition                                                                                								|     cardinality    |
-|--------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  								                |     [1..1]         |
-|     overall grade        |     float                  |     A mark indicating a degree of accomplishment for the whole year.        								      	            |     [1..1]         |
-|     issuing authority    |     Issuing Authority      |     The Organisation that issued the Secondary Education Completion Certificate.                                              |     [1..1]         |
-|     contains	           |     Course Result          |     The Course Results which the Secondary Education Completion Certificate contains.             							|     [0..*]         |
-|     belongs to           |     Student			    |     The Student to which the certificate belongs.          															     	|     [1..1]         |
+|     attribute            |     expected type          |     definition                                                 		|     cardinality    | code list |
+|--------------------------|----------------------------|------------------------------------------------------------------|--------------------|-----------| 
+|     identifier           |     Identifier             |     An unambiguous reference to the Secondary Education Completion Certificate.  |     [1..1]        | N/A |
+|     overall grade        |     Float                  |     A mark indicating a degree of accomplishment for the whole year.    |     [1..1]         | N/A |
+|     school year  |     Date                          |     The annual period of sessions of the educational institution.        								      	            | [0..1]  | N/A |
+|     final examination date    |     Date             |     The date of the final assessment designed to test the qualification or knowledge acquired. |  [0..1] | N/A |
+|     issuing date  |     Date                         |     The date on which the Secondary Education Completion Certificate was issued.    | [0..1]   | N/A |
+|     issuing authority   |     Issuing Authority       |     The Organisation that issued the Secondary Education Completion Certificate.     |     [1..1]  | N/A |
+|     contains	  |     Course Result                    |     The Course Results which the Secondary Education Completion Certificate contains.  	|   [0..*] | N/A |
+|     belongs to    |     Student			                    |     The Student to which the certificate belongs.   	|     [1..1]         | N/A |
  
 
 ### Course Result 
 **Definition**: Grade obtained after after finishing/completing a course. 
 
-|     attribute    	|     expected type				   |     definition                                          			 											  |     cardinality    |
-|-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|
-|     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [1..1]         |
-|     course name   |     string       			       |     Name given to a number of lectures or other matter dealing with a subject.              					  |     [1..1]         |
-|     course grade  |     float          		       |     A mark indicating a degree of accomplishment for a particular course.                            			  |     [1..1]         |
+|     attribute    	|     expected type				   |     definition                                          			 											  |     cardinality    | code list |
+|-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|---------|
+|     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [0..1]         | N/A |
+|     course name   |     Text       			       |     Name given to a number of lectures or other matter dealing with a subject.              					  |     [0..1]         | N/A |
+|     course grade  |     Float          		       |     A mark indicating a degree of accomplishment for a particular course.                            			  |     [0..1]         | N/A |
 
 
 ### Issuing Authority 
@@ -48,40 +51,33 @@ This page is not up to date and relates to this version of the model [certificat
 ### Organization
 **Definition**: Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it.
 
-|     attribute   		  |     expected type  		|     definition                                                                                  																																																																									  |     cardinality    |
-|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|    identifier           |     Identifier     		|     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.              |    [1..*]          |
-|    name 			      |     string        		|     A word or combination of words by which the Organisation is designated, called or known.         		                                                                                                                                                                                                                                                                                          |     [1..*]         |
+|     attribute   		  |     expected type  		|     definition                                                                                  																																																																									  |     cardinality    | code list |
+|-------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
+|    identifier           |     Identifier     		|     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.              |    [1..*]          | N/A |
+|    name 			      |     Text        		|     A word or combination of words by which the Organisation is designated, called or known.         		                                                                                                                                                                                                                                                                                          |     [1..*]         | N/A |
 
 ### Student
 **Definition**: A Person who attended school.
 
-|     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    |
-|--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|
-|     student ID number 		 |     Identifier        	|     An unambiguous reference to the Student.										        		|     [1..1]         |
+|     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    | code list | 
+|--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|-------- | 
+|     student ID number 		 |     Identifier        	|     An unambiguous reference to the Student.										        		|     [1..1]         | N/A |
 
 ### Person
 **Definition**: An individual person who may be dead or alive, but not imaginary.
 
-|     attribute           |     expected type |     definition       											 																																																																																												|     cardinality   |
-|-------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-|     identifier          |     Identifier    |     The identifier relation is used to link a person to any formally issued Identifier for that person.     																																																																																	|     [1..*]        |
-|     given name          |     string        |     A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names are ordered in one field so that, for example, the given name for Johan Sebastian Bach is “Johan Sebastian”.                                                                  |     [1..1]        |
-|     family name         |     string        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".        |     [1..1]        |
-|     date of birth       |     date          |     A date that specifies the birth date of a person.                                                                                                                                                                                                                                                                                                                                                                                           |     [1..1]        |
-|     place of birth      |     Location      |     The Location where a Person was born.                                                                                                                                                                                                                                                                                                                                                                                                       |     [0..1]        |
+|     attribute           |     expected type |     definition       											 																																																																																												|     cardinality   | code list |
+|-------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------|
+|     identifier          |     Identifier    |     The identifier relation is used to link a person to any formally issued Identifier for that person.     																																																																																	|     [1..*]        | N/A |
+|     given name          |     Text        |     A given name, or multiple given names, are the denominator(s) that identify an individual within a family. These are given to a person by his or her parents at birth or may be legally recognised as 'given names' through a formal process. All given names are ordered in one field so that, for example, the given name for Johan Sebastian Bach is “Johan Sebastian”.                                                                  |     [1..1]        | N/A |
+|     family name         |     Text        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".        |     [1..1]        | N/A |
+|     date of birth       |     Date          |     A date that specifies the birth date of a person.                                                                                                                                                                                                                                                                                                                                                                                           |     [1..1]        | N/A |
 
 ### Location
 **Definition**: A spatial region or named place.
 
-|     attribute   |     expected type  |     definition                                                                                   |     cardinality    |
-|-----------------|--------------------|--------------------------------------------------------------------------------------------------|--------------------|
-|     address     |     Address        |     The address property relationship associates a Location with the Address entity.             |     [1..1]         |
+|     attribute   |     expected type  |     definition                                                                                  |     cardinality    | code list |
+|-----------------|--------------------|-------------------------------------------------------------------------------------------------|--------------------|-----------|
+|     geographic name     |     Text        |     A geographic name is a proper noun applied to a spatial object. The INSPIRE Data Specification on Geographical Names [INGN] provides a detailed model for describing a 'named place', including methods for providing multiple names in multiple scripts.              |     [1..1]         | N/A | 
+|     geographic identifier     |     URI        |     A URI that identifies the location. GeoNames.org provides stable, widely recognised identifiers for more than 10 million geographical names that can be used as links to further information.            |     [1..1]         |N/A |
 
-### Address
-**Definition**: An "address representation" as conceptually defined by the INSPIRE Address Representation data type.
-
-|     attribute             |     expected type |     definition                                                                                                                                                  																	  |     cardinality    |
-|---------------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-|     post name             |     string        |     The key postal division of the address, usually the city. (INSPIRE's definition is "One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.").          |     [1..1]         |
-|     admin unit level 1    |     string        |     The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type.         |     [1..1]         |
