@@ -13,7 +13,7 @@ This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandb
 
 |     attribute            |     expected type          |     definition                                                                                          |     cardinality    | code list |
 |--------------------------|----------------------------|---------------------------------------------------------------------------------------------------------|--------------------|---------|
-|     identifier           |     Identifier             |     An unambiguous reference to the Income Tax Declaration Certificate.                                 |     [1..1]         | N/A |
+|     identifier           |     Identifier             |     An unambiguous reference to the Income Tax Declaration Evidence.                                 |     [1..1]         | N/A |
 |     issuing date         |     Date                   |     The date on which the Income Tax Declaration was issued.                                            |     [1..1]         | N/A |
 |    fiscal year         |     Date                   |     The date on which the Income Tax amount due for was paid.                                           |     [1..1]         | N/A |
 |     belongs to           |     Tax Payer              |     The Tax Payer to whom the Tax Declaration applies.                                                  |     [1..1]         | N/A |
