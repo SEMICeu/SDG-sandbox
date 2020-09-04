@@ -41,6 +41,15 @@ This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandb
 |     family name         |     Text        |     A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the Family Name, e.g. “de Boer”, “van de Putte”, “von und zu Orlow”. Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single Family Name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".     |     [1..1]        | N/A|
 |     date of birth                        |     Date              |  A date that specifies the birth date of a Person.	                                                                                                                                                                                                                                                                                                                            |     [1..1]          |N/A |
 |     citizenship                          |     Jurisdiction      |  The citizenship relationship links a Person to a Jurisdiction that has conferred citizenship rights on the individual such as the right to vote, to receive certain protection from the community or the issuance of a passport.                                                                                                                                              |     [0..1]          |     N/A |        
+|     additional info                          |     Additional Marriage Info      |  Additional information provided subsquently to a marriage.                                                                                                                                              |     [0..1]          |     N/A |    
+
+### Jurisdiction 
+**Definition**: The authority that an official organization has to make legal decisions about somebody/something. 
+
+|     attribute   |     expected type  |     definition                                                                                  |     cardinality    | code list |
+|-----------------|--------------------|-------------------------------------------------------------------------------------------------|--------------------|-----------|
+|    name    |     Text        |    The name is simply a string that identifies the jurisdiction, typically a country, with or without a language tag             |     [1..1]         | [Country](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/country/?target=Browse&uri=http://publications.europa.eu/resource/authority/country) | 
+|    id   |     URI        |    The value for the id property is a URI for that jurisdiction.          |     [1..1]         |N/A |
 
 ### Additional Marriage Info 
 **Definition**: Additional information provided subsquently to a marriage.
