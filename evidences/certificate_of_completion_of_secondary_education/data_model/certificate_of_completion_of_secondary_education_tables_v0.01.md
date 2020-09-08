@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.11.pdf) of the model
+This page  relates to this [version (v0.12)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.12.pdf) of the model
 
 ---
 # Secondary Education Completion Evidence
@@ -56,6 +56,7 @@ This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sand
 |----------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------| -------|
 |     preferred label  |     Text         |     As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organization. An organization may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.                                                                            |    [1..*]          |N/A |
 |     identifier       |     Identifier     |     Many organizations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.        |    [1..*]          |N/A |
+|     registered location       |     Location     |     The registered location of the Public Organisation.        |    [1..1]          |N/A |
 
 ### Student
 **Definition**: A Person who attended school.
