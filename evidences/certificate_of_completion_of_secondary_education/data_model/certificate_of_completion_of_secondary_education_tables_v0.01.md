@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page  relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.11.pdf) of the model
+This page  relates to this [version (v0.12)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/certificate_of_completion_of_secondary_education/data_model/certificate_of_completion_of_secondary_education_diagram_v0.12.pdf) of the model
 
 ---
 # Secondary Education Completion Evidence
