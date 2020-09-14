@@ -51,7 +51,7 @@
 * Are the entities and attributes definitions clear enough? 
 * Does the modelling approach make sense? 
 * Do I agree with the proposed cardinalities (i.e. mandatory versus optional)
-* With data minimisation in mind, should some of the entities and or attributes stripped off?
+* With data minimisation in mind, should some of the entities and or attributes be stripped off?
 * Will my country be able to provide all the mandatory information?  
 
 </details>
@@ -72,14 +72,19 @@
 ## ` Step 25`  Update the final model
 
 **Key activities**
-> 
+> * The [<b>editors</b>](../stakeholders#editors) process any last feedback and finish the final models. 
 
 <details>
   <summary><b>Description</b></summary>
+  
+  In case the Working Group has given feedback in the previous step, the editors process these comments and make changes to the models as agreed by the Working Group.
+  From this point, the editors can only make changes on which the Working Group has reached a consensus. Since there is no review period anymore, all changes that are carried out during this step should have been discussed with the Working Group. 
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  * No changes are made during this step that were not agreed upon by the Working Group.
+  * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
 </details>
 
 <details>
