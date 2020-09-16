@@ -198,8 +198,11 @@ First, when a procedure does not request any type of evidence other than identif
 
 <details>
   <summary><b>Example(s)</b></summary>
+For instance, taking into account all the factors mentioned in the preceeding steps, the study on data mapping for the cross border application of the Once-Only technical system SDG has identified the following category of evidence as relevant for the modelling exercise. 
 
-```
-  TBD
-  ```
+| Category of evidence                        | Evidence                                                    | Relevant procedure(s)                                                                          |
+|---------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Vital records and personal public documents | Birth certificate                                           | Requesting academic recognition of diplomas, certificates or other proof of studies or course |
+| Vital records and personal public documents | Certificate of change of name, such as marriage certificate | * Requesting academic recognition of diplomas, certificates or other proof of studies or courses * Recognition of professional qualifications of doctors (doctor of medicine) * Recognition of professional qualifications of nurses|
+
 </details>
