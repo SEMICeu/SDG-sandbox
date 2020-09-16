@@ -23,6 +23,7 @@
   Working Group members will share information they possess related to the common data model being built.
   
   The objective is to gather information in order to have a global overview of data models implemented and used across Europe and leverage this insight to develop a common data model. This task is assigned to the Working Group members who will report back to the editors using the channels and collaborative tools defined.
+  
   One important aspect of this step is **source of data quality**. This ensured by the requirement that all data comes from authoritative sources. Working Group members are responsible to identify and connect the authorities to the system.
   
 
