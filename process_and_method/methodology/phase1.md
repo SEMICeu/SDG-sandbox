@@ -4,11 +4,11 @@
 ![Process_Phase 1](img/methodology_phase1.PNG)
 
 **Quick links:**
-- [`Step 1` Select the evidences]()
-- [`Step 1.1` Select procedures]()
-- [`Step 1.2` List of relevant evidences]()
-- [`Step 1.3` Identify the competent authorities]()
-- [`Step 2` Evidences likely to be exchanged]()
+- [`Step 1` Select the evidences](../phase1.md#step-1-select-the-evidences)
+- [`Step 1.1` Select procedures](../phase1.md#step-12-list-of-relevant-evidences)
+- [`Step 1.2` List of relevant evidences](../phase1.md#step-12-list-of-relevant-evidences)
+- [`Step 1.3` Identify the competent authorities](../phase1.md#step-13-identify-the-competent-authorities)
+- [`Step 2` Evidences likely to be exchanged](../phase1.md#step-2-evidences-likely-to-be-exchanged)
 
 **Navigate to the different phases**\
 [:arrow_left: Overview](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/methodology) **|**
@@ -198,11 +198,13 @@ First, when a procedure does not request any type of evidence other than identif
 
 <details>
   <summary><b>Example(s)</b></summary>
-For instance, taking into account all the factors mentioned in the preceeding steps, the study on data mapping for the cross border application of the Once-Only technical system SDG has identified the following category of evidence as relevant for the modelling exercise. 
+For instance, taking into account all the factors mentioned in the preceeding steps, the study on data mapping for the cross border application of the Once-Only technical system SDG has identified the following category of evidence as relevant for the modelling exercise.
+  
+
 
 | Category of evidence                        | Evidence                                                    | Relevant procedure(s)                                                                          |
 |---------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Vital records and personal public documents | Birth certificate                                           | Requesting academic recognition of diplomas, certificates or other proof of studies or course |
-| Vital records and personal public documents | Certificate of change of name, such as marriage certificate | * Requesting academic recognition of diplomas, certificates or other proof of studies or courses * Recognition of professional qualifications of doctors (doctor of medicine) * Recognition of professional qualifications of nurses|
+| Vital records and personal public documents | Certificate of change of name, such as marriage certificate | 1. Requesting academic recognition of diplomas, certificates or other proof of studies or courses 2. Recognition of professional qualifications of doctors (doctor of medicine) 3. Recognition of professional qualifications of nurses|
 
 </details>
