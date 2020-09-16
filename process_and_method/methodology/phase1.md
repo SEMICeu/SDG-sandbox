@@ -1,3 +1,5 @@
+![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
+
 # Phase 1: Select evidence
 ![Process_Phase 1](img/methodology_phase1.PNG)
 
