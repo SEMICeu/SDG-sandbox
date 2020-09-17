@@ -17,7 +17,7 @@
 ## `Step 1` Select the evidences  
 
 **Key activities**
-> The [<b>Working Group</b>](../stakeholders#working-group) members  and the [<b>editors</b>](../stakeholders#editors) define together which evidences will be modelled. 
+> The [<b>Working Group</b>](../stakeholders#working-group) members and the [<b>editors</b>](../stakeholders#editors) define together which evidences will be modelled. 
 
 <details>
   <summary><b>Description</b></summary>
@@ -46,23 +46,11 @@ In the evidence-based approach, it is not always clear for civil servants in a p
 
 </details>
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
-
 ## `Step 1.1` Select procedures 
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) analyse which procedures should be selected. 
+>* The [<b>Working Group</b>](../stakeholders#working-group) members share their existing procedures. 
+>* The [<b>editors</b>](../stakeholders#editors) analyse which procedures should be selected. 
 
 <details>
   <summary><b>Description</b></summary>
@@ -90,13 +78,15 @@ Additionaly, the complexity of procedure can be assessed. Three categories are i
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  <i>A collaborative tool, e.g. Confluence, Github.</i>
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
   
-  The procedures in scope of the SDG OOP technical system are those listed under Annex II of the SDGR and Directives 2005/36/EC, 2006/123/EC, 2014/24/EU and 2014/25/EU
+  The procedures in scope of the SDG OOP technical system are those listed under Annex II of the SDGR and Directives 2005/36/EC, 2006/123/EC, 2014/24/EU and 2014/25/EU. 
+  
+  In the Study on Data Mapping for the cross border application of the Once-Only technical system SDG, the procedure _requesting proof of registration of birth_ was identified as being available in all the member states surveyed. Additionaly, it was associated with a low level of complexity.
 
 </details>
 
@@ -122,15 +112,13 @@ In order to understand what would be the actual types of evidence exchanged as p
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  <i>A collaborative tool, e.g. Confluence, Github.</i>
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
+  
+For instance, in the Study on Data Mapping for the cross border application of the Once-Only technical system SDG, the procedure _Applying for a tertiary education study financing, such as study grants and loans from a public body or institution_ was identified as having a high level of cross-border evidence exchange. 
 </details>
 
 ## `Step 1.3` Identify the competent authorities 
@@ -155,15 +143,13 @@ Needless to say that an evidence not lawfully issued by a competent authority (e
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  <i>A collaborative tool, e.g. Confluence, Github.</i>
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+In the Study on Data Mapping for the cross border application of the Once-Only technical system SDG, it was identified that, for the procedure _requesting proof of registration of birth_, Member States either manage this procedure at the local or national level, most likely depending on the level of prior interconnection between the civil registries.
 </details>
 
 ## `Step 2` Evidences likely to be exchanged
@@ -186,14 +172,8 @@ First, when a procedure does not request any type of evidence other than identif
 </details>
 
 <details>
-  <summary><b>Rules and Guidelines</b></summary>
-  
-  
-</details>
-
-<details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  <i>A collaborative tool, e.g. Confluence, Github.</i>
 </details>
 
 <details>
