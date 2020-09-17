@@ -50,9 +50,7 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+For instance, for the [gender attribute](../birth_certificate/data_model/birth_certificate_tables_v0.01.md) the [Human Sex](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex) controlled vocabulary has been identified and proposed. 
 </details>
 
 ## `Step 20` Choose recommended controlled vocabularies
@@ -72,19 +70,6 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
   <summary><b>Rules and Guidelines</b></summary>
 </details>
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
-
 ## `Step 21` Harmonise controlled vocabularies across the data model
 
 
@@ -99,23 +84,6 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
 
 </details>
 
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
-
 ## `Step 22` Document core set of attributes and recommended vocabularies
 
 **Key activities**
@@ -126,23 +94,6 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
   
   On the basis of discussions in `phase 4` and `phase 5`, the editors will document the decisions and prepare to update the draft data model.   
 
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
 </details>
 
 ## `Step 23` Finalise data model
@@ -161,17 +112,4 @@ Once a core set of common attributes has been agreed upon and the [draft data mo
   <summary><b>Rules and Guidelines</b></summary>
   
   Publication as a _last call_ Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Endorsement of the model will be sought in the next `step 24`
-</details>
-
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
 </details>
