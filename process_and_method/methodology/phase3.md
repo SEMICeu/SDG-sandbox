@@ -36,12 +36,8 @@
 </details>
 
 <details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-<details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+   <i>The collaborative tool, e.g. Github.</i>
 </details>
 
 <details>
