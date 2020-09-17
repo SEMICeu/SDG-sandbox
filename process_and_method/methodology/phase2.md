@@ -67,6 +67,7 @@ Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
   * The [SKOS Mapping Properties](https://www.w3.org/TR/skos-reference/#mapping) can be used to compare entities or attributes across different models.
 </details>
 
