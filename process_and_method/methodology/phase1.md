@@ -107,10 +107,6 @@ In order to understand what would be the actual types of evidence exchanged as p
 </details>
 
 <details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-<details>
   <summary><b>Tool(s)</b></summary>
   <i>A collaborative tool, e.g. Confluence, Github.</i>
 </details>
@@ -135,10 +131,6 @@ In order to further refine the scope of evidence that will be exchanged under th
 The competent authorities are most often public bodies at the national, regional and local levels – such as Ministries, National Social Security and Pensions systems, Regulatory Authorities, Local authorities and others. In some rare cases, the competent authority may be a private body or institution acting with a mandate from public authorities. For the latter, it is important to assess whether certain identified bodies can indeed be considered a competent authority (e.g. private universities, private health insurance companies).
 
 Needless to say that an evidence not lawfully issued by a competent authority (e.g. evidence produced by the private sector/individuals such as invoice, leasing contract, sworn declaration) will be automatically considered out of scope. 
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
 </details>
 
 <details>
