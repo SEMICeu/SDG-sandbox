@@ -30,21 +30,11 @@
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
   * Publish the conformance statement together with the common data model.
 </details>
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
 
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
 
 ## `Step 27`. Create distributions
 
@@ -69,6 +59,7 @@
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
 * Create both machine-readable as well as human-readable distributions of the data models.
 * Automate the creation of the distributions as much as possible in order to avoid mistakes.
 * We recommend to use URIs under the data.europa.eu which allows for flexibility for where the URIs resolve to.
@@ -76,6 +67,7 @@
 
 <details>
   <summary><b>Tool(s)</b></summary>
+  
   * [VocBench3](https://ec.europa.eu/isa2/solutions/vocbench3_en)
   * Toolchain [?]
   * Sparx Enterprise Architect
@@ -84,9 +76,7 @@
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+For instance, the Birth evidence was distributed in [XML](../data_model/birth_certificate_XML_example_v0.01.xml). 
 </details>
 
 ## `Step 28`. Publish all documentation
@@ -104,6 +94,7 @@
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
   * Choose an open license, e.g. CC0.
   * Publish the data model, its elements and related documentation via persistent (and ideally, dereferenceable) URIs.
   * Provide machine access to the data model.
@@ -111,13 +102,6 @@
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
+  <i>The collaborative tool, e.g. Confluence, Github.</i>
 </details>
 
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
