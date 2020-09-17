@@ -73,15 +73,15 @@ Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/
 
 <details>
   <summary><b>Tool(s)</b></summary>
+  
 * A spreadsheet tool can be used to present and compare the different data models.
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+TBD
+
 </details>
 
 ## `Step 5` Select set of core entities, attributes and relationships
@@ -102,12 +102,7 @@ Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/
 <details>
   <summary><b>Tool(s)</b></summary>
   <i>There are no specific tools for this step.</i>
-</details>
+  
+* A spreadsheet tool can be used to select the set of core entities, attribute and relationships of the common data model.
 
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
 </details>
