@@ -143,13 +143,15 @@ Focusing only on entities, attributes and relationships will allow Working Group
 <details>
   <summary><b>Description</b></summary>
   
-  The editors verify whether a ISA² Core Vocabulary can be reused. Reusability is a key principle when drafting data models. 
+  The editors verify whether an ISA² Core Vocabulary can be reused. Reusability is a key principle when drafting data models. 
 In case there is no ISA² Core Vocabulary reusable, or it is not coherent to the context of the data model, the editors will consider other possibilities as presented in `step 10`. 
 
-</details>
+> Core Vocabularies are simplified, re-usable and extensible data models that capture the fundamental characteristics of an entity in a context-neutral fashion. Public administrations can use and extend the Core Vocabularies in the following contexts:
+> * Development of new systems
+> * Information exchange between systems
+> * Data integration
+> * Open data publishing 
 
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
 </details>
 
 <details>
@@ -187,11 +189,6 @@ The Core Person Vocabulary describes a class/entity Person that has an attribute
 In the event of information not being available, the editors propose new entities / attributes using respected and authoritative sources as inspiration. 
 
 </details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
 <details>
   <summary><b>Tool(s)</b></summary>
   
@@ -205,7 +202,7 @@ In the event of information not being available, the editors propose new entitie
 <details>
   <summary><b>Example(s)</b></summary>
 
-For instance, for the [Completion of secondary education evidence](../data_model/certificate_of_completion_of_secondary_education_tables_v0.01.md) the **course name** definition comes from a respected dictionnary ; i.e. _"Name given to a number of lectures or other matters dealing with a subject."
+For instance, for the [Completion of secondary education evidence](../data_model/certificate_of_completion_of_secondary_education_tables_v0.01.md) the **course name** definition comes from a respected dictionnary ; i.e. <i>"Name given to a number of lectures or other matters dealing with a subject."</i>
 
 </details>
 
