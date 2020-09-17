@@ -96,12 +96,13 @@ TBD
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  * Be as specific as possible, without restricting local flexibility too much.
+ 
+* Be as specific as possible, without restricting local flexibility too much.
+* When selecting the core entities, attributes and relationships the editors can define thresholds allowing to decide which of the latter will be mandatory, optional or discarded.
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
   
 * A spreadsheet tool can be used to select the set of core entities, attribute and relationships of the common data model.
 
