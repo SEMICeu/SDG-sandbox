@@ -53,7 +53,7 @@ By no means the tables will replace the collaborative tool selected. The latter 
 * Rules of normalization
 * Definitions
 * Model flexibility
-* Keys
+
 
 <b>Questions</b> to bear in mind while reviewing: 
 
@@ -67,18 +67,6 @@ By no means the tables will replace the collaborative tool selected. The latter 
 
 </details>
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
 
 ## ` Step 25`  Update the final model
 
@@ -94,19 +82,8 @@ By no means the tables will replace the collaborative tool selected. The latter 
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+  
   * No changes are made during this step that were not agreed upon by the Working Group.
   * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
 </details>
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
-</details>
