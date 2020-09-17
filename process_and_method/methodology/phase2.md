@@ -37,7 +37,7 @@ Before sending any data, the Working Group members should bear in mind the follo
   
 * The data model has been validated and implemented by a competent authority;
 * The data model has been issued in a final version; and
-* The data model has been used in cross-border applications for exchange of information.
+* The data model has been used in (cross-border) applications for exchange of information.
 
 </details>
 
