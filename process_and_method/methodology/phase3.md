@@ -25,6 +25,8 @@
 <details>
   <summary><b>Description</b></summary>
   
+  Unlike `step 3`, `step 6` is about the the implementation (rather than the models). It might be that models don't exist or won't be shared in `step 3` and `step 6` will remediate to that by looking for elements in national implementations.
+  
   Working Group members will share information on: 
   
   * Entities they judge paramount to the common data model being built
@@ -44,12 +46,10 @@
 
 <details>
   <summary><b>Example(s)</b></summary>
+  
 Example of information shared related to the data model (Issue #29); 
-
-
-```
-  The address information concerning administrative units could benefit from using NUTS URI to improve interoperability. In addition to ISA codes already used to describe addresses, NUTS URI would bring new properties to describe the location. 
-  ```
+The address information concerning administrative units could benefit from using NUTS URI to improve interoperability. In addition to ISA codes already used to describe addresses, NUTS URI would bring new properties to describe the location. 
+  
 </details>
 
 ## `Step 7` Identify and analyse models used or standardised elsewhere
@@ -60,7 +60,7 @@ Example of information shared related to the data model (Issue #29);
 <details>
   <summary><b>Description</b></summary>
   
-  The editors document any european initiatives that aim at standardizing data exchanges across member states. The output of this step will serve as a basis to draft the common data model. 
+  In parallel with `step 6`, the editors document any european initiatives that aim at standardizing data exchanges across member states. The output of this step will serve as a basis to draft the common data model. 
 
 The scope of `step 6`and `step 7` are complementary: while Working Group members are gathering information on what is nationally implemented, the editor team will focus on existing european initiatives that are used and standardise the exchange of data. `step 6` will provide baseline information while `step 7` will provide information to supplement the first draft of the common data model. 
 
@@ -87,9 +87,6 @@ The data model to be produced is not modeling paper documents but evidence, i.e.
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
 </details>
 
 ## `Step 8` Create UML class diagram
@@ -100,7 +97,7 @@ The data model to be produced is not modeling paper documents but evidence, i.e.
 <details>
   <summary><b>Description</b></summary>
   
-  The editor team will leverage from the information collected in `step 6` and `step 7` to develop an UML class diagram. The latter aims at visually describing how entities of the data model will interact with each other. The different entities, the relationship between entities, and their attributes as well as the expected type will be displayed.
+  The editor team will leverage from the information collected in `step 3`, `step 6` and `step 7` to develop an UML class diagram. The latter aims at visually describing how entities of the data model will interact with each other. The different entities, the relationship between entities, and their attributes as well as the expected type will be displayed.
   
   Attributes should be presented in the following manner _+ attributeName: expected type._ “Expected type” is further defined in `step 11`. 
 
@@ -170,9 +167,8 @@ In case there is no ISA² Core Vocabulary reusable, or it is not coherent to the
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
 The Core Person Vocabulary describes a class/entity Person that has an attribute/property "gender" that expects a Code as data type, coming from four possible controlled vocs: ISO, Eurostat, HL7 or SDMX.
-  ```
+
 </details>
 
 ## `Step 10` Description from respected dictionnary
@@ -209,9 +205,8 @@ In the event of information not being available, the editors propose new entitie
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+For instance, for the [Completion of secondary education evidence](../data_model/certificate_of_completion_of_secondary_education_tables_v0.01.md) the **course name** definition comes from a respected dictionnary ; i.e. _"Name given to a number of lectures or other matters dealing with a subject."
+
 </details>
 
 ## `Step 11` Create tables for all entities
@@ -291,13 +286,5 @@ Publication as a Working Draft does not imply endorsement by the Working Group m
 
 <details>
   <summary><b>Tool(s)</b></summary>
-  <i>There are no specific tools for this step.</i>
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-
-```
-  TBD
-  ```
+  <i>The collaborative tool, e.g. Github.</i>
 </details>
