@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to this [version (v0.01)](social_security_registration_evidence_tables_v0.01.png) of the model.
+This page relates to this [version (v0.01)](social_security_registration_evidence_diagram_v0.01.png) of the model.
 
 ---
 
