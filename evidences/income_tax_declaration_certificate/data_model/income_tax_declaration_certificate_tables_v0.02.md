@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/income_tax_declaration_certificate/data_model/income_tax_declaration_certificate_diagram_v0.11.pdf) of the model. 
+This page relates to [version (v0.12)](income_tax_declaration_certificate_diagram_v0.12.png) of the model. 
 
 ---
 
@@ -9,15 +9,15 @@ This page relates to this [version (v0.11)](https://github.com/SEMICeu/SDG-sandb
 ## Entities
 
 ### Income Tax Declaration Evidence
-**Definition**: Official document in which a Tax Payer declares the Monetary Amount that he or she has earned and the taxes that he or she has paid in one year.
+**Definition**: Official document in which a Tax Payer declares the Monetary Amount that he or she has earned and the income taxes that he or she has paid in one fiscal year.
 
 |     attribute            |     expected type          |     definition                                                                                                                                             |     cardinality    | code list |
 |--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
-|     identifier           |     Identifier             |     An unambiguous reference to the Income Tax Declaration Evidence.                                                                                       |     [1..1]         | N/A       |
+|     identifier           |     Identifier             |     An unambiguous reference to the Income Tax Declaration Evidence.                                                                                       |     [0..1]         | N/A       |
 |     issuing date         |     Date                   |     The date on which the Income Tax Declaration was issued.                                                                                               |     [1..1]         | N/A       |
-|     fiscal year          |     Date                   |     Reference year for which the Income Tax is due.                                                                                              |     [1..1]         | N/A       |
+|     fiscal year          |     Date                   |     Reference year for which the Income Tax is due.                                                                                                        |     [1..1]         | N/A       |
 |     belongs to           |     Tax Payer              |     The Tax Payer to whom the Tax Declaration applies.                                                                                                     |     [1..1]         | N/A       |
-|     issuing authority    |     Public Organisation    |     The National Competent Authority which is in charge of issuing Income Tax Declarations.                                                                |     [1..1]         | N/A       |
+|     issuing authority    |     Public Organisation    |     The National Competent Authority which is in charge of issuing the Income Tax Declaration.                                                             |     [1..1]         | N/A       |
 |     total income         |     Monetary Amount        |     The total amount of taxable income of the Tax Payer in the respective year.                                                                            |     [1..1]         | N/A       |
 |     income tax           |     Monetary Amount        |     The total amount (positive or negative) of tax due on the income in the respective year.                                                               |     [0..1]         | N/A       |
 
