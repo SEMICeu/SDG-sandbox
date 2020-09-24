@@ -60,7 +60,7 @@ This page relates to [version (v0.12)](marriage_certificate_diagram_v0.12.png) o
 |     attribute   |     expected type  |     definition                                                                                                          |     cardinality    | code list 																																										  |
 |-----------------|--------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    name         |     Text           |    The name is simply a string that identifies the Jurisdiction, typically a country, with or without a language tag.   |     [1..1]         | [Country](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/country/?target=Browse&uri=http://publications.europa.eu/resource/authority/country) | 
-|    id           |     URI            |    The value for the id property is a URI for that Jurisdiction.      												     |     [1..1]         | N/A 																																											  |
+|    id           |     URI            |    The value for the id property is a URI for that Jurisdiction.      												     |     [1..1]         | [Country](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/country/?target=Browse&uri=http://publications.europa.eu/resource/authority/country) |
 
 
 ### Public Organisation
