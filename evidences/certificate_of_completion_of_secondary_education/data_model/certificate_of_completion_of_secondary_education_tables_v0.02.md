@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to [version (v0.13)](certificate_of_completion_of_secondary_education_diagram_v0.13.png) of the model.
+This page relates to [version (v0.14)](certificate_of_completion_of_secondary_education_diagram_v0.14.png) of the model.
 
 ---
 # Secondary Education Completion Evidence
@@ -13,7 +13,7 @@ This page relates to [version (v0.13)](certificate_of_completion_of_secondary_ed
 |     attribute               |     expected type          |     definition                                                 		                        |     cardinality    | code list |
 |-----------------------------|----------------------------|------------------------------------------------------------------------------------------------|--------------------|-----------| 
 |     identifier              |     Identifier             |     An unambiguous reference to the Secondary Education Completion Evidence.                   |     [1..1]         | N/A       |
-|     overall grade           |     Float                  |     A mark indicating a degree of accomplishment for the whole year (in percentage).           |     [1..1]         | N/A       |
+|     overall grade           |     Float                  |     A mark indicating a degree of accomplishment for the whole year (in percentage).           |     [0..1]         | N/A       |
 |     school year             |     Date                   |     The annual period of sessions of the Education Institution.        					    |     [0..1]         | N/A       |
 |     final examination date  |     Date                   |     The date of the final assessment designed to test the qualification or knowledge acquired. |     [0..1]         | N/A       |
 |     issuing date            |     Date                   |     The date on which the Secondary Education Completion Evidence was issued.                  |     [0..1]         | N/A       |
@@ -31,6 +31,8 @@ This page relates to [version (v0.13)](certificate_of_completion_of_secondary_ed
 |-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
 |     course name   |     Text       			       |     Name given to a number of lectures or other matters dealing with a subject.              					  |     [0..1]         | N/A       |
 |     course grade  |     Float          		       |     A mark indicating a degree of accomplishment for a particular course (in percentage).             			  |     [0..1]         | N/A       |
+|     course language   |     Text        |     Language in which the course was taught.               				                          |     [0..1]         | N/A       |
+
 |     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [0..1]         | N/A       |
 
 
@@ -49,15 +51,15 @@ This page relates to [version (v0.13)](certificate_of_completion_of_secondary_ed
 |-------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
 |     preferred label     |     Text           |     As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.                                                                            |    [1..*]          |  N/A      |
 |     identifier          |     Identifier     |     Many organisations are referred to by an acronym or some other identifier. For example, among the EU institutions, the ECB is the identifier for the European Central Bank, OLAF for the European Anti-Fraud Office, and so on. These are formally recognised by the European Commission which provides a list of such acronyms. Analogous lists should be used in other contexts.        |    [0..*]          |  N/A      |
-|     registered location |     Location       |     The registered location of the Public Organisation.   																																																																																       |    [0..1]          |  N/A      |
+|     registered location |     Location       |     The registered location of the Public Organisation.   																																																																																       |    [1..1]          |  N/A      |
 
 
-### Student
+### Learner
 **Definition**: A Person who attended school.
 
 |     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    | code list | 
 |--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     student ID number 		 |     Identifier        	|     An unambiguous reference to the Student.										        		|     [1..1]         | N/A       |
+|     learner ID number 		 |     Identifier        	|     An unambiguous reference to the Student.										        		|     [1..1]         | N/A       |
 
 
 ### Person

@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to [version (v0.12)](marriage_certificate_diagram_v0.12.png) of the model.
+This page relates to [version (v0.13)](marriage_certificate_diagram_v0.13.png) of the model.
 
 ---
 
@@ -51,7 +51,7 @@ This page relates to [version (v0.12)](marriage_certificate_diagram_v0.12.png) o
 |     family name                          |     Text                        |  A family name is usually shared by members of a family. This attribute also carries prefixes or suffixes which are part of the family name, e.g. "de Boer", "van de Putte", "von und zu Orlow". Multiple family names, such as are commonly found in Hispanic countries, are recorded in the single family name field so that, for example, Miguel de Cervantes Saavedra's Family Name would be recorded as "de Cervantes Saavedra".     |     [1..1]          | N/A       |
 |     date of birth                        |     Date                        |  The day on which the Person was born.        	                                                                                                                                                                                                                                                                                                                                                                                         |     [0..1]          | N/A       |
 |     place of birth                       |     Location                    |  The Location where the Person was born.                                                                                                                                                                                                                                                                                                                                                                                                  |     [0..1]          | N/A       |
-|     citizenship                          |     Jurisdiction                |  The citizenship relationship links a Person to a Jurisdiction that has conferred citizenship rights on the individual such as the right to vote, to receive certain protection from the community or the issuance of a passport.                                                                                                                                                                                                         |     [0..*]          | N/A       |        
+|     citizenship                          |     Jurisdiction                |  The citizenship relationship links a Person to a Jurisdiction that has conferred citizenship rights on the individual such as the right to vote, to receive certain protection from the community or the issuance of a passport.                                                                                                                                                                                                         |     [0..4]          | N/A       |        
 
 
 ### Jurisdiction 
