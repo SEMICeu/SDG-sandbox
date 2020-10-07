@@ -18,8 +18,9 @@ This page relates to [version (v0.13)](income_tax_declaration_certificate_diagra
 |     fiscal year          |     Date                   |     Reference year for which the Income Tax is due.                                                                                                        |     [1..1]         | N/A       |
 |     belongs to           |     Tax Payer              |     The Tax Payer to whom the Tax Declaration applies.                                                                                                     |     [1..1]         | N/A       |
 |     issuing authority    |     Public Organisation    |     The National Competent Authority which is in charge of issuing the Income Tax Declaration.                                                             |     [1..1]         | N/A       |
-|     total income         |     Monetary Amount        |     The total amount of taxable income of the Tax Payer in the respective year.                                                                            |     [1..1]         | N/A       |
-|     income tax           |     Monetary Amount        |     The total amount (positive or negative) of tax due on the income in the respective year.                                                               |     [0..1]         | N/A       |
+|     total income         |     Monetary Amount        |     The total amount of taxable income of the Tax Payer in the respective year, as reported by the tax payer in accordance with the laws and regulations of the country where the income was reported.
+                                                                            |     [1..1]         | N/A       |
+|     income tax           |     Monetary Amount        |     The total amount (positive or negative) of tax due on the income in the respective year, in accordance with the laws and regulations of the country where the income was reported.                                                               |     [0..1]         | N/A       |
 
 
 ### Monetary Amount
