@@ -27,12 +27,15 @@ Alternatively, a pool of 2-5 experts per domain would be enough to provide the e
 </blockquote>
 
 ### Editor(s)
-Leads the drafting of the deliverables and data models by integrating and consolidating the input received from the Working Group.
+Leads the drafting of the deliverables and specification (i.e. data model) by integrating and consolidating the input received from the Working Group. Specifically, the role of the editor(s) is threefold:
+
+* creates a formal specification  which is in line with the best practices around data modeling and data standards reuse.
+* motivates and explains how every information request being discussed is either adopted in the formal specification, either not adopted in the formal specification.
+* initiates the consensus making process around discussion topics. 
 
 ### Moderator
 Works with the Rapporteur to ensure that the objectives, deliverables and deadlines of the Work Package are well defined and followed-up. Communicates with other Work Packages to ensure alignement.
 
 ### Rapporteur 
 Collects input from the Working Group, ensures that the Working Group is aligned to the deadline of each deliverable in collaboration with the Moderator. Communicates with other Work Packages to ensure alignement. The Rapporteur is drawn from the Working Group.
-
 
