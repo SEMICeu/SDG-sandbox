@@ -32,7 +32,6 @@ This page relates to [version (v0.14)](certificate_of_completion_of_secondary_ed
 |     course name   |     Text       			       |     Name given to a number of lectures or other matters dealing with a subject.              					  |     [0..1]         | N/A       |
 |     course grade  |     Float          		       |     A mark indicating a degree of accomplishment for a particular course (in percentage).             			  |     [0..1]         | N/A       |
 |     course language   |     Text        |     Language in which the course was taught.               				                          |     [0..1]         | N/A       |
-
 |     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [0..1]         | N/A       |
 
 
