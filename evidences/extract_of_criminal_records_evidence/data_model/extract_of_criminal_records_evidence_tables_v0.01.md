@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to this [version (v0.01)](extract_of_criminal_records_evidence_diagram_v0.01.png) of the model.
+This page relates to this [version (v0.02)](extract_of_criminal_records_evidence_diagram_v0.02.png) of the model.
 
 ---
 
@@ -19,18 +19,6 @@ This page relates to this [version (v0.01)](extract_of_criminal_records_evidence
 |     issuing date         |     Date                   |     The date on which the Extract of Criminal Records Evidence was issued.                                       |     [1..1]         | N/A       |
 |     belongs to           |     Person                 |     The Person to whom the Extract of Criminal Records applies.                                                  |     [1..1]         | N/A       |
 |     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Extract of Criminal Records Evidence. |     [1..1]         | N/A       |
-|     contains  		   |     Offence                |     The Offence that is the subject of the criminal records.                                                     |     [0..*]         | N/A       |
-
-
-### Offence
-**Definition**: An infraction of law that is punishable by a state or other authority.
-
-|     attribute              |  expected type |     definition                                                                                  |     cardinality    | code list																																		    |
-|----------------------------|----------------|-------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     level of completion    |  Code          |     The level at which the Offence was completed, e.g. completed or attempt.                    |     [0..1]         | See Annex A of the Council Decision 2009/316/JHA of 6 April 2009 on the establishment of the European Criminal Records Information System (ECRIS).   |
-|     level of participation |  Code          |     The level at which the Persons has participated in the Offence, e.g. perpetrator or aider.  |     [0..1]         | See Annex A of the Council Decision 2009/316/JHA of 6 April 2009 on the establishment of the European Criminal Records Information System (ECRIS).   |
-|     offence category       |  Code          |     A classification of the Offence.                                                            |     [1..1]         | See Annex A of the Council Decision 2009/316/JHA of 6 April 2009 on the establishment of the European Criminal Records Information System (ECRIS).   |
-|     penalty category       |  Code          |     A classification of the received penalty for the Offence.                                   |     [1..1]         | See Annex B of the Council Decision 2009/316/JHA of 6 April 2009 on the establishment of the European Criminal Records Information System (ECRIS).   |
 
 
 ### Person
