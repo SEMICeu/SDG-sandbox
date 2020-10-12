@@ -6,7 +6,7 @@
 **Quick links:**
 - [`Step 1` Select the evidences](../phase1.md#step-1-select-the-evidences)
 - [`Step 1.1` Select procedures](../phase1.md#step-12-list-of-relevant-evidences)
-- [`Step 1.2` List of relevant evidences](../phase1.md#step-12-list-of-relevant-evidences)
+- [`Step 1.2` List relevant evidences](../phase1.md#step-12-list-relevant-evidences)
 - [`Step 1.3` Identify the competent authorities](../phase1.md#step-13-identify-the-competent-authorities)
 - [`Step 2` Evidences likely to be exchanged](../phase1.md#step-2-evidences-likely-to-be-exchanged)
 
@@ -55,15 +55,15 @@ In the evidence-based approach, it is not always clear for civil servants in a p
 <details>
   <summary><b>Description</b></summary>
 
-The listing of available procedures will help to determine the scope of future exchange flows between competent authorities requesting and issuing evidence within the SDG OOP technical system. The Editors have to define whether a procedure exists in all countries for the latter to be considered in the next step.
+The listing of available procedures will help to determine the scope of future exchange flows between competent authorities requesting and issuing evidences within the SDG OOP technical system. The Editors have to define whether a procedure exists in all countries for the latter to be considered in the next step.This should be done via a collaborative approach, via which the Member States are asked whether they perform the respective procedure. 
 
-The non-availability of a procedure in a country may be due to various reason and automatically disqualify the procedure for the next step. 
+The non-availability of a procedure in a country may be due to various reasons and automatically disqualifies the procedures for the next step. 
 
 Additionaly, the complexity of procedure can be assessed. Three categories are identified; 
 
-* A low level of complexity is assigned to procedures, which correspond to one specific procedure conducted in a relatively similar way across Member States
-* A medium level of complexity is assigned to procedures, which correspond to two separate procedures, or to one procedure which may involve separate options
-* A high level of complexity is assigned to procedures which correspond to more than two procedures, and which typically involve different competent authorities
+* A low level of complexity is assigned to procedures, which corresponds to one specific procedure conducted in a relatively similar way across Member States;
+* A medium level of complexity is assigned to procedures, which corresponds to two separate procedures, or to one procedure which may involve separate options;
+* A high level of complexity is assigned to procedures, which corresponds to more than two procedures, and which typically involves different competent authorities.
 
 </details>
 
@@ -90,19 +90,19 @@ Additionaly, the complexity of procedure can be assessed. Three categories are i
 
 </details>
 
-## `Step 1.2` List of relevant evidences 
+## `Step 1.2` List relevant evidences 
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) analyse which evidences should be selected. 
+> The [<b>editors</b>](../stakeholders#editors) analyse which evidences should be selected, based on input from the Working Group.
 
 <details>
   <summary><b>Description</b></summary>
 
-In order to understand what would be the actual types of evidence exchanged as part of the SDG OOP technical system. For each procedure, the list of evidences likley to be exchanged should be identified. The relevance of cross-border evidence should be assessed as follow, i.e. whether the evidence required to complete the procedure is likely to be fetched from abroad. 
+In order to understand what would be the actual types of evidence exchanged as part of the SDG OOP technical system. For each procedure, the list of evidences likley to be exchanged should be identified, via input from the Member States. The relevance of cross-border evidence should be assessed as follow, i.e. whether the evidence required to complete the procedure is likely to be fetched from abroad. 
 
-* **Low**: there is no or little cross-border exchange of evidence (incl. case where no evidence is requested)
-* **Medium**: there is a limited case for the exchange of evidence across-borders (only a few Member States request evidence that could be fetched across borders)
-* **High**: there is a clear case for the exchange of evidence across-borders
+* **Low**: there is no or little cross-border exchange of evidence (incl. case where no evidence is requested);
+* **Medium**: there is a limited case for the exchange of evidence across-borders (only a few Member States request evidence that could be fetched across borders);
+* **High**: there is a clear case for the exchange of evidence across-borders.
  
 </details>
 
@@ -130,7 +130,15 @@ In order to further refine the scope of evidence that will be exchanged under th
 
 The competent authorities are most often public bodies at the national, regional and local levels – such as Ministries, National Social Security and Pensions systems, Regulatory Authorities, Local authorities and others. In some rare cases, the competent authority may be a private body or institution acting with a mandate from public authorities. For the latter, it is important to assess whether certain identified bodies can indeed be considered a competent authority (e.g. private universities, private health insurance companies).
 
-Needless to say that an evidence not lawfully issued by a competent authority (e.g. evidence produced by the private sector/individuals such as invoice, leasing contract, sworn declaration) will be automatically considered out of scope. 
+An evidence that is not lawfully issued by a competent authority (e.g. evidence produced by the private sector/individuals such as invoice, leasing contract, sworn declaration) will be automatically considered out of scope. 
+</details>
+
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+  
+  * Note that the issuing authority is not necessarily also the data provider. For a birth certificate, e.g., the issuing authority might be the local municipality, while the data provider might be a state registry.
+  
 </details>
 
 <details>
@@ -153,7 +161,7 @@ In the Study on Data Mapping for the cross border application of the Once-Only t
 <details>
   <summary><b>Description</b></summary>
   
-In line with the article 14 of the SDG regulation, only the types of evidence that meet the following conditions will be exchanged under the SDG OOP technical system:
+In line with Article 14 of the SDG regulation, only the types of evidence that meet the following conditions will be exchanged under the SDG OOP technical system:
 
 1. The procedure requires evidence beyond identification;
 2. There are cases in which the evidence can be located abroad;
@@ -170,7 +178,7 @@ First, when a procedure does not request any type of evidence other than identif
 
 <details>
   <summary><b>Example(s)</b></summary>
-For instance, taking into account all the factors mentioned in the preceeding steps, the study on data mapping for the cross border application of the Once-Only technical system SDG has identified the following category of evidence as relevant for the modelling exercise.
+For instance, taking into account all the factors mentioned in the preceeding steps, the study on data mapping for the cross border application of the Once-Only technical system SDG has identified the following categories of evidence as relevant for the modelling exercise.
   
 
 
