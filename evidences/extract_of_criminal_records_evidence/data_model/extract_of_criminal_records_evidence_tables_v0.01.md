@@ -14,7 +14,7 @@ This page relates to this [version (v0.02)](extract_of_criminal_records_evidence
 
 |     attribute            |     expected type          |     definition                                                                                                   |     cardinality    | code list |
 |--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
-|     criminal record      |     Boolean                |     An indicator that declares the (non)existence of a criminal record for a Person.                             |     [1..1]         | N/A       |
+|    absence of criminal record      |     Boolean                |     An indicator that declares the (non)existence of a criminal record for a Person.                             |     [1..1]         | N/A       |
 |     identifier           |     Identifier             |     An unambiguous reference to the Extract of Criminal Records Evidence.                                        |     [1..1]         | N/A       | 
 |     issuing date         |     Date                   |     The date on which the Extract of Criminal Records Evidence was issued.                                       |     [1..1]         | N/A       |
 |     belongs to           |     Person                 |     The Person to whom the Extract of Criminal Records applies.                                                  |     [1..1]         | N/A       |
