@@ -1,6 +1,6 @@
 ![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# Phase 2: Analyse existing evidence and models
+# Phase 2: Analyse existing evidences and models
 ![Process_Phase 2](img/methodology_phase2.PNG)
 
 **Quick links:**
@@ -24,7 +24,7 @@
   
   The objective is to gather information in order to have a global overview of data models implemented and used across Europe and leverage this insight to develop a common data model. This task is assigned to the Working Group members who will report back to the editors using the channels and collaborative tools defined.
   
-  One important aspect of this step is **source of data quality**. This ensured by the requirement that all data comes from authoritative sources. Working Group members are responsible to identify and connect the authorities to the system.
+  One important aspect of this step is **source of data quality**. This is ensured by the requirement that all data comes from authoritative sources. Working Group members are responsible to identify and connect the authorities to the system.
   
 
 </details>
@@ -37,7 +37,6 @@ Before sending any data, the Working Group members should bear in mind the follo
   
 * The data model has been validated and implemented by a competent authority;
 * The data model has been issued in a final version; and
-* The data model has been used in (cross-border) applications for exchange of information.
 
 </details>
 
@@ -60,7 +59,7 @@ Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/
 <details>
   <summary><b>Description</b></summary>
   
-  The editors analyse the models, concrete examples and other useful documentation that they received from the Working Group in the previous step.
+  The Editors analyse the models, concrete examples and other useful documentation that they received from the Working Group in the previous step.
   They specifically look for similarities (and dissimilarities) between the different models in order to identify a common set of entities, attributes and relationships,
   that are relevant for the respective evidence that is being analysed.
 </details>
@@ -80,7 +79,12 @@ Example of a data model shared by Spain, [issue #37](https://github.com/SEMICeu/
 <details>
   <summary><b>Example(s)</b></summary>
 
-TBD
+|     SDG   data model    |     Spain data model    |     SKOS mapping   value    |
+|-------------------------|-------------------------|-----------------------------|
+|     Person              |     Person              |     exact match             |
+|     Birth               |                         |     no match                |
+
+If provided, the table can also include definitions and URIs to ease comparison.
 
 </details>
 
@@ -92,6 +96,8 @@ TBD
 <details>
   <summary><b>Description</b></summary>
   The editors analyse the output from the previous step and derive the entities, attributes and relationships that are common to most data models and that are necessary to model the evidence.
+  
+  They do this by agreeing upon thresholds with the Working Group. These thresholds might be quantifiable, e.g. “if at least three Member States request an attribute, the attribute is included” or “if one Member State is not able to provide an attribute, the attribute is made optional”.
 </details>
 
 <details>
@@ -105,5 +111,6 @@ TBD
   <summary><b>Tool(s)</b></summary>
   
 * A spreadsheet tool can be used to select the set of core entities, attribute and relationships of the common data model.
+*	The collaborative tool can be used to hold the discussion on the inclusion of entities, attributes and relationships.
 
 </details>
