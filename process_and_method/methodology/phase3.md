@@ -25,7 +25,7 @@
 <details>
   <summary><b>Description</b></summary>
   
-  Unlike `step 3`, `step 6` is about the the implementation (rather than the models). It might be that models don't exist or won't be shared in `step 3` and `step 6` will remediate to that by looking for elements in national implementations.
+  Unlike `step 3`, `step 6` is about the the implementation (rather than the models). It might be that (semantic) data models do not exist or were not shared in `step 3`. `Step 6` will remediate to that by looking for elements in national implementations.
   
   Working Group members will share information on: 
   
@@ -43,22 +43,21 @@
 <details>
   <summary><b>Example(s)</b></summary>
   
-Example of information shared related to the data model (Issue #29); 
-The address information concerning administrative units could benefit from using NUTS URI to improve interoperability. In addition to ISA codes already used to describe addresses, NUTS URI would bring new properties to describe the location. 
+Example of an implementation (Person Condition Register and Registration Register) shared by Germany: see issue #89.
   
 </details>
 
 ## `Step 7` Identify and analyse models used or standardised elsewhere
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) analyse european initiatives to standardize exchange of information
+> The [<b>editors</b>](../stakeholders#editors) analyse European and global initiatives to standardize exchange of information
 
 <details>
   <summary><b>Description</b></summary>
   
-  In parallel with `step 6`, the editors document any european initiatives that aim at standardizing data exchanges across member states. The output of this step will serve as a basis to draft the common data model. 
+  In parallel with `step 6`, the Editors document any European and/or global initiatives that aim at standardizing data exchanges across Member States. The output of this step will serve as a basis to draft the common data model. 
 
-The scope of `step 6`and `step 7` are complementary: while Working Group members are gathering information on what is nationally implemented, the editor team will focus on existing european initiatives that are used and standardise the exchange of data. `step 6` will provide baseline information while `step 7` will provide information to supplement the first draft of the common data model. 
+The scope of `step 6`and `step 7` are complementary: while Working Group members are gathering information on what is nationally implemented, the editor team will focus on existing  initiatives that are used to standardise the exchange of data. `Step 6` will provide baseline information while `step 7` will provide information to supplement the first draft of the common data model. 
 
   
 </details>
@@ -66,7 +65,7 @@ The scope of `step 6`and `step 7` are complementary: while Working Group members
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-The data model to be produced is not modeling paper documents but evidence, i.e., information required by competent authorities to prove a fact, so the grain of the data should be limited to the fact to prove when modelling evidence types.
+The data model to be produced is not modeling paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact. So the grain of the data should be limited to the fact to prove, when modelling evidence types.
 
 </details>
 
@@ -82,22 +81,24 @@ The data model to be produced is not modeling paper documents but evidence, i.e.
 
 <details>
   <summary><b>Example(s)</b></summary>
+  
+  The Core Person Vocabulary can be used when modelling data related to people.
 
 </details>
 
 ## `Step 8` Create UML class diagram
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) design an UML class diagram 
+> The [<b>editors</b>](../stakeholders#editors) design a UML class diagram 
 
 <details>
   <summary><b>Description</b></summary>
   
-  The editor team will leverage from the information collected in `step 3`, `step 6` and `step 7` to develop an UML class diagram. The latter aims at visually describing how entities of the data model will interact with each other. The different entities, the relationship between entities, and their attributes as well as the expected type will be displayed.
+  The editor team will leverage from the information collected in `step 3`, `step 6` and `step 7` to develop an UML class diagram. The latter aims at visually describing how entities of the data model will interact with each other. The different entities, the relationship between entities, and their attributes as well as the expected type are displayed.
   
   Attributes should be presented in the following manner _+ attributeName: expected type._ “Expected type” is further defined in `step 11`. 
 
-Focusing only on entities, attributes and relationships will allow Working Group members to concentrate only on the semantic aspects of the model and come to terms on that. Further modelling elements shall be added in a textual way in step 11.  
+Focusing only on entities, attributes and relationships will allow the Working Group members to concentrate only on the semantic aspects of the model and to come to terms on that. Further modelling elements shall be added in a textual way in step 11.  
 
 
 </details>
@@ -105,13 +106,13 @@ Focusing only on entities, attributes and relationships will allow Working Group
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-* Each element and their relationships should be identified in advance.
-* Attributes of each class should be clearly identified
-* Avoid as much as possible lines crossing each other
-* Ensure orthogonality of relationships
-* Parents elements are higher than the child elements so the arrows always point upwards
-* Align elements either by one of their sides or by their centers
-* Make elements the same size if possible
+* Each element and their relationships should be identified in advance;
+* Attributes of each class should be clearly identified;
+* Avoid as much as possible lines crossing each other;
+* Ensure orthogonality of relationships;
+* Parents elements are higher than the child elements so the subclass arrows always point upwards;
+* Align elements either by one of their sides or by their centers;
+* Make elements the same size if possible.
 
 </details>
 
