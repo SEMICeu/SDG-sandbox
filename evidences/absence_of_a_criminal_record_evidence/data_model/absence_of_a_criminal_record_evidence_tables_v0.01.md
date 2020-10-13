@@ -1,24 +1,24 @@
 # Disclaimer
 
-This page relates to this [version (v0.02)](extract_of_criminal_records_evidence_diagram_v0.02.png) of the model.
+This page relates to this [version (v0.02)](absence_of_a_criminal_record_evidence_diagram_v0.02.png) of the model.
 
 ---
 
 
-# Extract of Criminal Records Evidence
+# Absence of a Criminal Record Evidence
 
 ## Entities
 
-### Extract of Criminal Records Evidence
-**Definition**: Official document containing the criminal Offences of a Person. 
+### Absence of a criminal record
+**Definition**: Official document attesting whether there is a known record of a Person having been arrested in the past for committing a crime.  
 
 |     attribute            |     expected type          |     definition                                                                                                   |     cardinality    | code list |
 |--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
-|    absence of criminal record      |     Boolean                |     An indicator that declares the (non)existence of a criminal record for a Person.                             |     [1..1]         | N/A       |
-|     identifier           |     Identifier             |     An unambiguous reference to the Extract of Criminal Records Evidence.                                        |     [1..1]         | N/A       | 
-|     issuing date         |     Date                   |     The date on which the Extract of Criminal Records Evidence was issued.                                       |     [1..1]         | N/A       |
-|     belongs to           |     Person                 |     The Person to whom the Extract of Criminal Records applies.                                                  |     [1..1]         | N/A       |
-|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Extract of Criminal Records Evidence. |     [1..1]         | N/A       |
+|    absence of a criminal record      |     Boolean                |     An indicator that declares the (non)existence of a criminal record for a Person.                             |     [1..1]         | N/A       |
+|     identifier           |     Identifier             |     An unambiguous reference to the Absence of a Criminal Record Evidence.                                        |     [1..1]         | N/A       | 
+|     issuing date         |     Date                   |     The date on which the Absence of a Criminal Record Evidence was issued.                                       |     [1..1]         | N/A       |
+|     belongs to           |     Person                 |     The Person to whom the Absence of a Criminal Record applies.                                                  |     [1..1]         | N/A       |
+|     issuing authority    |     Public Organisation    |     A Public Organisation with official authority in charge of issuing the Absence of a Criminal Record Evidence. |     [1..1]         | N/A       |
 
 
 ### Person
