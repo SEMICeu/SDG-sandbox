@@ -24,7 +24,7 @@ Concerning the medium-term, the steps are:
 
 * Definition of common data formats for a second round of evidence;
 * Agreement on action points before starting the next phase and outputs to be handled into the next phase;
-* Delivery of the methodology to define data model
+* Delivery of the methodology to define data models
 
 More information can be found on the [SDG OOP collaborative space](https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?pageId=221481401). 
 
@@ -32,13 +32,21 @@ More information can be found on the [SDG OOP collaborative space](https://ec.eu
 To have access to the SDG Once-Only collaborative space, you need to be a member of one of the groups that has permission to view/edit this space. The Single Digital Gateway Coordination Group members have been already subject to a formal nomination procedure and are responsible for indicating any changes to the access rights of their own experts: addition, remove etc. Please contact your SDG country representative if you wish to be granted access. 
 
 ## Types of evidence
-For the first round,  the WP4 will tasked to develop common data models for the following evidences; 
+
+### First round
 
 * [Birth certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
 * [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
 * [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
 * [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
 * [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
+
+### Second round
+
+* Absence of a criminal record
+* Tertiary education diploma evidence 
+* Tertiary education diploma supplement evidence 
+* Record of results evidence 
 
 ## Issue log
 Issues in this repository should address substantive and semantic issues related to the different common data models. 
