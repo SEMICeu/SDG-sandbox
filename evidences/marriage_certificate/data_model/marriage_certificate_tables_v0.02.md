@@ -32,6 +32,7 @@ This page relates to [version (v0.13)](marriage_certificate_diagram_v0.13.png) o
 
 ### Married Person
 **Definition**: A Person who has entered into a Marriage.
+
 **Subclass of**: Person
 
 |     attribute                            |     expected type     |  definition                                                                                     |     cardinality     | code list                                                                                        |

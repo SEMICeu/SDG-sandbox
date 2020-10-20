@@ -32,13 +32,20 @@ More information can be found on the [SDG OOP collaborative space](https://ec.eu
 To have access to the SDG Once-Only collaborative space, you need to be a member of one of the groups that has permission to view/edit this space. The Single Digital Gateway Coordination Group members have been already subject to a formal nomination procedure and are responsible for indicating any changes to the access rights of their own experts: addition, remove etc. Please contact your SDG country representative if you wish to be granted access. 
 
 ## Types of evidence
-For the first round,  the WP4 will tasked to develop common data models for the following evidences; 
+For the first round,  the WP4 will be tasked to develop common data models for the following evidences; 
 
-* [Birth certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
-* [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
-* [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
-* [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
-* [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
+* [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
+* [Marriage evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
+* [Vehicle registration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
+* [Income tax declaration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
+* [Evidence of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
+
+For the second round,  the WP4 will be tasked to develop common data models for the following evidences; 
+
+* [Tertiary education diploma evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_diploma_evidence/data_model)
+* [Tertiary education diploma supplement evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_supplement_evidence/data_model)
+* [Record  of results evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/record_of_results_evidence/data_model) 
+* [Absence of a criminal record evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/absence_of_a_criminal_record_evidence/data_model)
 
 ## Issue log
 Issues in this repository should address substantive and semantic issues related to the different common data models. 
