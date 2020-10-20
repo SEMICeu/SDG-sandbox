@@ -50,10 +50,10 @@ For the second round,  the WP4 will be tasked to develop common data models for 
 
 ### Second round
 
-* Absence of a criminal record
-* Tertiary education diploma evidence 
-* Tertiary education diploma supplement evidence 
-* Record of results evidence 
+* [Absence of a criminal record](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/absence_of_a_criminal_record_evidence/data_model)
+* [Tertiary education diploma evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_diploma_evidence/data_model)
+* [Tertiary education diploma supplement evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_diploma_supplement_evidence/data_model) 
+* [Record of results evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/record_of_results_evidence/data_model)
 
 ## Issue log
 Issues in this repository should address substantive and semantic issues related to the different common data models. 
