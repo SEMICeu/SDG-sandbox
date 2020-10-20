@@ -35,11 +35,18 @@ To have access to the SDG Once-Only collaborative space, you need to be a member
 
 ### First round
 
-* [Birth certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
-* [Marriage certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
-* [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
-* [Income tax declaration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
-* [Certificate of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
+* [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
+* [Marriage evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
+* [Vehicle registration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
+* [Income tax declaration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
+* [Evidence of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
+
+For the second round,  the WP4 will be tasked to develop common data models for the following evidences; 
+
+* [Tertiary education diploma evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_diploma_evidence/data_model)
+* [Tertiary education diploma supplement evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/tertiary_education_supplement_evidence/data_model)
+* [Record  of results evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/record_of_results_evidence/data_model) 
+* [Absence of a criminal record evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/absence_of_a_criminal_record_evidence/data_model)
 
 ### Second round
 

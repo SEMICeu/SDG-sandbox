@@ -8,7 +8,7 @@ This page relates to [version (v0.14)](certificate_of_completion_of_secondary_ed
 ## Entities
 
 ### Secondary Education Completion Evidence
-**Definition**: Official document proving that a Student completed secondary education (ISCED 2011 level 3).
+**Definition**: Official document proving that a Learner completed secondary education (ISCED 2011 level 3).
 
 |     attribute               |     expected type          |     definition                                                 		                        |     cardinality    | code list |
 |-----------------------------|----------------------------|------------------------------------------------------------------------------------------------|--------------------|-----------| 
@@ -20,19 +20,19 @@ This page relates to [version (v0.14)](certificate_of_completion_of_secondary_ed
 |     programme name 		  |     Text                   |     The programme name of the Secondary Education.											    |     [0..1]         | N/A       |
 |     issuing authority       |     Public Organisation    |     The Public Organisation that issued the Secondary Education Completion Evidence.           |     [1..1]         | N/A       |
 |     contains	              |     Course Result          |     The Course Results which the Secondary Education Completion Evidence contains.  	        |     [0..*]         | N/A       |
-|     belongs to              |     Student			       |     The Student to which the Secondary Education Completion Evidence belongs.                 	|     [1..1]         | N/A       |
-|     obtained at             |     Education Institution  |     The Education Institution that educated the Student.  	      							    |     [0..*]         | N/A       |
+|     belongs to              |     Learner			       |     The Learner to which the Secondary Education Completion Evidence belongs.                 	|     [1..1]         | N/A       |
+|     obtained at             |     Education Institution  |     The Education Institution that educated the Learner.  	      							    |     [0..*]         | N/A       |
  
 
 ### Course Result 
 **Definition**: Grade obtained after finishing/completing a course. 
 
-|     attribute    	|     expected type				   |     definition                                          			 											  |     cardinality    | code list |
-|-------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
-|     course name   |     Text       			       |     Name given to a number of lectures or other matters dealing with a subject.              					  |     [0..1]         | N/A       |
-|     course grade  |     Float          		       |     A mark indicating a degree of accomplishment for a particular course (in percentage).             			  |     [0..1]         | N/A       |
-|     course language   |     Text        |     Language in which the course was taught.               				                          |     [0..1]         | N/A       |
-|     obtained at   |     Education Institution        |     The Education Institution that organized the course.               				                          |     [0..1]         | N/A       |
+|     attribute      	|     expected type				   |     definition                                          			 											  |     cardinality    | code list |
+|-----------------------|----------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
+|     course name       |     Text       			       |     Name given to a number of lectures or other matters dealing with a subject.              					  |     [0..1]         | N/A       |
+|     course grade      |     Float          		       |     A mark indicating a degree of accomplishment for a particular course (in percentage).             			  |     [0..1]         | N/A       |
+|     course language   |     Text                         |     Language in which the course was taught.               				                                      |     [0..1]         | N/A       |
+|     obtained at       |     Education Institution        |     The Education Institution that organized the course.               				                          |     [0..1]         | N/A       |
 
 
 ### Education Institution
@@ -58,7 +58,7 @@ This page relates to [version (v0.14)](certificate_of_completion_of_secondary_ed
 
 |     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    | code list | 
 |--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     learner ID number 		 |     Identifier        	|     An unambiguous reference to the Student.										        		|     [1..1]         | N/A       |
+|     learner ID number 		 |     Identifier        	|     An unambiguous reference to the Learner.										        		|     [1..1]         | N/A       |
 
 
 ### Person
