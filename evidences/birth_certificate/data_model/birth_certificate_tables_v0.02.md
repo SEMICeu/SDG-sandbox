@@ -25,8 +25,8 @@ This page relates to [version (v0.13)](birth_certificate_diagram_v0.13.png) of t
 
 |     attribute    |     expected type |     definition                                            |     cardinality    | code list |
 |------------------|-------------------|-----------------------------------------------------------|--------------------|-----------|
-|     child        |     Person        |     The Person who is born at the Birth.                  |     [1..1]         |    N/A    |
-|     parent       |     Person        |     The Parent of the Child.                              |     [0..2]         |    N/A    |
+|     child        |     Child        |     The Person who is born at the Birth.                  |     [1..1]         |    N/A    |
+|     parent       |     Parent        |     The Parent of the Child.                              |     [0..2]         |    N/A    |
 
 
 ### Child
