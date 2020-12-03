@@ -38,7 +38,7 @@ To have access to the SDG Once-Only collaborative space, you need to be a member
 * [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/birth_certificate/data_model)
 * [Marriage evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/marriage_certificate/data_model)
 * [Vehicle registration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model) 
-* [Income tax declaration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model)
+* [Income tax declaration evidence](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/income_tax_declaration_certificate/data_model) [On hold]
 * [Evidence of completion of secondary education](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/certificate_of_completion_of_secondary_education/data_model)
 
 ### Second round
