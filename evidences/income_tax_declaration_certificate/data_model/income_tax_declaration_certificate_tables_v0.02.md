@@ -1,6 +1,6 @@
 # Disclaimer
 
-**Following various comments and different interpretations of the concepts, the income tax declaration evidence model is currently on hold because use cases need to be looked into before continuing the work. We'll come back to you once we have more information**. This page relates to [version (v0.13)](income_tax_declaration_certificate_diagram_v0.13.png) of the model.
+**Following various comments and different interpretations of the concepts, the income tax declaration evidence model is currently on hold. Use cases need to be looked into before continuing the work. We'll come back to you once we have more information**. This page relates to [version (v0.13)](income_tax_declaration_certificate_diagram_v0.13.png) of the model.
 
 ---
 
