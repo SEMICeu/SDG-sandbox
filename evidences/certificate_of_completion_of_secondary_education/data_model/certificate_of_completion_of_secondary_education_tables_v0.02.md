@@ -55,7 +55,7 @@ This page relates to [version (v0.15)](certificate_of_completion_of_secondary_ed
 
 
 ### Learner
-**Definition**: A Person who attended school.
+**Definition**: A Person who attends a Secondary Education Institution.
 
 |     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    | code list | source |
 |--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|-----------|--------|
