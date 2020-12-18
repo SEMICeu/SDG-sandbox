@@ -55,6 +55,11 @@ In summary:
 - use the appropriate XSD data type wherever possible (dateTime, date, gYearMonth, gYear);
 - where data is missing, don't invent it or try to fool the system - just give the date as an un-typed string.
 
+#### Period
+
+For the expression of a period of time (also called: time interval), we refer to the [Extended Date/Time Format (EDTF)](https://www.loc.gov/standards/datetime/) Specification.
+‘2004-02-01/2005-02-08’ is an example of a (EDTF Level 0) time interval with calendar day precision, beginning sometime on February 1, 2004 and ending sometime on February 8, 2005.
+
 
 ## Text
 
