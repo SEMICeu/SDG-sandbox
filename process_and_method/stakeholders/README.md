@@ -25,9 +25,7 @@ In addition to the core activities - defining data models - it is important for 
 The domain experts can be divided per domain or [evidence type](https://github.com/SEMICeu/SDG-sandbox#types-of-evidence) (e.g. vital records, vehicles, etc.). They are the people who have the business experience from the domain. They know how the evidence is used, for which procedures, by whom and, most importantly, the information described within each type of evidence.
 Domain experts should be reachable and available throughout the development of the data model.  
 
-<blockquote>
-<i>In the context of the SDG Work Package 4, one expert per domain should ideally be reachable by the representatives of Member States composing the Working Group. Alternatively, a pool of 2-5 experts per domain would be enough to provide the expected input with the Working Group making sure that all the Member States have the possibility to monitor the quality of the work and the models proposed.</i>
-</blockquote>
+<blockquote><i>In the context of the SDG Work Package 4, one expert per domain should ideally be reachable by the representatives of Member States composing the Working Group. Alternatively, a pool of 2-5 experts per domain would be enough to provide the expected input with the Working Group making sure that all the Member States have the possibility to monitor the quality of the work and the models proposed.</i></blockquote>
 
 ### Editors
 
