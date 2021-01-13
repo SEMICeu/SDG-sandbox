@@ -15,7 +15,6 @@ A characteristic of an entity in a particular dimension such as the weight of an
 ### Controlled vocabulary
 A controlled vocabulary is an authoritative list of terms to be used in indexing. Controlled vocabularies do not necessarily have any structure or relationship between terms within the list.
 
-
 ### Data model
 
 A data model is an abstract model that organises elements of data and standardizes how they relate to one another. It specifies the entities, their attributes and the relationships between entities.
@@ -41,10 +40,10 @@ A link between two concepts; examples are the link between an observation and th
 
 ### Semantic agreement
 
-Consensus among the working group on the data model and data entities that support common services. Apart from the typology of the data entities, the consensus also covers the characteristics of the data entities as expressed in metadata and the use of common controlled vocabularies.
+A specification of a data model and entities for which stakeholders reached consensus.
 
 ### Vocabulary 
 
-In the Semantic Web, vocabularies define the concepts and relationships (also referred to as “terms”) used to describe and represent an area of concern.
+A set of concepts and relationships (also referred to as “terms”) used to describe and represent an area of concern.
 
 
