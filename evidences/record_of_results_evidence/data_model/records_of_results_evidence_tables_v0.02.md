@@ -111,7 +111,7 @@ This page relates to [version (v0.02)](record_of_results_evidence_diagram_v0.02.
 
 
 ### Student
-**Definition**: A learner enrolled on a formal educational programme at a tertiary Education Institution.
+**Definition**: A person who attends a Tertiary Education Institution.
 
 |     attribute   				 |     expected type  		|     definition                                                                                  	|     cardinality    | code list | 
 |--------------------------------|--------------------------|---------------------------------------------------------------------------------------------------|--------------------|-----------| 
