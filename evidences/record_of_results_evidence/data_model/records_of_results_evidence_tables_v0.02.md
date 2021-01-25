@@ -53,8 +53,6 @@ This page relates to [version (v0.03)](record_of_results_evidence_diagram_v0.03.
 |     course language          |     Code        		    |     Main language in which the course was taught.	                   			                                                                              |     [0..*]         | N/A       |
 |     course name              |     Text                   |     Name given to a number of lectures or other matters dealing with a subject, i.e. the course.                                                            |     [1..1]         | N/A       |
 
-|     total semesters              |     Float                   |     Number of 6-month periods the student already has studied in total                                                            |     [0..1]         | N/A       |
-
 
 
 ### Tertiary Education Diploma Supplement Evidence
