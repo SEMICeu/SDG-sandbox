@@ -1,6 +1,6 @@
 # Disclaimer
 
-This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagram_v0.02.png) of the model.
+This page relates to [version (v0.03)](tertiary_education_diploma_evidence_diagram_v0.03.png) of the model.
 
 ---
 # Tertiary Education Diploma Evidence
@@ -11,7 +11,7 @@ This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagr
 
 **Definition**: Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.
 
-**Superclass of**: Tertiary Education Diploma Evidence (and Tertiary Education Diploma Supplement Evidence and Record of Results Evidence)
+**Superclass of**: [Tertiary Education Diploma Evidence](../evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md#tertiary-education-diploma-evidence-1), [Tertiary Education Diploma Supplement Evidence](../evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md#tertiary-education-diploma-supplement-evidence-1) and [Record of Results Evidence](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md#record-of-results-evidence-1)
 
 |     attribute          |	   expected type	     |	 definition	                                                                                                                                                                        |	  cardinality	   |	code list 																																														    			       |
 |------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -37,7 +37,7 @@ This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagr
 |     access to further study         |     Code                                             |    Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution.  |     [0..*]         | [ISCED 2011 Levels]( http://uis.unesco.org/sites/default/files/documents/isced-2011-operational-manual-guidelines-for-classifying-national-education-programmes-and-related-qualifications-2015-en_1.pdf)  |
 |     access to regulated profession  |     Text                                             |    Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority.                                  |     [0..*]         | N/A       |
 |     level of distinction            |     Code                                             |    Indication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc.                                        |     [0..1]         | TBD       |
-|     overall grade                   |     Grade                                            |    A mark indicating a degree of accomplishment.                                                                                                                                                                             |     [1..1]         | N/A       |
+|     overall grade                   |     Grade                                            |    A mark indicating a degree of accomplishment.                                                                                                                                                                             |     [0..*]         | N/A       |
 |     thesis title                    |     Text                                             |    Title of the dissertation completed by a student as part of a tertiary education degree.                                                                                                                                  |     [0..1]         | N/A       |
 |     has supplement                  |     Tertiary Education Diploma Supplement Evidence   |    Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.                                                                                           |     [0..1]         | N/A       |
 
@@ -48,21 +48,7 @@ This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagr
 
 **Subclass of**: Tertiary Education Evidence
 
-| attribute                   |     expected type               |     definition                                                 		                                                         |   cardinality      | code list 																																																			  |
-|-----------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| academic programme language |     Code                        |     The language in which the qualification was officially delivered and examined.                                             |   [0..1]           | [Language](http://publications.europa.eu/resource/dataset/language)  																																				  |
-| academic year               |     Period                      |     The period during which the courses and exams took place.                                                                  |   [1..1]           | N/A  	 																																											 								  |
-| access requirement          |     Code                        |     Qualification(s) or periods of study required for access to the programme.                                                 |   [0..*]           | [ISCED 2011](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)  														    				  |
-| grade point average         |     Grade                       |     The grade point average of the course results, i.e. grades weighted based on the number of credits.                        |   [0..1]           | N/A       																																																			  |
-| language of instruction     |     Code                        |     The different languages in which the programme was given.                                                                  |   [0..*]           | [Language](http://publications.europa.eu/resource/dataset/language)       																																			  |
-| main field of study         |     Code                        |     The main disciplines or subject areas of a qualification.                                                                  |   [0..*]           | [ISCED 2013](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)       			  |
-| mode of study               |     Code                        |     The way the programme was undertaken, e.g. full-time, part-time, intermittent/sandwich, e-learning, distance, etc.         |   [0..1]           | TBC      																																																			  |
-| programme learning outcomes |     Text                        |     Statements of what the Student knows, understands and is able to do after completing his/her studies and receiving the qualification (knowledge, skills, competencies). Learning outcomes should be expressed in the present tense, e.g.: “The graduate can analyse consumer behaviour trends and apply them in a given consumer market”.           | [0..1]   | N/A    |
-| qualification level         |     Code			            |     Level of the obtained qualification.                                                                                       |   [0..1]           | [ISCED 2011](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)     																			  |
-| study duration              |     Float                       |     Official duration of the programme in years of full-time study.                                                            |   [0..1]           | N/A       																																																			  |
-| total credits               |     Float                       |     Total student workload required, described in terms of ECTS credits.                                                       |   [0..1]           | N/A                                                                                                                                                                                                                   |
-| has record of results       |     Record of Results Evidence  |     The Record of Results Evidence that is complementary to the Tertiary Education Diploma Supplement Evidence.                |   [1..1]           | N/A                                                                                                                                                                                                                   |
-
+For further information, please see the [tertiary education diploma supplement evidence data model](../evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)
 
 ### Record of Results Evidence
 
@@ -70,26 +56,14 @@ This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagr
 
 **Subclass of**: Tertiary Education Evidence
 
-|     attribute               |     expected type          |     definition                                                    		                             |     cardinality    | code list |
-|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     academic year           |     Period                 |     The period during which the courses and exams took place.                 					     |     [1..1]         | N/A       |
-|     total credits           |     Float                  |     The total number of ECTS credits of the courses contained within the Record of Results.         |     [1..1]         | N/A       |
-|     contains                |     Course Result          |     The specific course results that together make up the Record of Results Evidence.               |     [0..*]         | N/A       |
+For further information, please see the [record of results evidence data model](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
 
 
 ### Course Result 
 
 **Definition**: Grade obtained after finishing/completing a course.
 
-|     attribute                |     expected type          |     definition                                                    		                                                                                  |     cardinality    | code list |
-|------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     course academic period   |     Text                   |     Period of the academic year when the course took place, e.g. first semester, second trimester, etc.                                                     |     [0..1]         | N/A       |
-|     course academic year     |     Date                   |     The annual period of sessions of an educational programme usually beginning in September and ending in June.                              			  |     [0..1]         | N/A       |
-|     course credits amount    |     Float                  |     The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload.      |     [1..1]         | [ECTS]( https://ec.europa.eu/assets/eac/education/ects/users-guide/glossary_en.htm#european-credit-transfer-and-accumulation-system)      |
-|     course field of study    |     Code        		    |     The discipline or subject area of a course.                                                                                               			  |     [0..*]         | [ISCED 2013](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)        |
-|     course grade             |     Grade                  |     A mark indicating a degree of accomplishment for a particular course.                                                                                   |     [1..1]         | N/A       |
-|     course language          |     Code        		    |     Main language in which the course was taught.	                   			                                                                              |     [0..1]         | N/A       |
-|     course name              |     Text                   |     Name given to a number of lectures or other matters dealing with a subject, i.e. the course.                                                            |     [1..1]         | N/A       |
+For further information, please see the [record of results evidence data model](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
 
 
 ### Education Institution
@@ -129,7 +103,7 @@ This page relates to [version (v0.02)](tertiary_education_diploma_evidence_diagr
 |     date of birth       |     Date          |     A date that specifies the birth date of a Person.                                                                                                                                                                                                                                                                                                                                                                                           |     [1..1]        | N/A       |
 |     sex                 |     Code          |     The chromosomal state, and reproductive organs and structures of a Person that allows them to be distinguished as female or male.            			                                                                                                                                                                                                                                                                  		            |     [0..1]        | [Human Sex](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex) |
 |     place of birth      |     Location      |     The Location where a Person was born.                                                                                                                                                                                                                                                                                                                                                                                                       |     [0..1]        | N/A       |
-|     registered address  |     Address       |     The registered address of the Person.                                                    													
+|     registered address  |     Address       |     The registered address of the Person.          |     [0..1]        | N/A       |                                          													
 
 
 ### Location
