@@ -1,115 +1,105 @@
 ![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# Phase 5: Select controlled vocabularies
+# Phase 5: Finalise data model
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
 **Quick links:**
-
-- [`Step 19` Identify and propose controlled vocabularies across the model](phase5.md#step-19-identify-and-propose-controlled-vocabularies-across-the-model)
-- [`Step 20` Choose recommended controlled vocabularies](phase5.md#step-20-choose-recommended-controlled-vocabularies)
-- [`Step 21` Harmonise controlled vocabularies across the data model](phase5.md#step-22-document-core-set-of-attributes-and-recommended-vocabularies)
-- [`Step 22` Document core set of attributes and recommended vocabularies](phase5.md#step-22-document-core-set-of-attributes-and-recommended-vocabularies)
-- [`Step 23` Finalise data model](phase5.md#step-23-finalise-data-model)
-
+- [` Step 22`  Review the final data model](../phase5.md#step-22-Review-the-final-data-model)
+- [` Step 23`  Update the final data model](../phase5.md#step-23-Update-the-final-model)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase4.md) **|**
 [Next phase :arrow_right:](phase6.md)
 
-## `Step 19` Identify and propose controlled vocabularies across the model 
-**Key activities**
+## ` Step 22`  Review the final data model 
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
-> * The [<b>Working Group</b>](../stakeholders#working-group) and the domain experts propose controlled vocabularies for the different attributes defined in the previous phases. 
-> * The [<b>editors</b>](../stakeholders#editors) synthesize the propositions and complement with additional standard controlled vocabularies where relevant.  
+**Key activities**
+> * The [<b>Working Group members</b>](../stakeholders#working-group) and the [<b>domain experts</b>](../stakeholders#domain-experts) review the final data model.
+> * The [<b>Editors</b>](../stakeholders#editors) assist the Working Group members, collect and categorise the feedback. 
 
 <details>
   <summary><b>Description</b></summary>
   
-Once a core set of common attributes has been agreed upon and the [draft data model](../methodology/phase4.md#step-18--update-draft-data-model) is stable, the set of controlled vocabularies, for those attributes where a controlled vocabulary is needed, needs to be analysed. The editors create a table with the common attributes along one dimension and the local implementations along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon. 
-  
+Working Group members discuss and validate the data model with the business, domain experts and share their questions and / or remarks, if any, with the editors via the adequate channel.
 
+In parallel, the Editors collect and, again, categorise the feedback. For instance:
+
+* Editorial issue
+* Minor issue
+* Major issue 
+
+This step is also important to set the final agreement on cardinalities. To help with that, the Editors have the possibility to propose editable tables. The sole purpose of the tables is for the Working Group members to indicate whether they are in capacity to provide the attributeslisted in the data model. But also whether a specific attribute is needed to process the evidence.
+
+Ideally, the tables should be composed of the following columns:
+
+* Entity
+* Attribute
+* Description
+* Cardinality
+* Country abbreviation 
+ - multiple columns allowing Working Group members to specify whether an Attribute can be provided (Y) or not (N))
+ - multiple columns allowing Working Group members to specify whether an Attribute is needed (Y) or not (N))
+
+By no means the tables will replace the collaborative tool selected. The latter will still be home to the data model and a place to discuss the latter. The tables are a way to collect input on whether an attribute can be provided or not in a structured manner. In case further information is necessary to provide an answer, whether an attribute can be provided or not, the Working Group members have to be redirected to the collaborative tool selected.
+
+Ultimately, the Working Group members have to come to a semantic agreement with regards to the data model reviewed. Unless there are major semantic changes, this step should be considered as a formal approval from the Working Group members for the data model.
+  
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-<details>
-  <summary><b>Tool(s)</b></summary>
-
+Aspects to bear in mind while reviewing:
   
-  * [Core Person Vocabulary (ISA)](https://joinup.ec.europa.eu/release/core-person-vocabulary/100)
-  * [Core Business Vocabulary (ISA)](https://joinup.ec.europa.eu/release/core-business-vocabulary/100)
-  * [Core Location Vocabulary (ISA)](https://joinup.ec.europa.eu/release/core-location-vocabulary/100)
-  * [Core Criterion and Core Evidence (ISA)](https://joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100)
-  * [Core Public Organisation (ISA)](https://joinup.ec.europa.eu/release/core-public-organisation-vocabulary-v100)
-  
+* Data elements and entity names
+* Model appearance
+* Rules of normalization
+* Definitions
+* Model flexibility
 
+Questions to bear in mind while reviewing: 
+
+* Do I agree with the proposed controlled vocabularies?
+* Do I agree with the proposed changes to the data model? 
+* Are the entities and attributes definitions clear enough? 
+* Does the modelling approach make sense? 
+* Do I agree with the proposed cardinalities (i.e. mandatory versus optional)
+* With data minimisation in mind, should some of the entities and or attributes be stripped off?
+* Will my country be able to provide all the mandatory information? 
+* What information does my country need to process the evidence?  
 </details>
-
 <details>
   <summary><b>Example(s)</b></summary>
+  'Editable table' as described further above: 
 
-For instance, for the [gender attribute](../birth_certificate/data_model/birth_certificate_tables_v0.01.md) the [Human Sex](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex) controlled vocabulary has been identified and proposed. 
+| 				 |     Attribute                  | Description | Cardinality | AT | BE | BG | HR | CY | CZ | DK | EE | FI | FR | DE | EL | HU | IS | IE | IT | LV | LI | LT | LU | MT | NL | NO | PL | PT | RO | SK | SI | ES | SE |
+|----------------|--------------------------------|-------------|-------------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Birth Evidence |                                |             |             |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+|                | BirthEvidence.identifier       |    [Link]   | [1..1]      |    |    |    |    | Υ  |    |    | Y  |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Y  |    | Y  |    |    |    | Y  | Y  |
+|                | BirthEvidence.issuingDate      |    [Link]   | [1..1]      |    |    |    |    | Υ  |    |    | Y  |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Y  |    | Y  |    |    |    | Y  | Y  |
+|                | BirthEvidence.certifies        |    [Link]   | [1..1]      |    |    |    |    | Υ  |    |    | Y  |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Y  |    | Y  |    |    |    | Y  | Y  |
+|                | BirthEvidence.issuingAuthority |    [Link]   | [1..1]      |    |    |    |    | Υ  |    |    | Y  |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Y  |    | Y  |    |    |    | Y  | Y  |
+
 </details>
 
-## `Step 20` Choose recommended controlled vocabularies
+
+
+## ` Step 23`  Update the final model
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
+
 **Key activities**
-> * The [<b>editors</b>](../stakeholders#editors) put forward the different propositions for each attribute working towards a decision.
-> * The [<b>Working Group</b>](../stakeholders#working-group) and domain experts discuss - through the collaborative tool - and select the controlled vocabularies to recommend.
+> * The [<b>Editors</b>](../stakeholders#editors) process any last feedback and finish the final model. 
 
 <details>
   <summary><b>Description</b></summary>
   
-  Based on the table of controlled vocabularies, the Working Group discusses which controlled vocabularies are the most appropriate to be recommended as well as the soundness of the proposed usage notes. This may be based on the status of particular vocabularies (e.g. if they are based on an international standard) or on their usage across multiple implementations. 
-  
-  In the case of divergent views, a live discussion may be organised by the editors and moderators to agree on the most controversial proposed solutions.
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
-
-## `Step 21` Harmonise controlled vocabularies across the data model
-
-
-**Key activities**
-> The [<b>editors</b>](../stakeholders#editors) harmonise the controlled vocabularies and usage notes across the data model while ensuring the alignment between data models.
-
-<details>
-  <summary><b>Description</b></summary>
-  
-  The editors consider all controlled vocabularies and usage notes across the data model, check their consistency and identify any overlaps or gaps. Editors may propose changes to the recommendations, for example if different controlled vocabularies have been recommended for identical or similar attributes. Editors may also propose slight changes to the usage notes, for example to harmonise the writing style across the model or solve inconsistencies.
-
-
-</details>
-
-## `Step 22` Document core set of attributes and recommended vocabularies
-
-**Key activities**
-> The [<b>editors</b>](../stakeholders#editors) document the consensus and construct the working draft. 
-
-<details>
-  <summary><b>Description</b></summary>
-  
-  On the basis of discussions in `phase 4` and `phase 5`, the editors will document the decisions and prepare to update the draft data model.   
-
-</details>
-
-## `Step 23` Finalise data model
-
-**Key activities**
-
-> The [<b>editors</b>](../stakeholders#editors) finalise the data model based on information collected in `step 19`, `step 20`, `step 21` and `step 22`. 
-<details>
-  <summary><b>Description</b></summary>
-    The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities, controlled vocabularies and usage notes is finalised. The editors construct the final version of the data model based on the changes that have been agreed upon and derived from the previous four steps. Additionally, the model is prepared for review. 
-
-
+As the Working Group members have given feedback in the previous step, the Editors process these comments and make changes to the data modelas agreed with the Working Group members. From this point, the Editors can only make changes for which the Working Group members have reached a consensus. Since there is no review period anymore, all changes that are carried out during this step should have been discussed with the Working Group members.
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-  Publication as a _last call_ Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. Endorsement of the model will be sought in the next `step 24`
+ * No changes are made during this step that were not agreed upon by the Working Group.
+ - The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
 </details>
+

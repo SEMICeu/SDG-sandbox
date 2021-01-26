@@ -1,304 +1,325 @@
 ![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
 
-
 # Phase 4: Review data model and incorporate comments
 ![Process_Phase 4](img/methodology_phase4.PNG)
 
 **Quick links:**
-- [`Step 13`. Review draft data model](phase4.md#step-13-review-draft-data-model)
-- [`Step 14`. Propose enhancements](phase4.md#step-14-proposition-enhancements)
-- [`Step 15`. Propose additional attributes](phase4.md#step-15-propose-additional-attributes)
-- [`Step 16`. Perform semantic mapping of attributes](phase4.md#step-16-perform-semantic-mapping-of-attributes)
-- [`Step 17`. Harmonise, entities, attributes and descriptions across the data model](phase4.md#step-17-harmonise-entities-attributes-and-descriptions-across-the-data-model)
-- [`Step 18`. Update draft data model](phase4.md#step-18-update-draft-data-model)
+
+- [`Step 15` Publish draft data model](../phase4.md#step-15-publish-draft-data-model)
+- [`Step 16` Review draft data model](../phase4.md#step-16-review-draft-data-model)
+- [`Step 17` Propose enhancements](../phase4.md#step-17-propose-enhancements)
+- [`Step 18` Propose additional attributes](../phase4.md#step-18-propose-additional-attributes)
+- [`Step 19` Perform semantic mapping of attributes](../phase4.md#step-19-performh-semantic-mapping-of-attributes)
+- [`Step 20` Harmonise entities, attributes and descriptions across the data model](../phase4.md#step-20-Harmonise-entities,-attributes-and-descriptions-across-the-data-model)
+- [`Step 21` Update draft data model](../phase4.md#step-21-Update-draft-data-model)
+
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase3.md) **|**
 [Next phase :arrow_right:](phase5.md)
 
-## `Step 13` . Review draft data model
+## `Step 15` Publish draft data model
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-
-> * The [<b>Working Group members</b>](../stakeholders#working-group) directly review the proposed model and/or contact domain experts for reviewing it. 
-> * The [<b>editors</b>](../stakeholders#editors) moderate and classify the issues (e.g. tag major issues which should be commented in priority by the reviewers).
+> * The [<b>Editors</b>](../stakeholders#editors) finalise the data model based on information collected in step 8, step 9, step 10, step 11, step 12, step 13 and step 14.
+> * The [<b>Editors</b>](../stakeholders#editors) publish the output.
 
 <details>
   <summary><b>Description</b></summary>
   
-  Each published draft of the Data Model is reviewed by the Working Group members and domain experts when relevant. 
-  
-  Beforehand, the Working Group members and the editors agree on a tool to collaborate and capture the feedback. The reviewers can then create issues using the designated tool. When comments are captured outside of the collaborative tool, the editors make an issue out of them in the issue tracker (for each comment). 
+The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities, controlled vocabularies and usage notes is finalised. The Editors construct the final draft version of the data model based on the changes that have been agreed upon and derived from the previous seven steps. Additionally, the model is prepared for review.
 
-  The editors respond within an agreed timeframe to each issue, informing the reviewer that they have noticed and will process the issue. The editors consolidate solutions to the issue and seek for additional contribution from the reviewers (i.e. remainder of the Working Group members) when needed in collaboration with the moderator and rapporteur.
-  
-  The issues can be in many different forms. For instance, a issue can deal with a modification to an existing entity or attribute, the addition or removal of an entity and/or attribute. For further details about these the types of issues, please check; 
-  
-  * [`Step 14`. Proposition enhancements](phase4.md#step-14-proposition-enhancements)
-  * [`Step 15`. Propose additional attributes](phase4.md#step-15-propose-additional-attributes) 
-  
-  In addition to that, an issue can be qualified as `major issue` in the case it requires specific attention from the Working Group and the reviewers for commenting the issue and the potential resolutions. Further categorization (i.e. [labels](https://github.com/SEMICeu/SDG-sandbox/labels)) is proposed when registering an issue.  
-
-  The moderators make sure that the agreement process is transparent and acknowledged by all reviewers. Concerning *how consensus will be reached* you can find more information [here](../process_and_method/review_cycles_and_consensus).
-
+Finally, it is important for Working Group members and the Editors to agree on an Open Licence to be used. Reusing content based on intrinsic licences may oblige editors to use a specific licence. Also, acknowledgement sections should be added specifying that data models developed heavily rely on the contributions of Working Group members, subsequently Member States. 
 </details>
-<details>
-  <summary><b>Rules and guidelines</b></summary>
 
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+</details>
+
+* Publication as a Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by another model at any time. It is inappropriate to cite this model as other than work in progress. Comments on the model are invited. Further details on Step 17.
+* Choose an open license, e.g. CC0, [EUPL](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf).
+ - Publish the data model, its elements and related documentation via persistent (and ideally, dereferenceable) URIs.
+ - Provide machine access to the data model.
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+
+  The collaborative tool, e.g. GitHub.
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
+Based on the steps described before, diagrams and [tables](https://github.com/SEMICeu/SDG-sandbox/commit/4d6f4f2140fccf97d328d4602d197bec50da3a9c), in their first version, were published. 
+</details>
+
+## `Step 16` Review draft data model
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
+
+**Key activities**
+> * The [<b>Working Group members</b>](../stakeholders#working-group) directly review the proposed model and/or contact the [<b>domain experts</b>](../stakeholders#domain-experts) for reviewing it
+> * The [<b>Editors</b>](../stakeholders#editors) moderate and classify the issues.
+
+<details>
+  <summary><b>Description</b></summary>
+  
+The Working Group members and the Editors agree on a tool to collaborate and capture the feedback. Using this tool, reviewers can create issues and the Editors follow up on them thanks to an issue tracker. 
+
+Then, the Editors publish the draft using the collaborative tool. The published draft of the data model is reviewed by the Working Group members and domain experts when relevant. 
+
+The Editors respond within an agreed timeframe to each issue made by the Working Group members, informing the reviewers that they have noticed and will process the issue. The Editors consolidate solutions to the issue and seek for additional contribution from the reviewers. This is done in collaboration with the moderator and rapporteur.
+
+The issues can be in many different forms. For instance, an issue can deal with a modification to an existing entity or attribute, the addition or removal of an entity and/or attribute, etc. For further details about these types of issues, please check:
+
+- [`Step 17` Propose enhancements](../phase4.md#step-17-propose-enhancements)
+- [`Step 18` Propose additional attributes](../phase4.md#step-18-propose-additional-attributes)
+
+Issues are categorised according to their type; (i) editorial (ii) minor or (iii) major. 
+
+* <b>Editorial issue</b>: issue stemming from errors in the data model, which are not affecting the semantic agreement in any way. These issues might be addressed directly and do not lead to another review cycle.
+* <b>Minor issue</b>: issue leading to direct changes in the deliverables. These issues might be addressed directly and do not lead to another review cycle.
+* <b>Major issue</b>: issue qualified as show stopper and/or transversal issue. Either stakeholders decide the issue to be addressed directly, without leading to another review cycle, or once the issue addressed, the data model needs to undergo another review round. 
+
+The moderator makes sure that the agreement process is transparent and acknowledged by all reviewers. 
+</details>
+
+<details>
+
+  <summary><b>Rules and Guidelines</b></summary>
+
+* Use case descriptions should be provided along with the data model.
+* Model components should be translated.
+* Editors organise issues as in a forum, by discussions, subjects and hierarchise the threads.
 * Reviewers are encouraged to directly create issues on the collaborative tool.
-* Reviewers are encouraged to propose a solution in case they raise an issue. 
+* Reviewers are encouraged to propose a solution in case they raise an issue.
 * Reviewers are encouraged to use labelling and tagging for increasing searchability and responsiveness of contributors.
 * Reviewers should consider how to present and discuss issues (e.g. technical versus business aspects).
-* Reviewers are encouraged to provided context to their issues (e.g. data models used).
-* Reviewers are encouraged to structure their issues and especially their denomination to increase comprehension. For instance: 
+* Reviewers are encouraged to provide context to their issues (e.g. data model used).
+* Reviewers are encouraged to structure their issues and especially their denomination to increase comprehension. For instance:
 
 ```diff
 Name of the data model or sub-part (e.g. relevant entity) and a short statement of the issue
 
 + VehicleRegistrationCertificate evidence should contain registration status
 ```
+* Additional commenting guidelines are described in the [Wiki](https://ec.europa.eu/cefdigital/wiki/x/NQHGDw). These guidelines are specific for the SDG OOP but generic across the Work Packages (and therefore not limited to this methodology).
 </details>
+
 <details>
   <summary><b>Tool(s)</b></summary>
-  
-  We propose to use GitHub as the preferred tool for reviewing the data models. Github is a collaborative tool with built-in versioning control as well as other features that make it easy to propose suggestions and raise issues. ([Here](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue) you can find the documentation on how to create issues on GitHub.) Nevertheless, other tools such as Jira or Confluence, can also be chosen. There are some important aspects to consider when choosing a tool, on which we elaborate next.
-   
-  <details>
-  <summary>Key aspects to consider w.r.t. the chosen tool</summary>
-  
-  *	**Proprietary vs open access and licensing:** 
-  ```diff
-  Are there licences or other requirements for accessing the tool?
-  
-  + GitHub: For contributing to a public repository, GitHub asks to create an account with a valid email address.
-  
-  What are the licensing conditions?
-  
-  + GitHub: For public repositories, the administrator can decide which licence applies. GitHub provides guidelines for licensing public repositories. As the content of public repositories is publicly available, the licences proposed are open source.
-  
-  What are the limits of the free version?
-  
-  + Github: Each account created can use 1 GB of storage and 1 GB of monthly bandwidth for free. 
-  ```
-  *	**Archiving and persistence:** 
-  ```diff
-  Who is owning and maintaining the tool? 
-  
-  + GitHub: GitHub, Inc. owned by Microsoft is the organisation owning GitHub.
-  
-  Has the owner engaged to store the content for a certain period? 
-  
-  + Github: GitHub intends to keep public repositories available except if specific conditions are met (such as violation of Terms of Service).
-  ```
-  *	**User-friendliness and adoption**
-  ```diff
-  What is the current level of adoption of the tool?
-  
-  + GitHub: Most of the Working Group members are familiar with GitHub.
-  
-  How easily can someone learn the basics?
-  
-  + GitHub: Accessing and creating issues in GitHub is straightforward and well-documented. Additional features can be learnt along the way.
-  ```
-  *	**Security**
-  ```diff
-  Is the content restricted?
-  
-  + GitHub: There are no access restrictions for public repositories. 
-  ```
+
+  The collaborative tool, e.g. Confluence, GitHub.
 </details>
 
-</details>
 <details>
   <summary><b>Example(s)</b></summary>
-  
-  The following example describes the `review of a draft data model` followed by the creation of an issue and its processing by the editors and Working Group members. The process is the following:
-  
-  1. The editors publish on GitHub the diagram and tables describing the [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model).
-  2. While reviewing the model, a semantic expert or a domain expert will try to answer the following questions:
-  ```
-     * Are the elements and their relationships correctly used and labeled?
-     * Do you agree with the definition of the elements?
-     * Are all elements necessary for this evidence described in the model?
-     * Are there conflicts between the elements of the model and the elements used in your country?
-     * Is the element mandatory or optional in your country (cardinality)?
-     * Do you have specific codes or expected types (e.g. format of date, address etc.) for attributes?
-  ```
-  3. The reviewers document their issues on GitHub. For instance, concerning the [Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model), the following issue was created [#45](https://github.com/SEMICeu/SDG-sandbox/issues/45).
+The following example describes the review of a draft data model followed by the creation of an issue and its processing by the Editors and the Working Group members. The process is the following:
 
-  ```
+1. The [<b>Editors</b>](../stakeholders#editors) publish on GitHub the diagram and tables describing [the Vehicle registration certificate](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model).
+2. While reviewing the model, the [<b>domain experts</b>](../stakeholders#domain-experts) will try to answer the following questions: 
+  * Can you process the evidence in your country if only the mandatory attributes are provided? If not, what other optional or missing attributes do you need?
+  * Are the elements and their relationships correctly used and labelled?
+  * Do you agree with the definition of the elements?
+  * Are all elements necessary for this evidence described in the model?
+  * Are there conflicts between the elements of the model and the elements used in your country?
+  * Is the element mandatory or optional in your country (cardinality)?
+  * Do you have specific codes or expected types (e.g. format of date, address etc.) for attributes?
+3. The reviewers document their issues on GitHub. [For instance, concerning the Vehicle registration certificate, the following issue was created #45](https://github.com/SEMICeu/SDG-sandbox/tree/master/evidences/vehicle_registration_certificate/data_model).
+```
   You may notice that the issue describes in practice several comments related to the vehicle registration certificate as well as an image of the data model used within the country. 
   ```
  
-  To simplify the contribution of other reviewers to this issue, the editors will analyse the proposition, categorise it with labels, verify whether the issue should be restructured and describe the pros and cons of the issue documented. 
-  
-  ```
+To simplify the contribution of other reviewers to this issue, the [<b>Editors</b>](../stakeholders#editors) will analyse the proposition, categorise it with labels, verify whether the issue should be restructured and describe the pros and cons of the issue documented.
+ ```
   In our example, each bullet point from the general comment should represent a separate issue. 
   However, the editors should avoid as much as possible to complexify the structure of GitHub issues by creating complex hierarchies between the issues.
   For instance, the visual data model proposed by the issue owner does not need to be separated from the initial issue #45 since it represents a direct source of information which may be relevant for more than one issue. 
 ```
-  4. The editors or the moderators answer, usually within one working day, to the initial issue created by ackowledging the issue or directly giving an initial answer.
-  5. The editors give more details about the pros and cons of (the various resolutions for) the issue(s) raised to trigger the discussions and comments from other Working Group members. 
-  6. The discussion continues as reviewers comment on the issue.
-  7. When no agreement has been reached, the editors prepare the discussions and alternatives to be tackled during the next webinar following the public review period.
+4. The [<b>Editors</b>](../stakeholders#editors) or the [<b>Moderators</b>](../stakeholders#moderatos) answer, usually within one working week, to the initial issue created by acknowledging the issue or directly giving an initial answer.
+5. The [<b>Editors</b>](../stakeholders#editors) propose resolutions or ask more details concerning the issue(s) raised to trigger discussion and comments from other Working Group members.
+6. The discussion continues as reviewers comment on the issue.
+7. When no agreement has been reached, the [<b>Editors</b>](../stakeholders#editors) prepare the discussions and alternatives to be tackled during a webinar to be organised following the review period.
 
 </details>
 
-## `Step 14` . Propose enhancements
+## `Step 17` Propose enhancements
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
-> * [<b>Working Group members</b>](../stakeholders#working-group) propose enhancements after [reviewing the data model](phase4.md#-step-13--review-draft-data-model).
-> * The [<b>editors</b>](../stakeholders#editors) consolidate the propositions and explain the pros and cons of the different propositions to the Working Group members. If needed, the editors seek for additional contribution from the reviewers in collaboration with the [<b>moderator</b>](../stakeholders#moderator) and [<b>rapporteur</b>](../stakeholders#rapporteur).
+> * The [<b>Working Group members</b>](../stakeholders#working-group) propose enhancements after reviewing the data model, if needed.  
+> * The [<b>Editors</b>](../stakeholders#editors) consolidate the propositions and present them with resolutions to the Working Group members. If needed, the Editors seek for additional contributions from the reviewers in collaboration with the moderator and rapporteur.
 
 <details>
   <summary><b>Description</b></summary>
   
-Working Group members create semantic issues which deal with `enhancements` to the draft data models published. Enhancements can take the form of new features or requests regarding the proposed draft data models. It can be adjustements to the definitions, relationships, datatypes, cardinalities, etc.
+Working Group members create semantic issues which deal with enhancements to the draft data model published. Enhancements can take the form of requests regarding the proposed draft data model. It can be changes to the definitions, relationships, data types, cardinalities, etc. 
 
-As outlined in [Step 13. Review draft data model](phase4.md#step-13-review-draft-data-model), the editors invite opinions and feedback to the issues and moderate the ensuing discussion.  
-  
-After consideration of the propositions, the editors record the resolutions and send a response to the reviewers. To a semantic issue, the response usually includes a summary of the context of the proposition, the resolution agreed by the Working Group and the justification for the resolution, particularly in case the proposition is rejected.
+In this context, it must be understood that enhancement also means restrictions, as one of the key principles of developing data models is data minimisation. 
+
+As outlined in Step 16. Review draft data model, the Editors invite opinions and feedback to the issues and moderate the ensuing discussion.
+
+After consideration of the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. To a semantic issue, the response usually includes a summary of the context of the proposition, the resolution agreed by the Working Group members and the justification for the resolution, particularly in case the proposition is rejected.
 
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  
-  * The Working Group must resolve each proposition in one of three ways:
-  
-    * `Accepted`: This usually means that changes will be made to the data model that will be reflected in the next release.
-    *	`Rejected`: No changes will be made to the draft data model.
-    * `Partially accepted`: Part of the change is accepted, but other parts are rejected.
-  
+
+The Working Group members must resolve each proposition in one of three ways:
+> * Accepted: This usually means that changes will be made that will be reflected in the next draft data model.
+> * Rejected: No changes will be made to the draft data model.
+> * Partially accepted: Part of the change is accepted, but other parts are rejected.
+As indicated in the previous step, resolution will either lead to phase 5 or phase 4. 
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
-    <i>There are no specific tools for this step. Similar to the previous step, we propose to use the Github issue feature (or pull request feature for the more advanced users) to propose enhancements.</i>
+
+There are no specific tools for this step. The GitHub issue feature can be used (or pull request feature for the more advanced users) to propose enhancements.
+</details>
+
+<details>
+
+  <summary><b>Example(s)</b></summary>
+
+As described in [issue#125](https://github.com/SEMICeu/SDG-sandbox/issues/125), a proposition was made to enhance an attribute as it was too narrowed down and did not encompass all the possibility for that attribute.
+
+</details>
+
+## `Step 18` Propose additional attributes
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
+
+**Key activities**
+> * The [<b>Working Group members</b>](../stakeholders#working-group) propose additional attributes after reviewing the data model, if need be. 
+> * The [<b>Editors</b>](../stakeholders#editors) consolidate the propositions and present them with resolutions to the Working Group members. If needed, the editors seek for additional contribution from the reviewers in collaboration with the moderator and rapporteur.. 
+
+<details>
+  <summary><b>Description</b></summary>
+  
+Working Group members create semantic issues which deal with attributes (and entities) that could or should be included in the draft data model published. It might be that in certain cases Working Group members request the deletion of an attribute, a controlled vocabulary, and/or entity. 
+
+As outlined in Step 16. Review draft data model, the Editors invite opinions and feedback to the issue and moderate the ensuing discussion.
+
+After consideration of the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. The response usually includes the resolution agreed by the Working Group members and the justification for the resolution, particularly in case the proposed attribute(s) is (are) rejected
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+  
+  The Working Group members must resolve each proposition in one of three ways:
+
+* Accepted: This usually means that changes will be made that will be reflected in the next draft data model.
+* Rejected: No changes will be made to the draft data model.
+* Partially accepted: Part of the change is accepted, but other parts are rejected.
+
+By default, attributes and entities added to the data model are optional. 
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+
+There are no specific tools for this step. Similar to the previous step, we propose to use the GitHub issue feature (or pull request feature for the more advanced users) to propose additional attributes/entities.
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
+
+For instance, [issue #26](https://github.com/SEMICeu/SDG-sandbox/issues/26) suggested adding the CO2 emission per KM as well as the environmental class attributes to the vehicle class.
+In [issue#73](https://github.com/SEMICeu/SDG-sandbox/issues/73) additional dates were added to the model. 
+
+</details>
+
+## `Step 19` Perform semantic mapping of attributes
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
+
+**Key activities**
+
+> * Upon receiving additional attributes from the the [<b>Working Group members</b>](../stakeholders#working-group), the [<b>Editors</b>](../stakeholders#editors) perform a semantic clustering of attributes. Afterward, the Editors will map the ‘semantic clusters’ to existing attributes, if any. Should there not be an attribute to map a ‘semantic cluster’ to, the Editors will propose a new attribute (or entity). 
+> * The [<b>Working Group members</b>](../stakeholders#working-group) discuss the ‘semantic clusters’ - and potentially the new attribute(s) - and work towards consensus.
+
+<details>
+  <summary><b>Description</b></summary>
+
+Wherever attributes do not convey exactly the same information, ‘semantic clusters’ of similar attributes should be constructed to find a common, higher-level, and more general attribute to which the more specific attributes can be mapped.
+
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
  
- ```
-  TBD
-  ```
-</details>
-
-
-
-## `Step 15` . Propose additional attributes
-
-**Key activities**
-> * [<b>Working Group members</b>](../stakeholders#working-group) propose additional attributes after [reviewing the data model](phase4.md#-step-13--review-draft-data-model).
-> * The [<b>editors</b>](../stakeholders#editors) consolidate the propositions and explain the pros and cons of the different propositions to the Working Group members. If needed, the editors seek for additional contribution from the reviewers in collaboration with the [<b>moderator</b>](../stakeholders#moderator) and [<b>rapporteur</b>](../stakeholders#rapporteur).
-
-<details>
-  <summary><b>Description</b></summary>
-
-Working Group members create issues which deal with `attributes (and entities)` that could or should be included to the draft data models published. It might be that in certain cases Working Group members request the deletion of an attribute and/or entity.
-
-As outlined in [Step 13. Review draft data model](phase4.md#step-13-review-draft-data-model), the editors invite opinions and feedback to the issue and moderate the ensuing discussion.  
-  
-After consideration of the proposition, the editors record the resolution and send a response to the reviewers. The response usually includes the resolution agreed by the Working Group and the justification for the resolution, particularly in case the proposed attribute(s) is (are) rejected. 
-
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-  
-  The Working Group must resolve each proposition in one of three ways:
-  
-  * `Accepted`: This usually means that changes will be made that will be reflected in the next draft data model.
-  *	`Rejected`: No changes will be made to the draft data model.
-  *	`Partially accepted`: Part of the change is accepted, but other parts are rejected.
-  
-</details>
+The relationships among different attributes (or entities) can be given a value according to the [SKOS (Simple Knowledge Organization System_Mapping system](https://www.w3.org/TR/skos-reference/#mapping).
+The different values of which are
+* exact match
+* close match
+* related match
+* broader match
+* narrower match
+* (no match, i.e. absence of match)
+ </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
-    <i>There are no specific tools for this step. Similar to the previous step, we propose to use the Github issue feature (or pull request feature for the more advanced users) to propose additional attributes/entities.</i>
+This step can be performed using a spreadsheet tool, such as Microsoft Excel, in which related attributes are juxtapositioned in two columns and given a semantic mapping value in a third column..
 </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
 
-  For instance, issue [#26](https://github.com/SEMICeu/SDG-sandbox/issues/26) suggested to add the CO2 emission per KM as well as the environmental class attributes to the [vehicle class](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/vehicle_registration_certificate/data_model/vehicle_registration_certificate_diagram_v0.09.pdf). 
+> * speed hasCloseMatch velocity 
+> * For instance, [#issue 143](https://github.com/SEMICeu/SDG-sandbox/issues/143) reported that in the [sex/gender code list from the Publication Office](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex), the property “not applicable” related to the legal recognition of non-binary gender. 
 
 </details>
+ 
 
-## `Step 16` . Perform semantic mapping of attributes
+## `Step 20` Harmonise entitites, attributes and descriptions accross the data model
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-> * Upon receiving additional attributes from the [<b>Working Group members</b>](../stakeholders#working-group), the [<b>editors</b>](../stakeholders#editors) perform a semantic clustering of attributes. Afterward, editors will map the ‘semantic clusters’ to existing attributes, if any. Should there not be an attribute to map a ‘semantic cluster’ to, the editors will propose a new attribute (or entity). 
-> * The [<b>Working Group members</b>](../stakeholders#working-group) discuss the ‘semantic clusters’ - and potentially the new attribute(s) - and work towards consensus. 
+
+> * the [<b>Editors</b>](../stakeholders#editors) harmonise the entities, attributes and descriptions across the data model. 
 
 <details>
   <summary><b>Description</b></summary>
-  Wherever attributes do not convey exactly the same information, ‘semantic clusters’ of similar attributes should be constructed to find a common, higher-level, and more general attribute to which the more specific attributes can be mapped. 
-  
+
+The Editors consider all the entities, attributes and descriptions across the (all SDG) data model and check their consistency. The Editors may propose changes to the attributes, for example to harmonise the names and definitions across entities or solve inconsistencies.
+
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  
-  * The relationships among different attributes (or entities) can be given a value according to the [SKOS (Simple Knowledge Organization System_Mapping system](https://www.w3.org/TR/skos-reference/#mapping). The different values of which are
-    * exact match
-    * close match
-    * related match
-    * broader match
-    * narrower match
-    * (no match, i.e. absence of match)
-</details>
+ 
+In order to guarantee semantic interoperability amongst different common data models – that might be developed at the same time –, the same modelling patterns, especially for concepts independent from a specific domain, can be applied across data models (e.g. location, person, organisation) unless specific characteristics for them are required.
 
-<details>
-  <summary><b>Tool(s)</b></summary>
-  
-  * This step can be performed using a spreadsheet tool, such as Microsoft Excel, in which related attributes are juxtapositioned in two columns and given a semantic mapping value in a third column.
-</details>
-
-<details>
-  <summary><b>Example(s)</b></summary>
-  
- ```
-  speed hasCloseMatch velocity
-  ```
-</details>
-
-## ` Step 17` . Harmonise entities, attributes and descriptions across the data model
-
-**Key activities**
-> The [<b>editors</b>](../stakeholders#editors) harmonise the entities, attributes and descriptions across the data model.
-
-<details>
-  <summary><b>Description</b></summary>
-  The editors consider all the entities, attributes and descriptions across the data model and check their consistency. Editors may propose changes to the attributes, for example to harmonise the names and definitions across entities or solve inconsistencies.
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-</details>
+ </details>
 
 <details>
   <summary><b>Example(s)</b></summary>
 
-```
-  TBD
-  ```
+Following a discussion on the SDG sandbox, the editors proposed to align the Location entity for all tertiary education related evidences (see [issue #133](https://github.com/SEMICeu/SDG-sandbox/issues/133#issuecomment-709353259)).
+ 
 </details>
 
-## `Step 18` . Update draft data model
+
+## `Step 21` Update draft data model
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-> The [<b>editors</b>](../stakeholders#editors) update the draft data model based on information collected in `step 14`, `step 15`, `step 16` and `step 17`. 
+
+> the [<b>Editors</b>](../stakeholders#editors) create an updated coherent draft common data model based on information collected in the previous steps.
 
 <details>
+  
   <summary><b>Description</b></summary>
-  The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions and cardinalities is updated. The editor constructs the new version of the data model based on the changes that have been agreed upon and derived from the previous four steps.  
+
+The draft data model expressed as an UML diagram with textual description (i.e. tables) of the entities, attributes, relationships, definitions, cardinalities and controlled vocabularies, i.e. codelists, is finalised. The Editors construct the new and final version of the data model based on the changes that have been agreed upon and derived from the previous four steps.
+
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  
-Publication as a Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by other model at any time. It is inappropriate to cite this model as other than work in progress. 
-</details>
+ 
+Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
+Publication as a last call Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by another model at any time. Endorsement of the model will be sought in the `step 22`.
+
+ </details>

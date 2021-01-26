@@ -13,6 +13,7 @@ A data model defining which entities and attributes to use, what the cardinaliti
 A characteristic of an entity in a particular dimension such as the weight of an object, the name of an organisation or the date and time that an observation was made, often representing things or events in the real world.
 
 ### Controlled vocabulary
+
 A controlled vocabulary is an authoritative list of terms to be used in indexing. Controlled vocabularies do not necessarily have any structure or relationship between terms within the list.
 
 ### Data model
@@ -22,6 +23,10 @@ A data model is an abstract model that organises elements of data and standardiz
 ### Entity
 
 A 'thing', such as a vessel, a geographic location, a sensor, a map or something more abstract like an incident, an event or an observation.
+
+### Evidence
+
+An evidence means any document or data, including text or sound, visual or audiovisual recording, irrespective of the medium used, required by a competent authority to prove facts or compliance with procedural requirements 
 
 ### Procedure
 Set of administrative formalities or steps to be followed in order to carry out a request.

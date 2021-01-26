@@ -1,89 +1,100 @@
 ![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# Phase 6: Finalise data model
+# Phase 6: Create distributions and publish documentation
 ![Process_Phase 6](img/methodology_phase6.PNG)
 
 **Quick links:**
-- [` Step 24`  Review the final data model](phase6.md#-step-24--review-the-final-data-model)
-- [` Step 25`  Update the final data model](phase6.md#-step-25--update-the-final-model)
+- [Step 24. Decide on the conformance requirements and develop a conformance statement](../phase6.md#step-24-Decide-on-the-conformance-requirements-and-develop-a-conformance-statement)
+- [Step 25. Create distributions](../phase6.md#step-25-Create-distributions)
+- [Step 26. Publish all documentation](../phase6.md#step-26-Publish-all-documentation)
 
 **Navigate to the different phases**\
-[:arrow_left: Previous phase](phase5.md) **|**
-[Next phase :arrow_right:](phase7.md)
+[:arrow_left: Previous phase](phase5.md) 
 
-## ` Step 24`  Review the final data model 
+## `Step 24` Decide on the conformance requirements and develop a conformance statement 
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-> * The [<b>Working Group members</b>](../stakeholders#working-group) and the domain experts review the final data models
-> * The [<b>editors</b>](../stakeholders#editors) assist the Working Group members, collect and categorize the feedback. 
+> * The [<b>Editors</b>](../stakeholders#editors) write a conformance statement.
+> * The [<b>Working Group members</b>](../stakeholders#working-group) agree on the conformance statement.
+
 
 <details>
   <summary><b>Description</b></summary>
   
-  Working Group members discuss and validate the model with the business and functional experts and share their questions and / or remarks, if any, with the editors via the adequate channel. 
+A conformance statement declares a minimum set of requirements that an implementation must adhere to, in order to be considered conformant with the respective data model. The Working Group members must agree on these conformance requirements. The Editors then include a conformance statement in the common data model.
 
-In parallel, the editors collect and categorize the feedback. For instance,
-  
-  * Editorial changes
-  * Minor semantic changes
-  * Major semantic changes - this entails a new version of the data model to be drafted and proposed for review. 
-  
-Ultimately, the Working Group members have to come to a [semantic agreement](https://github.com/cbahim/SDG-sandbox/tree/master/process_and_method/terminology) with regards to the data models reviewed.
-
-To help reach that semantic agreement, the editors have the posibility to propose editable tables. The sole purpose of the tables is for Member States to indicate whether they are in capacity to provide the attributes listed in the data model. Ideally, the tables should be composed of the following columns;
-
-* Entity
-* Attribute
-* Description
-* Cardinality
-* Country abbreviation (multipe columns allowing Member States to specify wehther an attribute can be provided (Y) or not (N)) 
-
-By no means the tables will replace the collaborative tool selected. The latter will still be home to the models and a place to discuss the latter. The tables are a way to collect input on whether an attribute can be provided or not in a structured manner. In case further information is necessary to provide an answer whether or not an attribute can be provided, Member States have to be redirected to the collaborative tool selected.
-  
-</details>
-
-<details>
-  <summary><b>Rules and Guidelines</b></summary>
-
-<b>Aspects</b> to bear in mind while reviewing:
-  
-
-* Data elements and entity names
-* Model appearance
-* Rules of normalization
-* Definitions
-* Model flexibility
+It is possible that the data model has natural divisions so that it might be appropriate to set different conformance levels. For example, a model used to describe vehicles may have a group of terms related specifically to motor vehicles that could be used in an implementation that has no needs to understand the terms that relate to bicycles. This will consequently lead to the establishment of different conformance levels.
 
 
-<b>Questions</b> to bear in mind while reviewing: 
-
-* Do I agree with the proposed controlled vocabularies?
-* Do I agree with the proposed changes to the data models? 
-* Are the entities and attributes definitions clear enough? 
-* Does the modelling approach make sense? 
-* Do I agree with the proposed cardinalities (i.e. mandatory versus optional)
-* With data minimisation in mind, should some of the entities and or attributes be stripped off?
-* Will my country be able to provide all the mandatory information?  
-
-</details>
-
-
-## ` Step 25`  Update the final model
-
-**Key activities**
-> * The [<b>editors</b>](../stakeholders#editors) process any last feedback and finish the final models. 
-
-<details>
-  <summary><b>Description</b></summary>
-  
-  In case the Working Group has given feedback in the previous step, the editors process these comments and make changes to the models as agreed by the Working Group.
-  From this point, the editors can only make changes on which the Working Group has reached a consensus. Since there is no review period anymore, all changes that are carried out during this step should have been discussed with the Working Group. 
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-  * No changes are made during this step that were not agreed upon by the Working Group.
-  * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
+  * Publish the conformance statement together with the common data model.
+</details>
+
+
+
+## `Step 25` Create distributions
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
+
+**Key activities**
+>* The [<b>Editors</b>](../stakeholders#editors) create the required distributions for the data model.
+
+<details>
+  <summary><b>Description</b></summary>
+
+The data model can be expressed (or serialized) in various formats depending on the specific needs and context. Each distribution (format) will have its own uses and advantages, but also its own disadvantages and limitations.
+
+Semantic data models can be expressed in different serialisation formats, such as TTL (RDF/turtle), RDF/XML, JSON-LD, SHACL, etc. Special care needs to be taken when using multiple formats, as conversion between different serialisation formats  can potentially introduce inconsistencies.  
+
+Aside from these machine-readable formats, human-readable formats also need to be created. A visual representation of the entities, attributes and relationships of the data model is always recommended to provide a clear overview. This can for example be a UML-diagram, saved as a PNG-file. Next to this, human-readable documentation is also required with all the necessary information to construct the data models, i.e. the entities and attributes with their definitions, cardinalities, proposed codelists, etc. This can for example be distributed as an HTML-page and a PDF-document.
+
+All these distributions can either be manually created, or automatically via one or multiple tools. If possible, preference should be given to the usage of an automated toolchain, reducing the risk of introducing inconsistencies during updates.
+
+During this step, URIs are also created (or reused when possible) for the data model itself, its entities and their attributes. These identifiers need to be minted and maintained by a (European Commission) service.
+
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+  
+* Create both machine-readable as well as human-readable distributions of the data model.
+* Automate, if possible, the creation of the distributions as much as possible in order to avoid inconsistencies.
+* Use [URIs](https://data.europa.eu/URI.html) under data.europa.eu which allows for flexibility for where the URIs resolve to.
+* UML diagrams can be published in machine-readable formats, e.g. XMI.
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  
+  * [VocBench3](https://ec.europa.eu/isa2/solutions/vocbench3_en)
+  * Sparx Enterprise Architect
+  * [Protégé](https://protege.stanford.edu/)
+</details>
+
+<details>
+  <summary><b>Example(s)</b></summary>
+
+For instance, the Birth evidence was distributed in [XML](../data_model/birth_certificate_XML_example_v0.01.xml). 
+</details>
+
+## `Step 26` Publish all documentation
+<i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
+
+**Key activities**
+> * The [<b>Editors</b>](../stakeholders#editors) publish all documentation on the collaborative tool.
+
+<details>
+  <summary><b>Description</b></summary>
+  
+  The Editors publish the final version of the data model, in both machine-readable and human-readable formats, on the selected collaborative tool. The Editors must publish the data model as open (meta)data and specify which license is applicable.
+</details>
+
+<details>
+  <summary><b>Tool(s)</b></summary>
+  The collaborative tool, e.g. Confluence, Github. Ideally, a collaborative tool allowing public access is more appropriate for transparency reasons.
 </details>
 
