@@ -11,7 +11,7 @@ This page relates to [version (v0.03)](tertiary_education_diploma_evidence_diagr
 
 **Definition**: Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.
 
-**Superclass of**: [Tertiary Education Diploma Evidence](../evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md#tertiary-education-diploma-evidence-1), [Tertiary Education Diploma Supplement Evidence](../evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md#tertiary-education-diploma-supplement-evidence-1) and [Record of Results Evidence](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md#record-of-results-evidence-1)
+**Superclass of**: [Tertiary Education Diploma Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md#tertiary-education-diploma-evidence-1), [Tertiary Education Diploma Supplement Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md#tertiary-education-diploma-supplement-evidence-1) and [Record of Results Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md#record-of-results-evidence-1)
 
 |     attribute          |	   expected type	     |	 definition	                                                                                                                                                                        |	  cardinality	   |	code list 																																														    			       |
 |------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -48,7 +48,7 @@ This page relates to [version (v0.03)](tertiary_education_diploma_evidence_diagr
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [tertiary education diploma supplement evidence data model](../evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)
+For further information, please see the [tertiary education diploma supplement evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)
 
 ### Record of Results Evidence
 
@@ -56,14 +56,14 @@ For further information, please see the [tertiary education diploma supplement e
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [record of results evidence data model](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
+For further information, please see the [record of results evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
 
 
 ### Course Result 
 
 **Definition**: Grade obtained after finishing/completing a course.
 
-For further information, please see the [record of results evidence data model](../evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
+For further information, please see the [record of results evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
 
 
 ### Education Institution

@@ -10,7 +10,7 @@ This page relates to this [version (v0.03)](absence_of_a_criminal_record_evidenc
 ## Entities
 
 ### Absence of a criminal record
-**Definition**: Official document attesting whether there is a known record of a Person having been arrested in the past for committing a crime.  
+**Definition**: Official document attesting that there is no known record of a Person having been arrested in the past for committing a crime.  
 
 |     attribute            |     expected type          |     definition                                                                                                   |     cardinality    | code list |
 |--------------------------|----------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|-----------|
