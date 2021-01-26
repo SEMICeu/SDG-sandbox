@@ -56,7 +56,7 @@ For example, for social security, [EESSI (Electronic Exchange of Social Security
 
 </details>
 
-## `Step 2` 2 Identify and share entities, attributes and descriptions used in national implementations
+## `Step 2` Identify and share entities, attributes and descriptions used in national implementations
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**

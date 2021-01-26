@@ -15,7 +15,7 @@
 [:arrow_left: Previous phase](phase1.md) **|**
 [Next phase :arrow_right:](phase3.md)
 
-## `Step 6` Analyse the models and derive necessary elements
+## `Step 4` Analyse the models and derive necessary elements
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
