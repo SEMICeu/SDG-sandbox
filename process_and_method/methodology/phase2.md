@@ -273,6 +273,7 @@ Specific rules and guidelines for the table per entity:
   <i>The collaborative tool, e.g. Github.</i>
 </details>
 
+<details>
   <summary><b>Example(s)</b></summary>
 
 > * [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#birth-evidence-1)

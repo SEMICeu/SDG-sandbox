@@ -13,7 +13,7 @@ Naturally, as the focus is on modeling evidences, aspects dealing with maintenan
 ## Process
 
 In order to tackle the problem of identifying common semantics for different types of evidence exchanged in cross-border administrative procedures, a specific process has been envisaged. The process consists of key phases as shown below. 
-![Key phases](img/methodology_phases.png)
+![Key phases](https://github.com/SEMICeu/SDG-sandbox/blob/master/process_and_method/methodology/img/methodology_phases.PNG)
 
 There are six phases, which range from the identification of existing efforts, evidences and data models  to the creation of distributions and the publication of documentation and focus essentially on agreeing on semantics. True to the European Commission’ spirit, this methodology provides tools and guidelines on how to reach the wider consensus possible.
 

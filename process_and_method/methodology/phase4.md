@@ -35,13 +35,13 @@ Finally, it is important for Working Group members and the Editors to agree on a
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-</details>
 
 * Publication as a Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by another model at any time. It is inappropriate to cite this model as other than work in progress. Comments on the model are invited. Further details on Step 17.
 * Choose an open license, e.g. CC0, [EUPL](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl_v1.2_en.pdf).
  - Publish the data model, its elements and related documentation via persistent (and ideally, dereferenceable) URIs.
  - Provide machine access to the data model.
-
+ 
+</details>
 <details>
   <summary><b>Tool(s)</b></summary>
 
