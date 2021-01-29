@@ -18,7 +18,7 @@
 
 **Key activities**
 > * The [<b>Working Group members</b>](../stakeholders#working-group) and [<b>domain experts</b>](../stakeholders#domain-experts) identify and share existing models, standardisation efforts or policies. 
-> * The [<b>responsible DG</b>]](https://ec.europa.eu/info/departments_en) in line with the evidence being modelled share existing models, standardisation efforts or policies.
+> * The [<b>responsible DG</b>](https://ec.europa.eu/info/departments_en) in line with the evidence being modelled share existing models, standardisation efforts or policies.
 > * The [<b>Editors</b>](../stakeholders#editors) collect information from the Working Group members and the responsible DG.
 
 <details>
