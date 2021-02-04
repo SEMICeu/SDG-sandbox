@@ -266,8 +266,8 @@ This step can be performed using a spreadsheet tool, such as Microsoft Excel, in
 <details>
   <summary><b>Example(s)</b></summary>
 
-> * speed hasCloseMatch velocity 
-> * For instance, [#issue 143](https://github.com/SEMICeu/SDG-sandbox/issues/143) reported that in the [sex/gender code list from the Publication Office](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex), the property “not applicable” related to the legal recognition of non-binary gender. 
+* speed hasCloseMatch velocity 
+* For instance, [#issue 143](https://github.com/SEMICeu/SDG-sandbox/issues/143) reported that in the [sex/gender code list from the Publication Office](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex), the property “not applicable” related to the legal recognition of non-binary gender. 
 
 </details>
  

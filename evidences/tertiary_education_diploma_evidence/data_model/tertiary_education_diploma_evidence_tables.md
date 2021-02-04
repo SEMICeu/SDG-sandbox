@@ -1,9 +1,11 @@
 # Disclaimer
 
-This page relates to [version (v0.03)](record_of_results_evidence_diagram_v0.03.png) of the model.
+* Current version of the data model: `v0.03`
+* Corresponding UML diagram: [v0.03](tertertiary_education_diploma_evidence_diagram_v0.03.png)
+* Last update: `TBD`
 
 ---
-# Record of Results Evidence
+# Tertiary Education Diploma Evidence
 
 ## Entities
 
@@ -23,36 +25,24 @@ This page relates to [version (v0.03)](record_of_results_evidence_diagram_v0.03.
 |     belongs to         |     Student	             |   The Student that is the holder of the Tertiary Education Evidence.  	                                                                                                            |     [1..1]         |  N/A       																																																    		   |
 |     obtained at        |     Education Institution |   The Education Institution that educated the Student.                                                                                                                               |     [0..*]         |  N/A       																																																	    	   |
 |     issuing authority  |     Organisation     	 |   The Organisation that issued the Tertiary Education Evidence.                                                                                                                      |     [1..*]         |  N/A 																																																					   |
+ 
+ 
+### Tertiary Education Diploma Evidence
 
-
-### Record of Results Evidence
-
-**Definition**: A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.
+**Definition**: Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.
 
 **Subclass of**: Tertiary Education Evidence
 
-|     attribute               |     expected type                                   |     definition                                                    		                                         |     cardinality    | code list |
-|-----------------------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     academic year           |     [Period](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#period)                                          |     The period during which the courses and exams took place.                 					                 |     [1..1]         | N/A       |
-|     total credits           |     [Float](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#primitive-data-types)                                           |     The total number of ECTS credits of the courses contained within the Record of Results.                        |     [1..1]         | N/A       |
-|     contains                |     Course Result                                   |     The specific course results that together make up the Record of Results Evidence.                              |     [0..*]         | N/A       |
-|     is record of results of |     Tertiary Education Diploma Supplement Evidence  |     The Tertiary Education Diploma Supplement Evidence to which this Record of Results Evidence is complementary.  |     [0..1]         | N/A       |
-
-
-### Course Result 
-
-**Definition**: Grade obtained after finishing/completing a course.
-
-|     attribute                |     expected type          |     definition                                                    		                                                                                  |     cardinality    | code list |
-|------------------------------|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------| 
-|     course academic period   |     [Text](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#text)                   |     Period of the academic year when the course took place, e.g. first semester, second trimester, etc.                                                     |     [0..1]         | N/A       |
-|     course academic year     |     [Date](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#datetime)                   |     The annual period of sessions of an educational programme usually beginning in September and ending in June.                              			  |     [0..1]         | N/A       |
-|     course credits amount    |     [Float](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#primitive-data-types)                  |     The number of ECTS credits for the course, expressing the volume of learning based on the defined learning outcomes and their associated workload.      |     [1..1]         | N/A      |
-|     course field of study    |     [Code](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#code)        		    |     The discipline or subject area of a course.                                                                                               			  |     [0..*]         | [ISCED 2013](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-fields-of-education-and-training-2013-detailed-field-descriptions-2015-en.pdf)        |
-|     course grade             |     Grade                  |     A mark indicating a degree of accomplishment for a particular course.                                                                                   |     [1..1]         | N/A       |
-|     course language          |     [Code](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#code)        		    |     Main language in which the course was taught.	                   			                                                                              |     [0..*]         | N/A       |
-|     course name              |     [Text](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#text)                   |     Name given to a number of lectures or other matters dealing with a subject, i.e. the course.                                                            |     [1..1]         | N/A       |
-
+|     attribute                       |     expected type                                    |    definition                                                    		                                                                                                                                                    |     cardinality    | code list |
+|-------------------------------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|-----------| 
+|     academic programme              |     [Text](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#text)                                             |    The set of course units, the various components of which complement and build on each other in order to provide the student with a higher education qualification.                                                        |     [1..1]         | N/A       |
+|     access to further study         |     [Code](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#code)                                             |    Details of access to further academic and/or professional studies the qualification provides, especially to specific qualifications, or levels of study, e.g.: access to Doctoral studies in the country or institution.  |     [0..*]         | [ISCED 2011 Levels]( http://uis.unesco.org/sites/default/files/documents/isced-2011-operational-manual-guidelines-for-classifying-national-education-programmes-and-related-qualifications-2015-en_1.pdf)  |
+|     access to regulated profession  |     [Text](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#text)                                             |    Details of any rights to practise, or professional title, accorded to the holder of the qualification, in accordance with national legislation or requirements by a competent authority.                                  |     [0..*]         | N/A       |
+|     level of distinction            |     [Code](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#code)                                             |    Indication of the level of distinction with which an academic degree has been earned, e.g. First Class Honors Degree, Summa Cum Laude, Merit, Avec Distinction, Avec mention, etc.                                        |     [0..1]         | TBD       |
+|     overall grade                   |     Grade                                            |    A mark indicating a degree of accomplishment.                                                                                                                                                                             |     [0..*]         | N/A       |
+| qualification level         |     [Code](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#code)			                     |     Level of the obtained qualification.                                                                                       |   [0..1]           | [ISCED 2011](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)     																			  |
+|     thesis title                    |     [Text](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#text)                                             |    Title of the dissertation completed by a student as part of a tertiary education degree.                                                                                                                                  |     [0..1]         | N/A       |
+|     has supplement                  |     Tertiary Education Diploma Supplement Evidence   |    Supplementary document that serves as an annex, with additional information related to the Tertiary Education Diploma Evidence.                                                                                           |     [0..1]         | N/A       |
 
 
 ### Tertiary Education Diploma Supplement Evidence
@@ -61,16 +51,22 @@ This page relates to [version (v0.03)](record_of_results_evidence_diagram_v0.03.
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [tertiary education diploma supplement evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)   
+For further information, please see the [tertiary education diploma supplement evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)
 
+### Record of Results Evidence
 
-### Tertiary Education Diploma Evidence
-
-**Definition**: Any formally awarded qualification/credential, issued by a competent authority attesting the successful completion of a recognised programme of study of tertiary education.
+**Definition**: A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [tertiary education diploma evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md)
+For further information, please see the [record of results evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
+
+
+### Course Result 
+
+**Definition**: Grade obtained after finishing/completing a course.
+
+For further information, please see the [record of results evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md)
 
 
 ### Education Institution
@@ -101,8 +97,7 @@ For further information, please see the [tertiary education diploma evidence dat
 |     student ID        		 |     [Identifier](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#identifier)        	|     An unambiguous reference to the Student.										        		|     [0..*]         | N/A       |
 
 
-#### Person
-
+### Person
 **Definition**: An individual person who may be dead or alive, but not imaginary.
 
 **Source**: [ISA² Core Person Vocabulary](https://www.w3.org/ns/person)

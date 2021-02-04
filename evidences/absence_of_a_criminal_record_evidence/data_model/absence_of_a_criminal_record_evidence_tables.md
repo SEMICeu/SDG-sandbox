@@ -1,7 +1,8 @@
 # Disclaimer
 
-This page relates to this [version (v0.03)](absence_of_a_criminal_record_evidence_diagram_v0.03.png) of the model.
-
+* Current version of the data model: `v0.03`
+* Corresponding UML diagram: [v0.03](absence_of_a_criminal_record_evidence_diagram_v0.03.png)
+* Last update: `TBD`
 ---
 
 

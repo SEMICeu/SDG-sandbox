@@ -35,17 +35,17 @@ The editors create a table with the common attributes along one dimension and th
 <details>
   <summary><b>Rules and Guidelines</b></summary>
 
-> * Controlled vocabularies at the EU level are multilingual which helps in cross- border data exchange scenarios.
-> * (domain-specific) Controlled vocabularies which are internationally accepted should be considered. 
-> * Controlled vocabularies should have governance processes in place, be hosted in a sustainable manner and be provided free of charge.
+* Controlled vocabularies at the EU level are multilingual which helps in cross- border data exchange scenarios.
+* (domain-specific) Controlled vocabularies which are internationally accepted should be considered. 
+* Controlled vocabularies should have governance processes in place, be hosted in a sustainable manner and be provided free of charge.
 
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
 
-> * [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
-> * [Core Public Service Application Profile](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary-application-profile)
+* [EU Vocabularies](https://op.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
+* [Core Public Service Application Profile](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-public-service-vocabulary-application-profile)
 
 </details>
 
@@ -107,7 +107,7 @@ As suggested by the Working Group, the editors have used the [language code list
 <details>
   <summary><b>Tool(s)</b></summary>
 
-> * [The Publication Office](https://op.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
+* [The Publication Office](https://op.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
 </details>
 
 </details>

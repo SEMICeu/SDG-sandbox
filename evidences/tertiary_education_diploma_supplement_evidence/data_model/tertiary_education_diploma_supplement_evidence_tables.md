@@ -1,6 +1,8 @@
 # Disclaimer
 
-This page relates to [version (v0.03)](tertiary_education_diploma_supplement_evidence_diagram_v0.03.png) of the model.
+* Current version of the data model: `v0.03`
+* Corresponding UML diagram: [v0.03](tertiary_education_diploma_supplement_evidence_diagram_v0.03.png)
+* Last update: `TBD`
 
 ---
 # Tertiary Education Diploma Supplement Evidence
