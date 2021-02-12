@@ -1,9 +1,3 @@
-# Disclaimer
-
-This page relates to version [version (v0.15)](vehicle_registration_certificate_diagram_v0.15.png) of the model.
-
----
-
 # Vehicle Registration Evidence
 
 ## Entities

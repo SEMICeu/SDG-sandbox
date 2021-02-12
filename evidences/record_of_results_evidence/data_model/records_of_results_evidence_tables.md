@@ -1,10 +1,3 @@
-# Disclaimer
-
-* Current version of the data model: `v0.03`
-* Corresponding UML diagram: [v0.03](record_of_results_evidence_diagram_v0.03.png)
-* Last update: `TBD`
-
----
 # Record of Results Evidence
 
 ## Entities
