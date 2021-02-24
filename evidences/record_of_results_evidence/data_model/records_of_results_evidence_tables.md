@@ -6,7 +6,7 @@
 
 **Definition**: Abstract superclass for evidences that are issued after obtaining a Tertiary Education grade.
 
-**Superclass of**: [Tertiary Education Diploma Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md#tertiary-education-diploma-evidence-1), [Tertiary Education Diploma Supplement Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md#tertiary-education-diploma-supplement-evidence-1) and [Record of Results Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables_v0.02.md#record-of-results-evidence-1)
+**Superclass of**: [Tertiary Education Diploma Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables.md#tertiary-education-diploma-evidence-1), [Tertiary Education Diploma Supplement Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables.md#tertiary-education-diploma-supplement-evidence-1) and [Record of Results Evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/record_of_results_evidence/data_model/records_of_results_evidence_tables.md#record-of-results-evidence-1)
 
 |     attribute          |	   expected type	     |	 definition	                                                                                                                                                                        |	  cardinality	   |	code list 																																														    			       |
 |------------------------|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
@@ -56,7 +56,7 @@
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [tertiary education diploma supplement evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables_v0.02.md)   
+For further information, please see the [tertiary education diploma supplement evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_supplement_evidence/data_model/tertiary_education_diploma_supplement_evidence_tables.md)   
 
 
 ### Tertiary Education Diploma Evidence
@@ -65,7 +65,7 @@ For further information, please see the [tertiary education diploma supplement e
 
 **Subclass of**: Tertiary Education Evidence
 
-For further information, please see the [tertiary education diploma evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables_v0.02.md)
+For further information, please see the [tertiary education diploma evidence data model](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/tertiary_education_diploma_evidence/data_model/tertiary_education_diploma_evidence_tables.md)
 
 
 ### Education Institution
