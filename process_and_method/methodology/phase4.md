@@ -248,7 +248,7 @@ Wherever attributes do not convey exactly the same information, ‘semantic clus
 <details>
   <summary><b>Rules and Guidelines</b></summary>
  
-The relationships among different attributes (or entities) can be given a value according to the [SKOS (Simple Knowledge Organization System_Mapping system](https://www.w3.org/TR/skos-reference/#mapping).
+The relationships among different attributes (or entities) can be given a value according to the [SKOS (Simple Knowledge Organization System) Mapping system](https://www.w3.org/TR/skos-reference/#mapping).
 The different values of which are
 * exact match
 * close match
