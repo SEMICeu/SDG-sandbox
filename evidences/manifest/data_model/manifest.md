@@ -1,6 +1,6 @@
 # Manifest
 
-> :warning: **Disclaimer**: Note that this `manifest` is a draft attempt at having a generic data model catering for all evidence types. The name `manifest` has not yet been formally agreed. Sources used to developed the `manifest` are [TOOP Document Response](http://wiki.ds.unipi.gr/display/TOOP/TOOP+Response+Syntax+Mapping#TOOPResponseSyntaxMapping-DocumentResponse) and [CCCEV](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-criterion-and-core-evidence-vocabulary)
+> :warning: **Disclaimer**: Note that this `manifest` is a draft attempt at having a generic data model catering for the provision of all evidence types. The name `manifest` has not yet been formally agreed. Sources used to develop the `manifest` are [TOOP Document Response](http://wiki.ds.unipi.gr/display/TOOP/TOOP+Response+Syntax+Mapping#TOOPResponseSyntaxMapping-DocumentResponse) and [CCCEV](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/core-criterion-and-core-evidence-vocabulary)
 
 ## Mafinest
 Definition: A list of context-neutral attributes being common to all evidence types. 
