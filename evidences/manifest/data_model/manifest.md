@@ -8,11 +8,11 @@ Definition: A list of context-neutral attributes being common to all evidence ty
 |     attribute            |     expected type    |     definition                                                                                                                           |     cardinality    |     code list    |
 |--------------------------|----------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------|
 |     evidence type        |     Code             |     The nature of the   – structured or unstructured – document exchanged to prove facts or   compliance with procedural requirements    |     [1..1]         |     TBD          |
-|     format               |     Code             |     Whether the data   is structured or unstructured                                                                                     |     [1..1]         |     TBD          |
+|     format               |     Code             |     The type of encoding of the data, for example PDF, XML                                                                               |     [1..1]         |     TBD          |
 |     identifier           |     Identifier       |     An unambiguous   reference to the Manifest                                                                                           |     [0..*]         |     N/A          |
-|     Issuing date         |     Date             |     The date on which   the Manifest was issued                                                                                         |     [1..1]         |     N/A          |
-|     issuing authority    |     Organisation     |     An Organisation   with official authority in charge of issuing the Manifest                                                         |     [1..1]         |     N/A          |
-|     schema               |     URI              |     Scheme that   describes the structure of the data                                                                                    |     [0..1]         |     N/A          |                                                                                 |     [0..1]         |     N/A          |
+|     Issuing date         |     DateTime         | 	The date (and, optionally, time) on which the evidence was issued                                                                        |     [1..1]         |     N/A          |
+|     issuing authority    |     Organisation     |     An Organisation with official authority in charge of issuing the evidence                                                         |     [1..1]         |     N/A          |
+|     schema               |     URI              |     Link to the specification of the structure of the data, for example an XSD                                                           |     [0..1]         |     N/A          |
 
 ## Organisation
 
