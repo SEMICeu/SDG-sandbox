@@ -22,7 +22,7 @@
 
 |     attribute          |     expected type |     definition                                            |     cardinality    | code list |
 |------------------------|-------------------|-----------------------------------------------------------|--------------------|-----------|
-|     marriage date      |     [Date](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#datetime)          |     The date on which the Marriage took place.            |     [1..1]         | N/A       | 
+|     date of marriage      |     [Date](https://github.com/SEMICeu/SDG-sandbox/blob/master/technical_documentation/data_types.md#datetime)          |     The date on which the Marriage took place.            |     [1..1]         | N/A       | 
 |     place of marriage  |     [Location](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/marriage_certificate/data_model/marriage_certificate_tables.md#location)      |     The Location where the Marriage took place.           |     [0..1]         | N/A       | 
 |     spouse             |     [Married Person](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/marriage_certificate/data_model/marriage_certificate_tables.md#married-person)        |     The Person who was married.                          |     [2..2]         | N/A       | 
 
