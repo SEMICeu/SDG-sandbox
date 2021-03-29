@@ -4,9 +4,9 @@
 ![Process_Phase 6](img/methodology_phase6.PNG)
 
 **Quick links:**
-- [Step 25. Decide on the conformance requirements and develop a conformance statement](#step-25-Decide-on-the-conformance-requirements-and-develop-a-conformance-statement)
-- [Step 26. Create distributions](#step-26-Create-distributions)
-- [Step 27. Publish all documentation](#step-27-Publish-all-documentation)
+- [`Step 25` Decide on the conformance requirements and develop a conformance statement](#step-25-Decide-on-the-conformance-requirements-and-develop-a-conformance-statement)
+- [`Step 26` Create distributions](#step-26-Create-distributions)
+- [`Step 27` Publish all documentation](#step-27-Publish-all-documentation)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase5.md) 

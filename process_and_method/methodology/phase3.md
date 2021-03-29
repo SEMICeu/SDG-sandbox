@@ -4,11 +4,11 @@
 ![Process_Phase 3](img/methodology_phase3.PNG)
 
 **Quick links:**
-- [`Step 10` Identify and propose controlled vocabularies across the model](../phase3.md#step-10-Identify-and-propose-controlled-vocabularies-across-the-model)
-- [`Step 11` Choose recommended controlled vocabularies](../phase3.md#step-11-Choose-recommended-controlled-vocabularies)
-- [`Step 12` Create controlled vocabularies](../phase3.md#step-12-Create-controlled-vocabularies)
-- [`Step 13` Harmonise controlled vocabularies across the data model](../phase3.md#step-13-Harmonise-controlled-vocabularies-across-the-data-model)
-- [`Step 14` Document core set of attributes and recommended vocabularies](../phase3.md#step-14-Document-core-set-of-attributes-and-recommended-vocabularies)
+- [`Step 10` Identify and propose controlled vocabularies across the model](#step-10-Identify-and-propose-controlled-vocabularies-across-the-model)
+- [`Step 11` Choose recommended controlled vocabularies](#step-11-Choose-recommended-controlled-vocabularies)
+- [`Step 12` Create controlled vocabularies](#step-12-Create-controlled-vocabularies)
+- [`Step 13` Harmonise controlled vocabularies across the data model](#step-13-Harmonise-controlled-vocabularies-across-the-data-model)
+- [`Step 14` Document core set of attributes and recommended vocabularies](#step-14-Document-core-set-of-attributes-and-recommended-vocabularies)
 
 
 

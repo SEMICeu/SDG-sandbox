@@ -4,12 +4,12 @@
 ![Process_Phase 2](img/methodology_phase2.PNG)
 
 **Quick links:**
-- [`Step 4` Analyse the models and derive necessary elements](../phase2.md#step-4-Analyse-the-models-and-derive-necessary-elements)
-- [`Step 5` Select set of core entities, attributes and relationships](../phase2.md#step-5-Select-set-of-core-entities,-attributes-and-relationships)
-- [`Step 6` Description from ISA² Core Vocabularies](../phase2.md#step-6-Description-from-ISA²-Core-Vocabularies)
-- [`Step 7` Description from other authoritative sources](../phase2.md#step-7-Description-from-other-authoritative-sources)
-- [`Step 8` Create UML class diagram](../phase2.md#step-8-Create-UML-class-diagram)
-- [`Step 9` Create tables for all entities](../phase2.md#step-9-Create-tables-for-all-entities)
+- [`Step 4` Analyse the models and derive necessary elements](#step-4-Analyse-the-models-and-derive-necessary-elements)
+- [`Step 5` Select set of core entities, attributes and relationships](#step-5-Select-set-of-core-entities,-attributes-and-relationships)
+- [`Step 6` Description from ISA² Core Vocabularies](#step-6-Description-from-ISA²-Core-Vocabularies)
+- [`Step 7` Description from other authoritative sources](#step-7-Description-from-other-authoritative-sources)
+- [`Step 8` Create UML class diagram](#step-8-Create-UML-class-diagram)
+- [`Step 9` Create tables for all entities](#step-9-Create-tables-for-all-entities)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase1.md) **|**

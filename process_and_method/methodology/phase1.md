@@ -4,9 +4,9 @@
 ![Process_Phase 1](img/methodology_phase1.PNG)
 
 **Quick links:**
-- [`Step 1` Identify and share existing models and standardisation efforts](../phase1.md#step-1-Identify-and-share-existing-models-and-standardisation-efforts)
-- [`Step 2` Identify and share entities, attributes and descriptions used in national implementations](../phase2.md#step-2-Identify-and-share-entities,-attributes-and-descriptions-used-in-national-implementations)
-- [`Step 3` Identify and analyse models used or standardisation efforts (elsewhere)](../phase1.md#step-3-Identify-and-analyse-models-used-or-standardisation-efforts-(elsewhere))
+- [`Step 1` Identify and share existing models and standardisation efforts](#step-1-Identify-and-share-existing-models-and-standardisation-efforts)
+- [`Step 2` Identify and share entities, attributes and descriptions used in national implementations](#step-2-Identify-and-share-entities,-attributes-and-descriptions-used-in-national-implementations)
+- [`Step 3` Identify and analyse models used or standardisation efforts (elsewhere)](#step-3-Identify-and-analyse-models-used-or-standardisation-efforts-(elsewhere))
 
 
 **Navigate to the different phases**\

@@ -4,15 +4,15 @@
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
 **Quick links:**
-- [` Step 22`  Test the final data model with instance data](#step-22-Test-the-final-data-model-with-instance-data)
-- [` Step 23`  Review the final data model](#step-23-Review-the-final-data-model)
-- [` Step 24`  Update the final data model](#step-24-Update-the-final-model)
+- [`Step 22`  Test the final data model with instance data](#step-22-Test-the-final-data-model-with-instance-data)
+- [`Step 23`  Review the final data model](#step-23-Review-the-final-data-model)
+- [`Step 24`  Update the final data model](#step-24-Update-the-final-model)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase4.md) **|**
 [Next phase :arrow_right:](phase6.md)
 
-## ` Step 22`  Test the final data model with instance data
+## `Step 22`  Test the final data model with instance data
 <i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
@@ -85,7 +85,7 @@ Along with these elements, some input fields need to be provided:
 
 </details>
 
-## ` Step 23`  Review the final data model 
+## `Step 23`  Review the final data model 
 <i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
@@ -158,7 +158,7 @@ Questions to bear in mind while reviewing:
 
 
 
-## ` Step 24`  Update the final model
+## `Step 24`  Update the final model
 <i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
@@ -172,7 +172,7 @@ As the Working Group members have given feedback in the previous two steps, the 
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
- * No changes are made during this step that were not agreed upon by the Working Group.
- * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
- * Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
+* No changes are made during this step that were not agreed upon by the Working Group.
+* The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
+* Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
 </details>
