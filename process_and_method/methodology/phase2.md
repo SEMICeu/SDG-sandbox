@@ -83,8 +83,8 @@ Be as specific as possible, without restricting local flexibility too much.
 <details>
   <summary><b>Tool(s)</b></summary>
   
-> * A spreadsheet tool can be used to select the set of core entities, attributes and relationships of the common data model.
-> * The collaborative tool can be used to hold the discussion on the inclusion of entities, attributes and relationships.
+* A spreadsheet tool can be used to select the set of core entities, attributes and relationships of the common data model.
+* The collaborative tool can be used to hold the discussion on the inclusion of entities, attributes and relationships.
 
 
 </details>
@@ -127,8 +127,8 @@ The Editors verify whether an ISA² Core Vocabulary can be reused. Reuse is a ke
 <details>
   <summary><b>Example(s)</b></summary>
 
-> * The Core Person Vocabulary describes a class/entity Person that has an attribute/property "gender" that expects a Code as data type, coming from four possible controlled vocs: ISO, Eurostat, HL7 or SDMX.
-> * Gender is a challenging topic due to the different recognition of non-binary gender, [issue #143](https://github.com/SEMICeu/SDG-sandbox/issues/143).
+* The Core Person Vocabulary describes a class/entity Person that has an attribute/property "gender" that expects a Code as data type, coming from four possible controlled vocs: ISO, Eurostat, HL7 or SDMX.
+* Gender is a challenging topic due to the different recognition of non-binary gender, [issue #143](https://github.com/SEMICeu/SDG-sandbox/issues/143).
 
 </details>
 
@@ -155,19 +155,19 @@ In general, entities, attributes, relationships and definitions should be linked
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
- Generic rules and guidelines 
- > * Entities can be documented by using tools such as the [Interoperability Platform and Data Vocabularies Tools](https://ec.europa.eu/isa2/actions/improving-semantic-interoperability-european-egovernment-systems_en).
+Generic rules and guidelines 
+* Entities can be documented by using tools such as the [Interoperability Platform and Data Vocabularies Tools](https://ec.europa.eu/isa2/actions/improving-semantic-interoperability-european-egovernment-systems_en).
 
-  Specific rules and guidelines for  the table per entity
-  > * When defining a term, it should not be included in the tentative definition.
+Specific rules and guidelines for  the table per entity
+* When defining a term, it should not be included in the tentative definition.
 
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
 
-> * [Oxford dictionary](https://www.oxfordlearnersdictionaries.com/us/)
-> * [Merriam-Webster](https://www.merriam-webster.com/)
+* [Oxford dictionary](https://www.oxfordlearnersdictionaries.com/us/)
+* [Merriam-Webster](https://www.merriam-webster.com/)
   
 </details>
 
@@ -195,18 +195,18 @@ The exclusive focus on entities, attributes and relationships will allow the Wor
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-> * Follow the [UML design rules](https://www.omg.org/spec/UML/About-UML/):
->> * Each element and their relationships should be identified in advance;
->> * Attributes of each class should be clearly identified;
->> * Attributes should be presented in the following manner:attributeName: expected type. “Expected type” is further defined in step 11;
->> * Avoid as much as possible lines crossing each other;
->> * Ensure orthogonality of relationships;
->> * Parents elements are higher than the child elements, so the subclass arrows always point upwards;
->> * Align elements either by one of their sides or by their centers;
->> * Make elements of the same size, if possible;
->> * Diagrams should show the cardinality of attributes and relationships as well;
->> * Entities names should start with an uppercase;
->> * Attributes names should start with a lower case.
+* Follow the [UML design rules](https://www.omg.org/spec/UML/About-UML/):
+* Each element and their relationships should be identified in advance;
+* Attributes of each class should be clearly identified;
+* Attributes should be presented in the following manner:attributeName: expected type. “Expected type” is further defined in step 11;
+* Avoid as much as possible lines crossing each other;
+* Ensure orthogonality of relationships;
+* Parents elements are higher than the child elements, so the subclass arrows always point upwards;
+* Align elements either by one of their sides or by their centers;
+* Make elements of the same size, if possible;
+* Diagrams should show the cardinality of attributes and relationships as well;
+* Entities names should start with an uppercase;
+* Attributes names should start with a lower case.
 
 </details>
 
@@ -216,14 +216,14 @@ The exclusive focus on entities, attributes and relationships will allow the Wor
 Some examples of proprietary and open source tools are the following:
 
 Proprietary tools:
-> * [Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-purchase/)
-> * [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software)
-> * [MagicDraw (No Magic)](https://www.nomagic.com/products/magicdraw)
-> * [Visual Paradigm](https://www.visual-paradigm.com/)
+* [Enterprise Architect](https://www.sparxsystems.eu/enterprise-architect/ea-purchase/)
+* [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software)
+* [MagicDraw (No Magic)](https://www.nomagic.com/products/magicdraw)
+* [Visual Paradigm](https://www.visual-paradigm.com/)
 
 Open source tools:
-> * [Modelio](https://www.modelio.org/)
-> * [UMLet](https://www.umlet.com/)
+* [Modelio](https://www.modelio.org/)
+* [UMLet](https://www.umlet.com/)
 
 </details>
 
@@ -244,10 +244,10 @@ Open source tools:
   <summary><b>Description</b></summary>
   
 Relying on the input gathered, the editors draft tables for all the entities of the data model. Per entity, the table consists of the following elements;
-> * Proposed attribute(s) / relationship(s)
-> * Proposed expected type
-> * Proposed definition
-> * Proposed cardinality
+* Proposed attribute(s) / relationship(s)
+* Proposed expected type
+* Proposed definition
+* Proposed cardinality
 
 Tables are a way to provide further information and context to the data model, unlike the UML class diagram which can be seen as a visual representation of the data model. Both form the data model referred to in the further steps.
 
@@ -257,14 +257,14 @@ Tables are a way to provide further information and context to the data model, u
   <summary><b>Rules and Guidelines</b></summary>
 
 Generic rules and guidelines for step 9
-> * Multilingualism, localisation and internationalisation aspects should be considered. A language neutral identifier for every concept and additional Member State language columns in the tables helps Member State participation.
-> * The scope of the data model should be described by a fact or an event that is proven by the evidence represented by the data model.
-> * The tables should have a language-neutral identifier that, along the creation and review of the data model, is agnostic to name changes. 
+* Multilingualism, localisation and internationalisation aspects should be considered. A language neutral identifier for every concept and additional Member State language columns in the tables helps Member State participation.
+* The scope of the data model should be described by a fact or an event that is proven by the evidence represented by the data model.
+* The tables should have a language-neutral identifier that, along the creation and review of the data model, is agnostic to name changes. 
 
 Specific rules and guidelines for the table per entity:
-> * Sources of the entities/attributes should be added, e.g. existing regulation, reused model, etc. 
-> * Entities,attributes and relationships should be accompanied by a definition as well as their cardinality.
-> * [The regulation 2016/1191](https://www.google.com/url?q=https://eur-lex.europa.eu/legal-content/EN/TXT/?uri%3DCELEX%253A32016R1191&sa=D&ust=1608109108137000&usg=AOvVaw03z_d3IraqIsVD7VQ8V1mb) on Public Documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondence between the attributes of the proposed data model to the fields of the multilingual standard forms of the regulation on Public Documents for evidences related to such domain. The aforementioned approach could be reused for evidences other than public documents. 
+* Sources of the entities/attributes should be added, e.g. existing regulation, reused model, etc. 
+* Entities,attributes and relationships should be accompanied by a definition as well as their cardinality.
+* [The regulation 2016/1191](https://www.google.com/url?q=https://eur-lex.europa.eu/legal-content/EN/TXT/?uri%3DCELEX%253A32016R1191&sa=D&ust=1608109108137000&usg=AOvVaw03z_d3IraqIsVD7VQ8V1mb) on Public Documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondence between the attributes of the proposed data model to the fields of the multilingual standard forms of the regulation on Public Documents for evidences related to such domain. The aforementioned approach could be reused for evidences other than public documents. 
 
 </details>
 
@@ -276,10 +276,10 @@ Specific rules and guidelines for the table per entity:
 <details>
   <summary><b>Example(s)</b></summary>
 
-> * [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#birth-evidence-1)
-> * [Birth](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#birth)
-> * [Person](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#person)
-> * [Public Organisation](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#public-organisation)
-> * [Location](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#location)
+* [Birth evidence](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#birth-evidence-1)
+* [Birth](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#birth)
+* [Person](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#person)
+* [Public Organisation](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#public-organisation)
+* [Location](https://github.com/SEMICeu/SDG-sandbox/blob/master/evidences/birth_certificate/data_model/birth_certificate_tables_v0.02.md#location)
 
 </details>
