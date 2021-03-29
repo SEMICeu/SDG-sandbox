@@ -33,9 +33,9 @@ Considering the procedure for which the evidence is modelled, and subsequently t
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-> * The data model to be produced is not modelling paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact. So, the grain of the data should be limited to the fact to prove, when modelling evidence types. The Editors should look for the minimum common denominator when consolidating and analysing (fragment of) data models and information received. 
-> * The [SKOS Mapping Properties](https://www.w3.org/TR/skos-reference/#mapping) can be used to compare entities or attributes across different models.
-> * When selecting the core entities, attributes and relationships, the editors can define thresholds allowing to decide which of the latter will be mandatory, optional or discarded. For instance, if no other Member State mentioned the need for an attribute it will therefore be discarded.
+* The data model to be produced is not modelling paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact. So, the grain of the data should be limited to the fact to prove, when modelling evidence types. The Editors should look for the minimum common denominator when consolidating and analysing (fragment of) data models and information received. 
+* The [SKOS Mapping Properties](https://www.w3.org/TR/skos-reference/#mapping) can be used to compare entities or attributes across different models.
+* When selecting the core entities, attributes and relationships, the editors can define thresholds allowing to decide which of the latter will be mandatory, optional or discarded. For instance, if no other Member State mentioned the need for an attribute it will therefore be discarded.
 
 
 </details>
@@ -44,8 +44,8 @@ Considering the procedure for which the evidence is modelled, and subsequently t
 <details>
   <summary><b>Tool(s)</b></summary>
 
-> * [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov) which is a source for predicates, i.e. existing attributes/relationships that might be candidates for reuse.
-> * A spreadsheet tool can be used to present and compare the different data models.
+* [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov) which is a source for predicates, i.e. existing attributes/relationships that might be candidates for reuse.
+* A spreadsheet tool can be used to present and compare the different data models.
 </details>
 
 <details>
