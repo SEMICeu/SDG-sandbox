@@ -32,7 +32,7 @@ Only once the list of evidence to be modelled is decided, the methodology can be
 - [`Phase 2`: Draft data model](phase2.md)
 - [`Phase 3`: Select controlled vocabularies](phase3.md)
 - [`Phase 4`: Review data model and incorporate comments](phase4.md)
-- [`Phase 5`: Select controlled vocabularies](phase5.md)
+- [`Phase 5`: Finalise data model](phase5.md)
 - [`Phase 6`: Create distributions and publish documentation](phase6.md)
 
 For each step, the key activities of every stakeholder group is described. If you would like to know the more general roles and responsibilities of a stakeholder group, please have a look at the section defining roles and responsibilities. In a similar manner, key terms are defined in the glossary.
