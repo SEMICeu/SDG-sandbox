@@ -4,14 +4,88 @@
 ![Process_Phase 5](img/methodology_phase5.PNG)
 
 **Quick links:**
-- [` Step 22`  Review the final data model](../phase5.md#step-22-Review-the-final-data-model)
-- [` Step 23`  Update the final data model](../phase5.md#step-23-Update-the-final-model)
+- [` Step 22`  Test the final data model with instance data](#step-22-Test-the-final-data-model-with-instance-data)
+- [` Step 23`  Review the final data model](#step-23-Review-the-final-data-model)
+- [` Step 24`  Update the final data model](#step-24-Update-the-final-model)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase4.md) **|**
 [Next phase :arrow_right:](phase6.md)
 
-## ` Step 22`  Review the final data model 
+## ` Step 22`  Test the final data model with instance data
+<i><b>Review</b> - formal assessment potentially leading to changes.</i>
+
+**Key activities**
+> * A selected number of [<b>Working Group members</b>](../stakeholders#working-group) and domain experts test the model against instance data.
+> * The [<b>Editors</b>](../stakeholders#editors) assist the Working Group members in the testing by collecting and categorising the feedback.
+
+<details>
+  <summary><b>Description</b></summary>
+
+So far, the process of defining the elements of the data model was a theoretical exercise. The objective of this step is to test the final model against instance data, i.e. actual data, in order to discover potential flaws or blind spots in the model.  In this step, working group members have to provide (dummy) instance data and report on the challenges they face when:
+
+* mapping this instance data to the model (perspective of the data provider). Working group members must answer the question: *“Can we provide this information?”.*
+* processing instance data that respects the data model (perspective of the data consumer). Working group members must now answer the question: *“Can we process this information?”*, where the information represents the minimum data required by the model and, in this case, considering that the data was hypothetically received from another party. 
+
+Mapping instance data is, in the jargon, looking from the data provider perspective. For instance, a person needs evidence of a diploma from studying in a Member State (A) for a procedure in another Member State (B). The mapping takes the perspective of Member State (A). From the other perspective, processing the instance data would take the role of the data consumer. In the example above, Member State (B) is the data consumer. 
+
+A likely process for this step could be as follow:
+
+1.	**Initiate** – All working group members have the possibility to volunteer for the testing of the data model with instance data. In the beginning of this exercise, editors will organise a meeting with the volunteers to walk them through the process and outline the expectations.
+2.	**Map** – Volunteers will put on the hat of the data provider and create instance data for the data model, with as many attributes as available in their national system, and map them to the attributes in the template provided. 
+3.	**Process** – Volunteers will put on the hat of the data consumer and receive minimal evidence  (mandatory fields only) data from another MS, i.e. another volunteer - as collected in the preceding step. Volunteers will then process the instance data received.
+4.	**Report** – Volunteers will report on (semantic) challenges arising from both the mapping and processing of instance data. This step should reveal potential flaws in the model thanks to a life-like situation of processing an evidence.
+5.	**Improve** – After the testing comes the reporting. Volunteers will therefore share their findings with the broad audience and discuss how to improve the models (e.g. by adding usage notes).
+
+The feedback received during this step needs to be documented, categorized and analysed.
+</details>
+
+<details>
+  <summary><b>Rules and Guidelines</b></summary>
+  
+Questions to bear in mind when testing the model against instance data: 
+
+* How relevant do you think the data in the attribute is for cross-border exchange?
+* For the mandatory attributes: how can you process them, and are there any specific requirements for the format of the data?
+* For the optional attributes: what are the challenges for processing of the data if the attribute is missing?
+
+</details>
+
+<details>
+  <summary><b>Tools</b></summary>
+
+For this exercise, a spreadsheet can come in handy. 
+
+| Attribute          | Expected type         | Definition                                                                                                                                                                        | Cardinality | Code list | Instance data | Mapping relation | Mapping Comment | Processing comment |
+|--------------------|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------:|-----------|:-------------:|:----------------:|:---------------:|:------------------:|
+| Identifier         | Identifier            | An unambiguous reference to the Tertiary Education Evidence.                                                                                                                      |    [1..1]   | N/A       |               |                  |                 |                    |
+| issuing date       | Date                  | The date on which the Tertiary Education Evidence was issued.                                                                                                                     |    [1..1]   | N/A       |               |                  |                 |                    |
+| language           | Code                  | The language in which the Tertiary Education Evidence is issued.                                                                                                                  |    [1..*]   | Language  |               |                  |                 |                    |
+| qualification name | Text                  | Full name of the qualification, at least in the original language(s) as it is styled in the original qualification, e.g. Master of Science, Kandidat nauk, Maîtrise, Diplom, etc. |    [1..*]   | N/A       |               |                  |                 |                    |
+| issuing place      | Location              | The Location where the Tertiary Education Evidence was issued.                                                                                                                    |    [1..1]   | N/A       |               |                  |                 |                    |
+| belongs to         | Student               | The Student that is the holder of the Tertiary Education Evidence.                                                                                                                |    [1..1]   | N/A       |               |                  |                 |                    |
+| obtained at        | Education Institution | The Education Institution that educated the Student.                                                                                                                              |    [0..*]   | N/A       |               |                  |                 |                    |
+| issuing authority  | Organisation          | The Organisation that issued the Tertiary Education Evidence.                                                                                                                     |    [1..*]   | N/A       |               |                  |                 |                    |
+
+
+Several columns to describe the model will be needed: 
+
+* Attribute
+* Expected type
+* Definition 
+* Cardinality
+* Code list
+
+Along with these elements, some input fields need to be provided: 
+
+* Instance data - Actual data to be provided. For instance, the given name for Johann Sebastian Bach is “Johann Sebastian”
+* Mapping relation - e.g. exact match, no match, near match, etc. [For further information on the definitions of  these mappings](https://www.w3.org/TR/skos-reference/#mapping)
+* Mapping comment - Comments in case theres is a remark, suggestion, issue with the mapping, i.e. data provider perspective
+* Processing comment - Comments in case there is a remark, suggestion, issue with the processing, i.e. data consumer perspective
+
+</details>
+
+## ` Step 23`  Review the final data model 
 <i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
@@ -84,7 +158,7 @@ Questions to bear in mind while reviewing:
 
 
 
-## ` Step 23`  Update the final model
+## ` Step 24`  Update the final model
 <i><b>Review</b> - formal assessment potentially leading to changes.</i>
 
 **Key activities**
@@ -93,13 +167,12 @@ Questions to bear in mind while reviewing:
 <details>
   <summary><b>Description</b></summary>
   
-As the Working Group members have given feedback in the previous step, the Editors process these comments and make changes to the data modelas agreed with the Working Group members. From this point, the Editors can only make changes for which the Working Group members have reached a consensus. Since there is no review period anymore, all changes that are carried out during this step should have been discussed with the Working Group members.
+As the Working Group members have given feedback in the previous two steps, the Editors process these comments and make changes to the data modelas agreed with the Working Group members. From this point, the Editors can only make changes for which the Working Group members have reached a consensus. Since there is no review period anymore, all changes that are carried out during this step should have been discussed with the Working Group members.
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
-  
  * No changes are made during this step that were not agreed upon by the Working Group.
- - The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
+ * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
+ * Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
 </details>
-

@@ -4,14 +4,14 @@
 ![Process_Phase 6](img/methodology_phase6.PNG)
 
 **Quick links:**
-- [Step 24. Decide on the conformance requirements and develop a conformance statement](../phase6.md#step-24-Decide-on-the-conformance-requirements-and-develop-a-conformance-statement)
-- [Step 25. Create distributions](../phase6.md#step-25-Create-distributions)
-- [Step 26. Publish all documentation](../phase6.md#step-26-Publish-all-documentation)
+- [Step 25. Decide on the conformance requirements and develop a conformance statement](#step-25-Decide-on-the-conformance-requirements-and-develop-a-conformance-statement)
+- [Step 26. Create distributions](#step-26-Create-distributions)
+- [Step 27. Publish all documentation](#step-27-Publish-all-documentation)
 
 **Navigate to the different phases**\
 [:arrow_left: Previous phase](phase5.md) 
 
-## `Step 24` Decide on the conformance requirements and develop a conformance statement 
+## `Step 25` Decide on the conformance requirements and develop a conformance statement 
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
@@ -37,7 +37,7 @@ It is possible that the data model has natural divisions so that it might be app
 
 
 
-## `Step 25` Create distributions
+## `Step 26` Create distributions
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
@@ -81,7 +81,7 @@ During this step, URIs are also created (or reused when possible) for the data m
 For instance, the Birth evidence was distributed in [XML](../data_model/birth_certificate_XML_example_v0.01.xml). 
 </details>
 
-## `Step 26` Publish all documentation
+## `Step 27` Publish all documentation
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**

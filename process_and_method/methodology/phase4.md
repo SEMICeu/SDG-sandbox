@@ -5,13 +5,13 @@
 
 **Quick links:**
 
-- [`Step 15` Publish draft data model](../phase4.md#step-15-publish-draft-data-model)
-- [`Step 16` Review draft data model](../phase4.md#step-16-review-draft-data-model)
-- [`Step 17` Propose enhancements](../phase4.md#step-17-propose-enhancements)
-- [`Step 18` Propose additional attributes](../phase4.md#step-18-propose-additional-attributes)
-- [`Step 19` Perform semantic mapping of attributes](../phase4.md#step-19-performh-semantic-mapping-of-attributes)
-- [`Step 20` Harmonise entities, attributes and descriptions across the data model](../phase4.md#step-20-Harmonise-entities,-attributes-and-descriptions-across-the-data-model)
-- [`Step 21` Update draft data model](../phase4.md#step-21-Update-draft-data-model)
+- [`Step 15` Publish draft data model](#step-15-publish-draft-data-model)
+- [`Step 16` Review draft data model](#step-16-review-draft-data-model)
+- [`Step 17` Propose enhancements](#step-17-propose-enhancements)
+- [`Step 18` Propose additional attributes](#step-18-propose-additional-attributes)
+- [`Step 19` Perform semantic mapping of attributes](#step-19-performh-semantic-mapping-of-attributes)
+- [`Step 20` Harmonise entities, attributes and descriptions across the data model](#step-20-Harmonise-entities,-attributes-and-descriptions-across-the-data-model)
+- [`Step 21` Update draft data model](#step-21-Update-draft-data-model)
 
 
 **Navigate to the different phases**\
@@ -318,8 +318,5 @@ The draft data model expressed as an UML diagram with textual description (i.e. 
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
- 
-Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
-Publication as a last call Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by another model at any time. Endorsement of the model will be sought in the `step 22`.
-
+Publication as a last call Working Draft does not imply endorsement by the Working Group members or its representatives. This is a draft model and may be updated, replaced or made obsolete by another model at any time. Endorsement of the model will be sought in the `step 23`.
  </details>
