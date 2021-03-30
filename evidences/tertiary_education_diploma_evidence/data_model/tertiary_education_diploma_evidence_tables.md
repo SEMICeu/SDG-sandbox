@@ -48,7 +48,7 @@ For further information, please see the [tertiary education diploma supplement e
 
 ### Record of Results Evidence
 
-**Definition**: A record of the Student's progress in his/her studies: the educational components they have taken, the number of ECTS credits they have achieved, and the grades they have been awarded.
+**Definition**: An official record or breakdown of a student’s progress and achievements.
 
 **Subclass of**: Tertiary Education Evidence
 
