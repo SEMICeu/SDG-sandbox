@@ -10,8 +10,9 @@ Definition: A list of context-neutral attributes being common to all evidence ty
 |     evidence type        |     Code             |     The nature of the   – structured or unstructured – document exchanged to prove facts or   compliance with procedural requirements    |     [1..1]         |     TBD          |
 |     format               |     Code             |     The type of encoding of the data, for example PDF, XML                                                                               |     [1..1]         |     TBD          |
 |     identifier           |     Identifier       |     An unambiguous   reference to the Manifest                                                                                           |     [1..1]         |     N/A          |
-|     Issuing date         |     DateTime         | 	The date (and, optionally, time) on which the evidence was issued                                                                        |     [1..1]         |     N/A          |
+|     issuing date         |     DateTime         | 	The date (and, optionally, time) on which the evidence was issued                                                                        |     [1..1]         |     N/A          |
 |     issuing authority    |     Organisation     |     An Organisation with official authority in charge of issuing the evidence                                                         |     [1..1]         |     N/A          |
+|     language               |     Code              |     The language in which the Evidence is issued                                                          |     [0..1]         |     [Language](http://publications.europa.eu/resource/authority/language)         |
 |     schema               |     URI              |     Link to the specification of the structure of the data, for example an XSD                                                           |     [0..1]         |     N/A          |
 
 ## Organisation

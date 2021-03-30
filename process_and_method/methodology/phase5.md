@@ -172,7 +172,9 @@ As the Working Group members have given feedback in the previous two steps, the 
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
+
 * No change - not agreed upon by the Working Group - is made. 
 * The change log is updated to reflect the final changes in order to achieve full transparency towards the Working Group.
 * Every element, e.g. attributes, needs to have a persistent identifier alongside labels that could be in different languages.
+
 </details>
