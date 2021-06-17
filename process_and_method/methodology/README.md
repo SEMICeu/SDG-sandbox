@@ -1,15 +1,7 @@
 # Methodology
 
-This folder contains the various steps that together make up the methodology used to develop the data models of the evidences.
-
-## Disclaimer
-
-This process has been designed based on the work of modelling ten evidences qualified as relevant in the Study on Data Mapping for the cross-border application of the Once-Only technical system SDG. The process is general enough to be used for future procedures, that is, in addition to the ones identified by the SDGR. More importantly, as this process has been designed based on a sample of ten evidences, it should not be considered complete nor exhaustive. 
-
-Essentially, this is a living document which is set to evolve as more evidences are being modelled and feedback fed in. 
-
-Naturally, as the focus is on modeling evidences, aspects dealing with maintenance are not covered in this document.  
-
+This folder contains the various steps of a methodology to develop new data models for evidence types under the SDGR.
+  
 ## Process
 
 In order to tackle the problem of identifying common semantics for different types of evidence exchanged in cross-border administrative procedures, a specific process has been envisaged. The process consists of key phases as shown below. 
