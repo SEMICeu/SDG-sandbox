@@ -4,20 +4,15 @@ This folder contains the various steps of a methodology to develop new data mode
   
 ## Process
 
-In order to tackle the problem of identifying common semantics for different types of evidence exchanged in cross-border administrative procedures, a specific process has been envisaged. The process consists of key phases as shown below. 
+In order to model the semantics for different types of evidence exchanged in cross-border administrative procedures, the methodology envisions the following key phases as shown below. 
 ![Key phases](https://github.com/SEMICeu/SDG-sandbox/blob/master/process_and_method/methodology/img/methodology_phases.PNG)
 
-There are six phases, which range from the identification of existing efforts, evidences and data models  to the creation of distributions and the publication of documentation and focus essentially on agreeing on semantics. True to the European Commission’ spirit, this methodology provides tools and guidelines on how to reach the wider consensus possible.
+There are six phases, which range from the identification of existing efforts, evidences and data models to the creation of distributions and the publication of documentation. 
+This process should be placed in a broader context, in the sense that preliminary work carried out upstream, i.e. the identification of the evidence types to be modelled through the definition of use cases, is expected to take place. Use cases should determine for what purpose specific evidence types are needed in the context of a specific procedure.
 
-This process forms part of a broader context. It is therefore not the start point nor the end point of the initiative to develop common data models. It is clearly important to be conversant with what triggers the creation of a common data model and in what context this data model is going to be used. 
+The involvement of domain experts (preferably from each member state) in this kind of discussion plays a key role in the collaboration between member states. Their knowledge of the different specific features of national use cases and evidence enables them to discuss and select the most relevant evidence types to be modelled. 
 
-It is also worth outlining that such methodology only applies on the basis of preliminary work carried out upstream, i.e. the identification of the evidence to be modelled through the definition of use cases. Use cases determine for what purpose you need specific evidence in the context of a specific procedure and need to be defined and assessed to arrive at a relevant list of candidate evidences.  
-
-The evidence selection process will imperatively require to fulfill certain criteria in order to be potentially retained. These different selection criteria pave the way for discussions aiming at defining which evidence is to be modelled. 
-
-The involvement of domain experts (preferably from each member state) in this kind of discussion plays a key role in the collaboration between member states. Their knowledge of the different specific features of national use cases and evidence enables them to discuss and select the most relevant evidence to be modelled. 
-
-Only once the list of evidence to be modelled is decided, the methodology can be applied.
+Once the evidence type to be modelled is decided, the methodology can be applied.
 
 **Access each phase**
 - [`Phase 1`: Identify and analyse existing standardization efforts, evidences and data models](phase1.md)
@@ -27,7 +22,7 @@ Only once the list of evidence to be modelled is decided, the methodology can be
 - [`Phase 5`: Finalise data model](phase5.md)
 - [`Phase 6`: Create distributions and publish documentation](phase6.md)
 
-For each step, the key activities of every stakeholder group is described. If you would like to know the more general roles and responsibilities of a stakeholder group, please have a look at the section defining roles and responsibilities. In a similar manner, key terms are defined in the glossary.
+For each step, the key activities of every stakeholder group are described. If you would like to know the more general roles and responsibilities of a stakeholder group, please have a look at the section defining roles and responsibilities. In a similar manner, key terms are defined in the glossary.
 Next to the key activities, when relevant, additional information is provided in the form of rules and guidelines, tools or even examples. This is intended to make this methodology as actionable as it can be, giving the reader the means to develop common data models. 
 Finally, for each step, three types of activities have been identified. 
 1. Business analysis, i.e. identifying business needs and determining solutions.
