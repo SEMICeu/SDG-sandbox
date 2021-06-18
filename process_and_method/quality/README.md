@@ -1,6 +1,6 @@
 # Quality
 
-Quality comes in three different shapes. 
+The quality aspect is addressed at three different levels: 
 
 ## data models
 This is ensured by using the **proposed methodology**, which is based on the existing SEMIC methodology. In addition, we build as much as possible on **existing resources**, like the ISA² Core Vocabularies, the Public/eJustice documents, EUCARIS, EU Vocabularies of the Publications Office etc., taking into account the **feedback and suggestions of the member states**, building consensus and delivering detailed documentation.
