@@ -23,7 +23,7 @@ Once the evidence type to be modelled is decided, the methodology can be applied
 - [`Phase 6`: Create distributions and publish documentation](phase6.md)
 
 For each step, the key activities of every stakeholder group are described. If you would like to know the more general roles and responsibilities of a stakeholder group, please have a look at the section defining roles and responsibilities. In a similar manner, key terms are defined in the glossary.
-Next to the key activities, when relevant, additional information is provided in the form of rules and guidelines, tools or even examples. This is intended to make this methodology as actionable as it can be, giving the reader the means to develop common data models. 
+Next to the key activities, when relevant, additional information is provided in the form of rules and guidelines, tools or even examples. This is intended to make this methodology as actionable as it can be, giving the reader the means to develop OOTS data models for specific evidence types. 
 Finally, for each step, three types of activities have been identified. 
 1. Business analysis, i.e. identifying business needs and determining solutions.
 2. Technical analysis, i.e. identifying technical requirements and determining solutions.  

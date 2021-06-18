@@ -22,7 +22,7 @@
 <details>
   <summary><b>Description</b></summary>
   
-A conformance statement declares a minimum set of requirements that an implementation must adhere to, in order to be considered conformant with the respective data model. The Working Group members must agree on these conformance requirements. The Editors then include a conformance statement in the common data model.
+A conformance statement declares a minimum set of requirements that an implementation must adhere to, in order to be considered conformant with the respective data model. The Working Group members must agree on these conformance requirements. The Editors then include a conformance statement in the OOTS data model for specific evidence types.
 
 It is possible that the data model has natural divisions so that it might be appropriate to set different conformance levels. For example, a model used to describe vehicles may have a group of terms related specifically to motor vehicles that could be used in an implementation that has no needs to understand the terms that relate to bicycles. This will consequently lead to the establishment of different conformance levels.
 
@@ -32,7 +32,7 @@ It is possible that the data model has natural divisions so that it might be app
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-  * Publish the conformance statement together with the common data model.
+  * Publish the conformance statement together with the OOTS data model for specific evidence types.
 </details>
 
 

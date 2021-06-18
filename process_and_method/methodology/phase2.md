@@ -83,7 +83,7 @@ Be as specific as possible, without restricting local flexibility too much.
 <details>
   <summary><b>Tool(s)</b></summary>
   
-* A spreadsheet tool can be used to select the set of core entities, attributes and relationships of the common data model.
+* A spreadsheet tool can be used to select the set of core entities, attributes and relationships of the OOTS data model for specific evidence types.
 * The collaborative tool can be used to hold the discussion on the inclusion of entities, attributes and relationships.
 
 

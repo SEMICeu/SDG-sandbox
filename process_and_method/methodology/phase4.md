@@ -289,7 +289,7 @@ The Editors consider all the entities, attributes and descriptions across the (a
 <details>
   <summary><b>Rules and Guidelines</b></summary>
  
-In order to guarantee semantic interoperability amongst different common data models – that might be developed at the same time –, the same modelling patterns, especially for concepts independent from a specific domain, can be applied across data models (e.g. location, person, organisation) unless specific characteristics for them are required.
+In order to guarantee semantic interoperability amongst differentOOTS data models for specific evidence types – that might be developed at the same time –, the same modelling patterns, especially for concepts independent from a specific domain, can be applied across data models (e.g. location, person, organisation) unless specific characteristics for them are required.
 
  </details>
 
@@ -306,7 +306,7 @@ Following a discussion on the SDG sandbox, the editors proposed to align the Loc
 
 **Key activities**
 
-> the [<b>Editors</b>](../stakeholders#editors) create an updated coherent draft common data model based on information collected in the previous steps.
+> the [<b>Editors</b>](../stakeholders#editors) create an updated coherent draft OOTS data model for specific evidence types based on information collected in the previous steps.
 
 <details>
   

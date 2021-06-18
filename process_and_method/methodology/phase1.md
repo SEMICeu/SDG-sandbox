@@ -24,9 +24,9 @@
 <details>
   <summary><b>Description</b></summary>
   
-Working Group members will share information they possess related to the common data model being built. Similarly, DGs having competencies in relation with the scope of the evidence being modelled, will share relevant information and existing (legal) pieces of work. 
+Working Group members will share information they possess related to the OOTS data model for specific evidence types being built. Similarly, DGs having competencies in relation with the scope of the evidence being modelled, will share relevant information and existing (legal) pieces of work. 
 
-The objective is to gather information in order to have a global overview of data models, and/or standardisation rules implemented and used across Europe and leverage this insight to develop a common data model. 
+The objective is to gather information in order to have a global overview of data models, and/or standardisation rules implemented and used across Europe and leverage this insight to develop a OOTS data model for specific evidence types. 
 
 This step is specifically looking at information being available at global, i.e. European level, rather than at national level, which is the scope of step 2. 
 
@@ -73,7 +73,7 @@ It might be that (semantic) data models do not exist or were not shared in step 
 
 Working Group members will share information on:
 * Examples of evidences
-* Entities they judge paramount for the common data model being built
+* Entities they judge paramount for the OOTS data model for specific evidence types being built
  - Attributes they judge mandatory and optional;
  - Descriptions of elements in their national implementations.
 
@@ -120,7 +120,7 @@ Example of a data model shared by Spain: [issue #37](https://github.com/SEMICeu/
 <details>
   <summary><b>Description</b></summary>
   
-In parallel with step 1 and 2, the Editors document - the information received and - any European and/or global initiatives that aim at standardizing data exchanges across Member States. The output of this step will serve as a basis to draft the common data model.
+In parallel with step 1 and 2, the Editors document - the information received and - any European and/or global initiatives that aim at standardizing data exchanges across Member States. The output of this step will serve as a basis to draft the OOTS data model for specific evidence types.
 
 Step 1 and 2 are the source of information for step 3. While Working Group members and responsible DGs are gathering information, the editors will focus on documenting and analysing the information received. Editors should also do a research effort to not exclude any relevant data model and standardization effort used elsewhere. 
 

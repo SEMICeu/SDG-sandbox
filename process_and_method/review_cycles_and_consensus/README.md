@@ -7,7 +7,7 @@ The process through which semantic agreements can be reached among working group
 Consensus is a generally accepted opinion or general agreement among a group of people.
 
 <blockquote><i>
-Consensus is the heart of the process to develop common data models. It aims at developing a collective output, which is the reflection of the greatest possible number of views. 
+Consensus is the heart of the process to develop OOTS data models for specific evidence types. It aims at developing a collective output, which is the reflection of the greatest possible number of views. 
 
 Indeed, consensus involves looking for solutions that are acceptable to all. When everyone agrees with a decision, they are more likely to implement it and, in our case, ultimately use the common data models being built. Consensus is built through iterations, called review cycles.
 

@@ -6,7 +6,7 @@ This page describes the stakeholders identified in the process of developing dat
 
 This section describes the stakeholders identified in the process of developing data models along with their roles and responsibilities.
 
-The shared goal of [developing a set of common data models [...] that best serves the interests of the SDG regulation and the Member States (MS)](https://github.com/SEMICeu/SDG-sandbox#data-semantics-formats--quality) is broken down in [different phases](https://github.com/SEMICeu/SDG-sandbox/tree/master/process_and_method/methodology). These different phases are executed by distinct groups, which are described below.
+The shared goal of [developing a set of OOTS data models for specific evidence types [...] that best serves the interests of the SDG regulation and the Member States (MS)](https://github.com/SEMICeu/SDG-sandbox#data-semantics-formats--quality) is broken down in [different phases](https://github.com/SEMICeu/SDG-sandbox/tree/master/process_and_method/methodology). These different phases are executed by distinct groups, which are described below.
 
 ### Authority
 Final decision owner regarding the results of development of the data models in cases where no consensus could be reached. 
