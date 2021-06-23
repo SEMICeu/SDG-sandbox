@@ -26,9 +26,9 @@
 <details>
   <summary><b>Description</b></summary>
   
-Once a core set of common attributes has been agreed upon and the draft data model is stable enough, the set of controlled vocabularies, for those attributes where a controlled vocabulary is needed, needs to be analysed. 
+Once a core set of common attributes has been agreed upon and the draft OOTS data model for specific evidence types is stable enough, the set of controlled vocabularies, for those attributes where a controlled vocabulary is needed, needs to be analysed. 
 
-The editors create a table with the common attributes along one dimension and the local implementations along the other dimension, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked to propose usage notes for all the attributes agreed upon.
+The editors create a table with the common attributes along one axis and the local implementations along the other, placing the controlled vocabularies suggested in the cells. Along with the controlled vocabularies, the Working Group is tasked with proposing usage notes for all the attributes agreed upon.
 
 </details>
 
@@ -36,7 +36,7 @@ The editors create a table with the common attributes along one dimension and th
   <summary><b>Rules and Guidelines</b></summary>
 
 * Controlled vocabularies at the EU level are multilingual which helps in cross- border data exchange scenarios.
-* (domain-specific) Controlled vocabularies which are internationally accepted should be considered. 
+* (Domain-specific) Controlled vocabularies which are internationally accepted should be considered. 
 * Controlled vocabularies should have governance processes in place, be hosted in a sustainable manner and be provided free of charge.
 
 </details>
@@ -52,7 +52,7 @@ The editors create a table with the common attributes along one dimension and th
 <details>
   <summary><b>Example(s)</b></summary>
   
-For instance, for the [gender attribute](https://github.com/SEMICeu/SDG-sandbox/issues/143) the [Human Sex](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex) controlled vocabulary has been identified and proposed.n. 
+For instance, for the [gender attribute](https://github.com/SEMICeu/SDG-sandbox/issues/143) the [Human Sex](https://op.europa.eu/en/web/eu-vocabularies/at-concept-scheme/-/resource/authority/human-sex/?target=Browse&uri=http://publications.europa.eu/resource/authority/human-sex) controlled vocabulary has been identified and proposed. 
   
 </details>
 
@@ -66,9 +66,9 @@ For instance, for the [gender attribute](https://github.com/SEMICeu/SDG-sandbox/
 <details>
   <summary><b>Description</b></summary>
   
- Based on the table of controlled vocabularies, the Working Group members discuss which controlled vocabularies are the most appropriate to be recommended as well as the soundness of the proposed usage notes. This may be based on the status of particular vocabularies (e.g. if they are based on an international standard) or on their usage across multiple implementations.
+ Based on the table of controlled vocabularies, the Working Group members discuss which controlled vocabularies are the most appropriate to be recommended. They also review whether the proposed usage notes are adequate. This may be based on the status of particular vocabularies (e.g. if they are based on an international standard) or on their usage across multiple implementations.
 
-In the case of divergent views, a live discussion may be organised by the Editors and the moderator to agree on the most controversial proposed solutions.
+In the case of divergent views, a live discussion may be organised by the Editors and the moderator to arrive at a consensus on the most controversial proposed solutions.
 
   
 </details>
@@ -76,7 +76,7 @@ In the case of divergent views, a live discussion may be organised by the Editor
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-It is important to agree on common official controlled vocabularies that can harmonise across different countries the way in which specific values of properties can be specified, allowing for a uniform indexing and retrieving of data based on common terms. 
+It is important to agree on common official controlled vocabularies that can harmonise the way in which specific values of properties are specified accross different countries, allowing for a uniform indexing and retrieving of data based on common terms. 
 
 </details>
 
@@ -98,7 +98,7 @@ As suggested by the Working Group, the editors have used the [language code list
 <details>
   <summary><b>Description</b></summary>
   
- In the event of no controlled vocabularies being available, the Editors (or Working Group members) have the opportunity to propose the creation of controlled vocabularies. Required controlled vocabularies, that do not exist yet, need to be created by the Publications Office, as part of the EU Vocabularies. Of course, existing controlled vocabularies can be updated, if necessary.  
+ In the event of no controlled vocabularies being available, the Editors (or Working Group members) have the opportunity to propose the creation of new controlled vocabularies. Required controlled vocabularies, that do not yet exist, need to be created by the Publications Office, as part of the EU Vocabularies. If necessary, existing controlled vocabularies can be updated.
 
 
 </details>
@@ -116,13 +116,13 @@ As suggested by the Working Group, the editors have used the [language code list
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-> The [<b>Editors</b>](../stakeholders#editors) harmonise the controlled vocabularies and usage notes across the data model while ensuring the alignment between data models.
+> The [<b>Editors</b>](../stakeholders#editors) harmonise the controlled vocabularies and usage notes across the OOTS data model for specific evidence types while ensuring the alignment between OOTS data models for specific evidence types.
 
 
 <details>
   <summary><b>Description</b></summary>
   
-The Editors consider all controlled vocabularies and usage notes across the data model - and across all SDG data models - , check their consistency and identify any overlaps or gaps. 
+The Editors consider all controlled vocabularies and usage notes across the OOTS data model for specific evidence types - and across all OOTS data models for specific evidence types - , checking their consistency and identifying any overlaps or gaps. 
 Editors may propose changes to the recommendations, for example if different controlled vocabularies have been recommended for identical or similar attributes.
 Editors may also propose slight changes to the usage notes, for example to harmonise the writing style across the model or solve inconsistencies.
 
@@ -137,6 +137,6 @@ Editors may also propose slight changes to the usage notes, for example to harmo
 <details>
   <summary><b>Description</b></summary>
   
-On the basis of discussions in phase 3 and phase 4, the editors will document the decisions and prepare to update the draft data model.
+On the basis of discussions in phases 3 and 4, the editors will document the decisions and prepare to update the draft OOTS data model for specific evidence types.
 
 </details>

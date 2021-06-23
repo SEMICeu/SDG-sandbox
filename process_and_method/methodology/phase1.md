@@ -1,6 +1,6 @@
 ![in progress](https://img.shields.io/badge/status-in%20progress-yellow)
 
-# Phase 1: Identify and analyse existing standardization efforts, evidences and data models
+# Phase 1: Identify and analyse existing standardisation efforts, evidences and data models
 ![Process_Phase 1](img/methodology_phase1.PNG)
 
 **Quick links:**
@@ -24,11 +24,11 @@
 <details>
   <summary><b>Description</b></summary>
   
-Working Group members will share information they possess related to the OOTS data model for specific evidence types being built. Similarly, DGs having competencies in relation with the scope of the evidence being modelled, will share relevant information and existing (legal) pieces of work. 
+Working Group members will share information they possess related to the OOTS data model for specific evidence types being built. Similarly, DGs with competencies in relation to the scope of the evidence being modelled, will share relevant information and existing legal pieces of work (and/or other relevant pieces of work)
 
 The objective is to gather information in order to have a global overview of data models, and/or standardisation rules implemented and used across Europe and leverage this insight to develop a OOTS data model for specific evidence types. 
 
-This step is specifically looking at information being available at global, i.e. European level, rather than at national level, which is the scope of step 2. 
+This step is specifically interested in information available at global, i.e. European level, rather than at national level, which is the scope of step 2. 
 
 </details>
 
@@ -36,7 +36,7 @@ This step is specifically looking at information being available at global, i.e.
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-One important aspect of this step is the source of data quality. This is ensured by the requirement that all data comes from authoritative sources. Working Group members are responsible to identify and connect the authorities to the information shared. Also, reusing content based on intrinsic licenses may oblige to use a specific license for the model being developed.
+One important aspect of this step is ensuring data quality. This is ensured by the requirement that all data come from authoritative sources. Working Group members are responsible for identifying and contacting the authorities that hold the relevant information. In addition, reusing content based on intrinsic licenses may necessitate the use of a specific license for the model being developed.
 
 </details>
 
@@ -69,7 +69,7 @@ For example, for social security, [EESSI (Electronic Exchange of Social Security
   
 Step 2 is about the national implementation of data models or legislative pieces. Contrary to step 1, step 2 is looking at gathering elements from national contexts. 
 
-It might be that (semantic) data models do not exist or were not shared in step 1. Step 2 will remediate that by looking for elements in national implementations. 
+It is possible that relevant data models (semantic or other) do not exist or were not shared in step 1. Step 2 will remediate this by gathering relevant elements from national implementations.
 
 Working Group members will share information on:
 * Examples of evidences
@@ -77,16 +77,17 @@ Working Group members will share information on:
  - Attributes they judge mandatory and optional;
  - Descriptions of elements in their national implementations.
 
-Before sending any data, the Working Group members should bear in mind the following:
-* The data model has been validated and implemented by a competent authority; and
-* The data model has been issued in a final version.
+Before sending any data, the Working Group members should consider the following:
+* Has the data model been validated and implemented by a competent authority?
+* Has the data model been issued in a final version?
+
   
 </details>
 
 <details>
   <summary><b>Tool(s)</b></summary>
   
-A spreadsheet tool can be used to present and compare the different data models. 
+A spreadsheet can be used to present and compare the different data models. 
 
 </details>
 
@@ -114,24 +115,24 @@ Example of a data model shared by Spain: [issue #37](https://github.com/SEMICeu/
 
 
 **Key activities**
-> The [<b>Editors</b>](../stakeholders#editors) analyse European and global initiatives to standardise exchange of information.
+> The [<b>Editors</b>](../stakeholders#editors) analyse European and global initiatives to standardise the exchange of information.
 
 
 <details>
   <summary><b>Description</b></summary>
   
-In parallel with step 1 and 2, the Editors document - the information received and - any European and/or global initiatives that aim at standardizing data exchanges across Member States. The output of this step will serve as a basis to draft the OOTS data model for specific evidence types.
+In parallel with steps 1 and 2, the Editors document the information received and any European and/or global initiatives that aim at standardising data exchanges between Member States. The output of this step will serve as a basis for drafting the OOTS data model for specific evidence types.
 
-Step 1 and 2 are the source of information for step 3. While Working Group members and responsible DGs are gathering information, the editors will focus on documenting and analysing the information received. Editors should also do a research effort to not exclude any relevant data model and standardization effort used elsewhere. 
+Step 1 and 2 are the source of information for step 3. While Working Group members and competent DGs gather information, the editors will focus on documenting and analysing the information received. Editors should also do a research effort to not exclude any relevant data model and standardization effort used elsewhere. 
 
-This step supplements the statement made in step 2, as for existing harmonization of information contained in the evidences at European level. The editors may derive the necessary elements from these initiatives. 
+This step supplements part of step 2, concerns existing harmonisation of information contained in the evidences at European level. The editors may reuse the necessary elements from these initiatives. 
 
 </details>
 
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-Reusing content based on intrinsic licenses may oblige the to use a specific license for the model being developed.
+Reusing content based on intrinsic licenses may necessitate the use of a specific license for the model being developed.
 
 </details>
 

@@ -18,7 +18,7 @@ A controlled vocabulary is an authoritative list of terms to be used in indexing
 
 ### Data model
 
-A data model is an abstract model that organises elements of data and standardizes how they relate to one another. It specifies the entities, their attributes and the relationships between entities.
+A data model is an abstract model that organises elements of data and standardises how they relate to one another. It specifies the entities, their attributes and the relationships between entities.
 
 ### Entity
 

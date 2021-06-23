@@ -10,6 +10,5 @@ This is ensured by using the **proposed methodology**, which is based on the exi
 [the actual evidences to be exchanged] in terms of **correctness of the XML data** with respect to the data models: this can be supported by tools like **the Interoperability testbed** and can be included as a post-development step after phase 7 (finalisation) of the methodology.
 
 ## source of data
-This ensured by the requirement that all data comes from **authoritative sources**. Member states are responsible to identify and connect the authorities to the system.
-
+This is ensured by the requirement that all data comes from **authoritative sources**. Member States are responsible for identifying and connecting the relevant authorities to the system.
 

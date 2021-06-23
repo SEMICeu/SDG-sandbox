@@ -24,8 +24,9 @@
 <details>
   <summary><b>Description</b></summary>
   
-The Editors analyse the data models, concrete examples and other useful documentation received from the Working Group and the DGs in the previous steps. They specifically look for similarities (and dissimilarities) between the different data models and documentation in order to identify a common set of entities, attributes and relationships, that are relevant for the respective evidence that is being modelled.
-Considering the procedure for which the evidence is modelled, and subsequently the use case(s) can serve to analyse models and documentation in order to derive necessary elements. 
+The Editors analyse the data models, concrete examples and other useful documentation received from the Working Group and the DGs in the previous steps. Specifically, they look for similarities (and dissimilarities) between the different data models and documentation in order to identify a common set of entities, attributes and relationships that are relevant for the respective evidence that is being modelled.
+
+Considering the procedure, and thus the use case(s), for which the evidence is being modelled will also inform the analysis of models and documentation in order to derive necessary elements. 
 
 </details>
 
@@ -33,9 +34,9 @@ Considering the procedure for which the evidence is modelled, and subsequently t
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-* The data model to be produced is not modelling paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact. So, the grain of the data should be limited to the fact to prove, when modelling evidence types. The Editors should look for the minimum common denominator when consolidating and analysing (fragment of) data models and information received. 
+* The OOTS data model for specific evidence types will not be used to model paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact about a citizen or business. Therefore, when modelling evidence types, the granularity of the data should be limited to the fact the citizen or business needs to provde to complete a procedure. The Editors should look for the minimum common denominator when consolidating and analysing (fragments of) data models and information received. 
 * The [SKOS Mapping Properties](https://www.w3.org/TR/skos-reference/#mapping) can be used to compare entities or attributes across different models.
-* When selecting the core entities, attributes and relationships, the editors can define thresholds allowing to decide which of the latter will be mandatory, optional or discarded. For instance, if no other Member State mentioned the need for an attribute it will therefore be discarded.
+* When selecting the core entities, attributes and relationships, the editors can define thresholds making it possible to decide which of the latter will be mandatory, optional or discarded. For instance, if no other Member State mentioned the need for an attribute it should be discarded.
 
 
 </details>
@@ -45,7 +46,7 @@ Considering the procedure for which the evidence is modelled, and subsequently t
   <summary><b>Tool(s)</b></summary>
 
 * [Linked Open Vocabularies](https://lov.linkeddata.es/dataset/lov) which is a source for predicates, i.e. existing attributes/relationships that might be candidates for reuse.
-* A spreadsheet tool can be used to present and compare the different data models.
+* A spreadsheet can be used to present and compare the different data models.
 </details>
 
 <details>
@@ -67,9 +68,9 @@ If provided, the table can also include definitions and URIs to ease comparison.
 <details>
   <summary><b>Description</b></summary>
   
-With the output of the previous steps, the Editors select the entities, attributes and relationships that are common to most data models and that are necessary to model the evidence. They also determine which attributes should be mandatory and optional. 
+With the output of the previous steps, the Editors select the entities, attributes and relationships that are common to most data models and that are necessary to model the evidence. They also determine which attributes should be mandatory and which should be optional. 
 
-They do this by agreeing upon thresholds with the Working Group. These thresholds might be quantifiable, e.g. “if at least five Member States have an attribute, the attribute is included” or “if one Member State is not able to provide an attribute, the attribute is made optional”.
+They do this by agreeing on thresholds with the Working Group. These thresholds might be quantifiable, e.g. “if at least five Member States have an attribute, the attribute is included” or “if one Member State is not able to provide an attribute, the attribute is made optional”.
   
 </details>
 
@@ -83,8 +84,8 @@ Be as specific as possible, without restricting local flexibility too much.
 <details>
   <summary><b>Tool(s)</b></summary>
   
-* A spreadsheet tool can be used to select the set of core entities, attributes and relationships of the OOTS data model for specific evidence types.
-* The collaborative tool can be used to hold the discussion on the inclusion of entities, attributes and relationships.
+* A spreadsheet  can be used to select the set of core entities, attributes and relationships of the OOTS data model for specific evidence types.
+* The collaborative tool can be used to discuss on the inclusion of entities, attributes and relationships.
 
 
 </details>
@@ -101,7 +102,7 @@ Be as specific as possible, without restricting local flexibility too much.
 <details>
   <summary><b>Description</b></summary>
   
-The Editors verify whether an ISA² Core Vocabulary can be reused. Reuse is a key objective when drafting data models. In case there is no ISA² Core Vocabulary reusable, or it is not coherent to the context of the data model, the editors will consider other possibilities as presented in step 7.
+The Editors verify whether an ISA² Core Vocabulary can be reused. Reuse is a key objective when drafting OOTS data model for specific evidence types. In case there is no reusable ISA² Core Vocabulary, or it is not coherent with the context of the OOTS data model for specific evidence types, the editors will consider other possibilities as presented in step 7.
 
 > Core Vocabularies are simplified, re-usable and extensible data models that capture the fundamental characteristics of an entity in a context-neutral fashion. Public administrations can use and extend the Core Vocabularies in the following contexts:
 > * Development of new systems
@@ -128,7 +129,7 @@ The Editors verify whether an ISA² Core Vocabulary can be reused. Reuse is a ke
   <summary><b>Example(s)</b></summary>
 
 * The Core Person Vocabulary describes a class/entity Person that has an attribute/property "gender" that expects a Code as data type, coming from four possible controlled vocs: ISO, Eurostat, HL7 or SDMX.
-* Gender is a challenging topic due to the different recognition of non-binary gender, [issue #143](https://github.com/SEMICeu/SDG-sandbox/issues/143).
+* Gender is a challenging topic due to the varying recognition of non-binary gender, [issue #143](https://github.com/SEMICeu/SDG-sandbox/issues/143).
 
 </details>
 
@@ -136,19 +137,19 @@ The Editors verify whether an ISA² Core Vocabulary can be reused. Reuse is a ke
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
-> The [<b>Editors</b>](../stakeholders#editors) fetch information elsewhere than the ISA² Core Vocabularies.
+> The [<b>Editors</b>](../stakeholders#editors) gather information elsewhere than the ISA² Core Vocabularies.
 
 <details>
   <summary><b>Description</b></summary>
   
- Should an entity or attribute not be (properly) defined in the ISA² Core Vocabularies, the editors find adequate documentation elsewhere.
+ Should an entity or attribute not be (properly) defined in the ISA² Core Vocabularies, the editors will find adequate documentation elsewhere.
 <i>‘Not properly defined’ refers to a circular definition of a term, i.e. already containing the term that is to be defined.</i> 
 
 1. Other respected sources can be considered when the terms are defined in a well-known domain-specific ontology.  
 In general, entities, attributes, relationships and definitions should be linked to existing terminologies. 
-2. In the event of information not being available in existing vocabularies, the editors propose definitions for new entities / attributes using respected and authoritative dictionaries (which are deemed of excellence).
+2. In the event of information not being available in existing vocabularies, the editors propose definitions for new entities / attributes using respected and authoritative dictionaries (which are deemed to be of excellent quality).
 
-<i>A ‘respected dictionary’ refers to a dictionary widely regarded as the accepted authority on the English language. </i>
+<i>A ‘respected dictionary’ refers to a dictionary widely regarded as an authority on the English language. </i>
 
 </details>
 
@@ -186,7 +187,7 @@ For instance, for the [Completion of secondary education evidence](https://githu
 <details>
   <summary><b>Description</b></summary>
   
-The Editors will leverage from the information collected in the previous phase to develop a UML class diagram. The latter aims at visually describing how entities of the data model will interact with each other. The different entities, the relationship between entities, and their attributes as well as the expected types are displayed.
+The Editors will leverage the information collected in the previous phase to develop a UML class diagram. This aims to visually describe how entities of the OOTS data model for specific evidence types will interact with each other. The diagram displays thedifferent entities, the relationship between entities, and their attributes as well as the expected types.
 
 The exclusive focus on entities, attributes and relationships will allow the Working Group members to concentrate on the semantic aspects of the model. Supplementary modelling elements are  added in step 9 when entities are documented in tables.
 
@@ -243,13 +244,13 @@ Open source tools:
 <details>
   <summary><b>Description</b></summary>
   
-Relying on the input gathered, the editors draft tables for all the entities of the data model. Per entity, the table consists of the following elements;
+Relying on the input gathered, the editors draft tables for all the entities of the OOTS data model for specific evidence types. Per entity, the table consists of the following elements;
 * Proposed attribute(s) / relationship(s)
 * Proposed expected type
 * Proposed definition
 * Proposed cardinality
 
-Tables are a way to provide further information and context to the data model, unlike the UML class diagram which can be seen as a visual representation of the data model. Both form the data model referred to in the further steps.
+Tables are a way to provide further information and context to the OOTS data model for specific evidence types, unlike the UML class diagram which can be seen as a visual representation of the OOTS data model for specific evidence types. Both form the OOTS data model for specific evidence types referred to in the follwowing steps.
 
 </details>
 
@@ -257,14 +258,14 @@ Tables are a way to provide further information and context to the data model, u
   <summary><b>Rules and Guidelines</b></summary>
 
 Generic rules and guidelines for step 9
-* Multilingualism, localisation and internationalisation aspects should be considered. A language neutral identifier for every concept and additional Member State language columns in the tables helps Member State participation.
-* The scope of the data model should be described by a fact or an event that is proven by the evidence represented by the data model.
-* The tables should have a language-neutral identifier that, along the creation and review of the data model, is agnostic to name changes. 
+* Multilingualism, localisation and internationalisation aspects should be considered. A language neutral identifier for every concept and additional Member State language columns in the tables facilitates Member State participation.
+* The scope of the OOTS data model for specific evidence types should be described by a fact or an event that is proven by the evidence represented by the OOTS data model for specific evidence types.
+* The tables should have a language-neutral identifier that, throughout the creation and review of the OOTS data model for specific evidence types, is agnostic to name changes. 
 
 Specific rules and guidelines for the table per entity:
 * Sources of the entities/attributes should be added, e.g. existing regulation, reused model, etc. 
 * Entities,attributes and relationships should be accompanied by a definition as well as their cardinality.
-* [The regulation 2016/1191](https://www.google.com/url?q=https://eur-lex.europa.eu/legal-content/EN/TXT/?uri%3DCELEX%253A32016R1191&sa=D&ust=1608109108137000&usg=AOvVaw03z_d3IraqIsVD7VQ8V1mb) on Public Documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondence between the attributes of the proposed data model to the fields of the multilingual standard forms of the regulation on Public Documents for evidences related to such domain. The aforementioned approach could be reused for evidences other than public documents. 
+* [The regulation 2016/1191](https://www.google.com/url?q=https://eur-lex.europa.eu/legal-content/EN/TXT/?uri%3DCELEX%253A32016R1191&sa=D&ust=1608109108137000&usg=AOvVaw03z_d3IraqIsVD7VQ8V1mb) on Public Documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondence between the attributes of the proposed OOTS data model for specific evidence types and the fields of the multilingual standard forms of the regulation on Public Documents for evidences related to such a domain. The aforementioned approach could be reused for evidences other than public documents. 
 
 </details>
 
