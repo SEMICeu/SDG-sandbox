@@ -34,7 +34,7 @@ Considering the procedure, and thus the use case(s), for which the evidence is b
 <details>
   <summary><b>Rules and Guidelines</b></summary>
   
-* The OOTS data model for specific evidence types will not be used to model paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact about a citizen or business. Therefore, when modelling evidence types, the granularity of the data should be limited to the fact the citizen or business needs to provde to complete a procedure. The Editors should look for the minimum common denominator when consolidating and analysing (fragments of) data models and information received. 
+* The OOTS data model for specific evidence types will not be used to model paper documents but rather evidence itself, i.e., information required by competent authorities to prove a fact about a citizen or business. Therefore, when modelling evidence types, the granularity of the data should be limited to the fact the citizen or business needs to provide to complete a procedure. The Editors should look for the minimum common denominator when consolidating and analysing (fragments of) data models and information received. 
 * The [SKOS Mapping Properties](https://www.w3.org/TR/skos-reference/#mapping) can be used to compare entities or attributes across different models.
 * When selecting the core entities, attributes and relationships, the editors can define thresholds making it possible to decide which of the latter will be mandatory, optional or discarded. For instance, if no other Member State mentioned the need for an attribute it should be discarded.
 
@@ -250,7 +250,7 @@ Relying on the input gathered, the editors draft tables for all the entities of 
 * Proposed definition
 * Proposed cardinality
 
-Tables are a way to provide further information and context to the OOTS data model for specific evidence types, unlike the UML class diagram which can be seen as a visual representation of the OOTS data model for specific evidence types. Both form the OOTS data model for specific evidence types referred to in the follwowing steps.
+Tables are a way to provide further information and context to the OOTS data model for specific evidence types, unlike the UML class diagram which can be seen as a visual representation of the OOTS data model for specific evidence types. Both form the OOTS data model for specific evidence types referred to in the following steps.
 
 </details>
 
@@ -264,7 +264,7 @@ Generic rules and guidelines for step 9
 
 Specific rules and guidelines for the table per entity:
 * Sources of the entities/attributes should be added, e.g. existing regulation, reused model, etc. 
-* Entities,attributes and relationships should be accompanied by a definition as well as their cardinality.
+* Entities, attributes and relationships should be accompanied by a definition as well as their cardinality.
 * [The regulation 2016/1191](https://www.google.com/url?q=https://eur-lex.europa.eu/legal-content/EN/TXT/?uri%3DCELEX%253A32016R1191&sa=D&ust=1608109108137000&usg=AOvVaw03z_d3IraqIsVD7VQ8V1mb) on Public Documents sets a set of fields for the production of multilingual standard forms. Each field has a code and a text label that has been officially translated into the Member States’ official languages. It is essential to provide (when possible) the correspondence between the attributes of the proposed OOTS data model for specific evidence types and the fields of the multilingual standard forms of the regulation on Public Documents for evidences related to such a domain. The aforementioned approach could be reused for evidences other than public documents. 
 
 </details>

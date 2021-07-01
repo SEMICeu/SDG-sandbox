@@ -52,7 +52,7 @@ Semantic data models can be expressed in different serialisation formats, such a
 
 Aside from these machine-readable formats, human-readable formats also need to be created. A visual representation of the entities, attributes and relationships of the OOTS data model for specific evidence types is always recommended to provide a clear overview. For example, this can be a UML-diagram, saved as a PNG-file. Alongside this, human-readable documentation is also required with all the necessary information to construct the OOTS data models for specific evidence types, i.e. the entities and attributes with their definitions, cardinalities, proposed codelists, etc. This can be distributed as an HTML-page and a PDF-document, for example.
 
-All these distributions can be manually created, or created automatically via one or multiple tools. If possible, preference should be given to the usage of an automated toolchain, reducing the risk of introducing inconsistencies during updates.
+All these distributions can be manually created or created automatically via one or multiple tools. If possible, preference should be given to the usage of an automated toolchain, reducing the risk of introducing inconsistencies during updates.
 
 During this step, URIs are also created (or reused when possible) for the OOTS data model for specific evidence types itself, its entities and their attributes. These identifiers need to be minted and maintained by a (European Commission) service.
 

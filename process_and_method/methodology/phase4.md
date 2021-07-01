@@ -159,7 +159,7 @@ In this context, it must important to note that enhancement also means restricti
 
 As outlined in Step 16. Review draft data model, the Editors invite opinions and feedback to the issues and moderate the ensuing discussion.
 
-After ocnsidering the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. The reponse to a semantic issue usually includes a summary of the context of the proposition, the resolution agreed by the Working Group members and the justification for the resolution, particularly in cases where the proposition is rejected.
+After considering the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. The response to a semantic issue usually includes a summary of the context of the proposition, the resolution agreed by the Working Group members and the justification for the resolution, particularly in cases where the proposition is rejected.
 
 </details>
 
@@ -201,7 +201,7 @@ Working Group members create semantic issues which deal with attributes (and ent
 
 As outlined in Step 16. Review draft data model, the Editors invite opinions and feedback on the issue and moderate the ensuing discussion.
 
-After considering of the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. The response usually includes the resolution agreed on by the Working Group members and the justification for the resolution, particularly in cases where the proposed attribute(s) is (are) rejected
+After considering of the proposition, the Editors assess the type of issue, whether it is minor or major, and record the resolution. After that, a response is sent to the reviewers. The response usually includes the resolution agreed on by the Working Group members and the justification for the resolution, particularly in cases where the proposed attribute(s) is (are) rejected.
 </details>
 
 <details>
@@ -260,7 +260,7 @@ The different values outlined in this system are
 
 <details>
   <summary><b>Tool(s)</b></summary>
-This step can be performed using a spreadsheet tool, such as Microsoft Excel, in which related attributes are juxtaposed in two columns and given a semantic mapping value in a third column..
+This step can be performed using a spreadsheet tool, such as Microsoft Excel, in which related attributes are juxtaposed in two columns and given a semantic mapping value in a third column.
 </details>
 
 <details>
@@ -272,7 +272,7 @@ This step can be performed using a spreadsheet tool, such as Microsoft Excel, in
 </details>
  
 
-## `Step 20` Harmonise entitites, attributes and descriptions accross the data model
+## `Step 20` Harmonise entities, attributes and descriptions across the data model
 <i><b>Technical analysis</b> - identification of technical requirements and related solutions.</i>
 
 **Key activities**
