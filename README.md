@@ -1,3 +1,8 @@
+# Attention: Archival Purposes only
+
+Please note that this GitHub space is deprecated. The current approach for SDG OOTS aims at the reuse of existing data models (where possible). For more information and to stay up-to-date with OOTS developments please consult the recently launched Once Only Hub or reach out to the OOTS Helpdesk.
+
+
 # SDG-sandbox
 Welcome to the GitHub repository of Work Package 4 - Data Semantics, Formats & Quality. This space allows domain experts across EU member states to review data models to be used in the context of cross-border exchange of evidences. 
 
